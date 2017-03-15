@@ -56,6 +56,9 @@ synonym: "Facial hemangiomata" EXACT []
 xref: UMLS:C1847881
 is_a: HP:0001028  ! Hemangioma
 is_a: HP:0011799  ! Abnormality of facial soft tissue
+intersection_of: HP:0001028  ! Hemangioma
+intersection_of: inheres_in UBERON:0001456
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0000434
@@ -139,6 +142,9 @@ xref: UMLS:C0423401
 is_a: HP:0000630  ! Abnormality of retinal arteries
 is_a: HP:0005116  ! Arterial tortuosity
 is_a: HP:0012841  ! Retinal vascular tortuosity
+intersection_of: HP:0005116  ! Arterial tortuosity
+intersection_of: inheres_in UBERON:0000966
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0000660
@@ -214,6 +220,9 @@ synonym: "Easy bruising" EXACT []
 synonym: "Ecchymoses" RELATED []
 xref: UMLS:C0013491
 is_a: HP:0001933  ! Subcutaneous hemorrhage
+intersection_of: PATO:0000470 
+intersection_of: inheres_in MPATH:120
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0000979
@@ -233,6 +242,9 @@ namespace: human_phenotype
 xref: UMLS:C1858545
 is_a: HP:0000329  ! Facial hemangioma
 is_a: HP:0005306  ! Capillary hemangiomas
+intersection_of: HP:0000329  ! Facial hemangioma
+intersection_of: inheres_in UBERON:0001982
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001009
@@ -246,6 +258,9 @@ synonym: "Telangiectases" EXACT []
 xref: MeSH:D013684
 xref: UMLS:C1963248
 is_a: HP:0011276  ! Vascular skin abnormality
+intersection_of: PATO:0000470 
+intersection_of: inheres_in MPATH:476
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001014
@@ -267,6 +282,9 @@ synonym: "Prominent veins" EXACT [orcid.org/0000-0001-6908-9849]
 xref: UMLS:C1837785
 is_a: HP:0002624  ! Venous abnormality
 is_a: HP:0007394  ! Prominent superficial blood vessels
+intersection_of: PATO:0001482 
+intersection_of: inheres_in UBERON:0035550
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001025
@@ -292,6 +310,9 @@ synonym: "Strawberry mark" EXACT [orcid.org/0000-0001-6908-9849]
 xref: MeSH:D006391
 is_a: HP:0008069  ! Neoplasm of the skin
 is_a: HP:0100742  ! Vascular neoplasm
+intersection_of: PATO:0000470 
+intersection_of: inheres_in MPATH:240
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001041
@@ -327,6 +348,9 @@ xref: MeSH:D006392
 xref: SNOMEDCT:33377007
 xref: UMLS:C0018920
 is_a: HP:0001028  ! Hemangioma
+intersection_of: PATO:0000470 
+intersection_of: inheres_in MPATH:629
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001052
@@ -471,6 +495,9 @@ synonym: "Cardiovascular disease" RELATED []
 xref: MeSH:D018376
 xref: UMLS:C0243050
 is_a: HP:0000118  ! Phenotypic abnormality
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0004535
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Any abnormality of the `cardiovascular system` (FMA:7161)." xsd:string
 
 [Term]
@@ -488,6 +515,9 @@ synonym: "Congenital heart defect" EXACT []
 synonym: "Congenital heart defects" EXACT []
 xref: UMLS:C0018798
 is_a: HP:0030680  ! Abnormality of cardiovascular system morphology
+intersection_of: BFO:0000019 
+intersection_of: inheres_in_part_of UBERON:0000948
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `heart` (FMA:7088)." xsd:string
 
 [Term]
@@ -500,6 +530,9 @@ synonym: "Ventricular septal defects" EXACT []
 synonym: "Ventriculoseptal defect" EXACT []
 xref: UMLS:C1859213
 is_a: HP:0010438  ! Abnormality of the ventricular septum
+intersection_of: PATO:0000609 
+intersection_of: inheres_in UBERON:0002094
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001631
@@ -514,6 +547,9 @@ xref: ICD-10:Q21.1
 xref: UMLS:C0018817
 is_a: HP:0005120  ! Abnormality of cardiac atrium
 is_a: HP:0011994  ! Abnormality of the atrial septum
+intersection_of: PATO:0000609 
+intersection_of: inheres_in UBERON:0002085
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Atrial septal defect (ASD) is a congenital abnormality of the `interatrial septum` (FMA:7108) that enables blood flow between the left and right atria via the interatrial septum." xsd:string
 
 [Term]
@@ -522,6 +558,9 @@ name: Abnormality of the mitral valve
 namespace: human_phenotype
 def: "An abnormality of the mitral valve." [HPO:probinson]
 is_a: HP:0006705  ! Abnormality of the atrioventricular valves
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002135
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `mitral valve` (FMA:7235)." xsd:string
 
 [Term]
@@ -532,6 +571,9 @@ def: "One or both of the leaflets (cusps) of the mitral valve bulges back into t
 comment: Mitral valve prolapse can be associated with mitral regurgitation.
 xref: MeSH:D008945
 is_a: HP:0001633  ! Abnormality of the mitral valve
+intersection_of: PATO:0000623 
+intersection_of: inheres_in UBERON:0002135
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001635
@@ -547,6 +589,9 @@ synonym: "Heart failure" EXACT []
 xref: MeSH:D006333
 xref: UMLS:C0018802
 is_a: HP:0011025  ! Abnormality of cardiovascular system physiology
+intersection_of: PATO:0001997 
+intersection_of: inheres_in GO:0060047
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001636
@@ -558,12 +603,21 @@ xref: ICD-10:Q21.3
 xref: MeSH:D013771
 xref: UMLS:C0039685
 is_a: HP:0001710  ! Conotruncal defect
+intersection_of: PATO:0000001 
+intersection_of: has_part HP:0001629 ! Ventricular septal defect
+intersection_of: has_part HP:0001642 ! Pulmonic stenosis
+intersection_of: has_part HP:0001667 ! Right ventricular hypertrophy
+intersection_of: has_part HP:0002623 ! Overriding aorta
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001637
 name: Abnormality of the myocardium
 namespace: human_phenotype
 is_a: HP:0001627  ! Abnormal heart morphology
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002349
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001638
@@ -573,6 +627,9 @@ def: "A myocardial disorder in which the heart muscle is structurally and functi
 xref: MeSH:D009202
 xref: UMLS:C0878544
 is_a: HP:0001637  ! Abnormality of the myocardium
+intersection_of: PATO:0000470 
+intersection_of: inheres_in MPATH:615
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001639
@@ -593,6 +650,9 @@ synonym: "Increased heart size" EXACT [orcid.org/0000-0001-5208-3432]
 xref: MeSH:D006332
 xref: UMLS:C0018800
 is_a: HP:0001627  ! Abnormal heart morphology
+intersection_of: PATO:0000586 
+intersection_of: inheres_in UBERON:0000948
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "`Increased size` (PATO:0000586) of the `heart` (FMA:7088)." xsd:string
 
 [Term]
@@ -602,6 +662,9 @@ namespace: human_phenotype
 def: "An abnormality of the pulmonary valve." [HPO:probinson]
 synonym: "Anomaly of the pulmonary valve" EXACT []
 is_a: HP:0001654  ! Abnormality of the heart valves
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002146
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `pulmonary valve` (FMA:7246)." xsd:string
 
 [Term]
@@ -616,6 +679,9 @@ synonym: "Pulmonary valve stenosis" EXACT []
 synonym: "Pulmonic valve stenosis" EXACT []
 xref: UMLS:C1956257
 is_a: HP:0001641  ! Abnormality of the pulmonary valve
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0002146
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001643
@@ -628,6 +694,9 @@ synonym: "Persistent ductus arteriosus" EXACT []
 xref: MeSH:D004374
 xref: UMLS:C0013274
 is_a: HP:0011603  ! Congenital malformation of the great arteries
+intersection_of: PATO:0000609 
+intersection_of: inheres_in UBERON:0005440
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001644
@@ -661,6 +730,9 @@ name: Abnormality of the aortic valve
 namespace: human_phenotype
 def: "Any abnormality of the aortic valve." [HPO:curators]
 is_a: HP:0001654  ! Abnormality of the heart valves
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002137
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Any abnormality of the `aortic valve` (FMA:7236)." xsd:string
 
 [Term]
@@ -671,6 +743,9 @@ def: "The presence of an aortic valve with two instead of the normal three cusps
 comment: The aortic valve normally has three cusps (flaps), that is, it is normally tricuspid.
 xref: UMLS:C0149630
 is_a: HP:0001646  ! Abnormality of the aortic valve
+intersection_of: PATO:0002281 
+intersection_of: inheres_in UBERON:0002137
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "The presence of an `aortic valve` (FMA:7236) with two instead of the normal three cusps (flaps)." xsd:string
 
 [Term]
@@ -708,6 +783,9 @@ synonym: "Valvular aortic stenosis" EXACT []
 xref: MeSH:D001024
 xref: UMLS:C0003507
 is_a: HP:0001646  ! Abnormality of the aortic valve
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0002137
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001651
@@ -720,6 +798,10 @@ xref: ICD-10:Q24.0
 xref: MeSH:D003914
 xref: UMLS:C0011813
 is_a: HP:0004307  ! Abnormal anatomic location of the heart
+intersection_of: PATO:0001793 
+intersection_of: inheres_in UBERON:0000948
+intersection_of: qualifier PATO:0000460
+intersection_of: towards UBERON:0001443
 
 [Term]
 id: HP:0001653
@@ -734,6 +816,9 @@ synonym: "Mitral valve regurgitation" EXACT []
 xref: MeSH:D008944
 xref: UMLS:C0026266
 is_a: HP:0001633  ! Abnormality of the mitral valve
+intersection_of: PATO:0001628 
+intersection_of: inheres_in UBERON:0002135
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An `abnormality of the mitral valve` (HP:0001633) characterized by insufficiency or incompetence of the mitral valve resulting in retrograde leaking of blood through the mitral valve upon ventricular contraction." xsd:string
 
 [Term]
@@ -757,6 +842,9 @@ def: "Failure of the foramen ovale to seal postnatally, leaving a potential cond
 comment: The foramen ovale is located in the atrial septum and is essential for proper fetal circulation. With separation from the placenta and with the first few breaths, the left atrium fills with blood returning from the lungs and closes the foramen ovale. Subsequently, during the first years of life, the foramen ovale seals shut.
 xref: ICD-10:Q21.1
 is_a: HP:0001631  ! Atria septal defect
+intersection_of: PATO:0002112 
+intersection_of: inheres_in UBERON:0002085
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001657
@@ -791,6 +879,9 @@ synonym: "Aortic valve regurgitation" EXACT []
 xref: MeSH:D001022
 xref: UMLS:C0003504
 is_a: HP:0001646  ! Abnormality of the aortic valve
+intersection_of: PATO:0001628 
+intersection_of: inheres_in UBERON:0002137
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001660
@@ -822,6 +913,10 @@ def: "Uncontrolled contractions of muscles fibers in the left ventricle not prod
 xref: MeSH:D014693
 xref: UMLS:C1962976
 is_a: HP:0004308  ! Ventricular arrhythmia
+intersection_of: PATO:0000688 
+intersection_of: inheres_in GO:0060048
+intersection_of: inheres_in UBERON:0002082
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001664
@@ -841,6 +936,9 @@ def: "In this case the right ventricle is more muscular than normal, causing a c
 xref: UMLS:C0232305
 is_a: HP:0001707  ! Abnormality of the right ventricle
 is_a: HP:0001714  ! Ventricular hypertrophy
+intersection_of: PATO:0000584 
+intersection_of: inheres_in UBERON:0002080
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001669
@@ -870,6 +968,9 @@ def: "An anomaly of the intra-atrial or intraventricular septum." [HPO:probinson
 synonym: "Heart septal defect" EXACT []
 synonym: "Septal defects" EXACT []
 is_a: HP:0001627  ! Abnormal heart morphology
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0002099
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001673
@@ -938,6 +1039,9 @@ name: Abnormality of the aorta
 namespace: human_phenotype
 def: "An abnormality of the aorta." [HPO:probinson]
 is_a: HP:0011004  ! Abnormality of the systemic arterial tree
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0000947
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `aorta` (FMA:3734)." xsd:string
 
 [Term]
@@ -951,6 +1055,9 @@ synonym: "Coaractation of the aorta" EXACT []
 synonym: "Coarctation of the aorta" EXACT []
 xref: MeSH:D001017
 is_a: HP:0001679  ! Abnormality of the aorta
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0000947
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001681
@@ -1073,6 +1180,9 @@ name: Abnormality of the pericardium
 namespace: human_phenotype
 def: "An abnormality of the pericardium, i.e., of the fluid filled sac that surrounds the heart and the proximal ends of the aorta, vena cava, and the pulmonary artery." [HPO:probinson]
 is_a: HP:0001627  ! Abnormal heart morphology
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002407
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `pericardium` (FMA:9869), i.e., of the fluid filled sac that surrounds the heart and the proximal ends of the aorta, vena cava, and the pulmonary artery." xsd:string
 
 [Term]
@@ -1091,6 +1201,10 @@ name: Myocardial necrosis
 namespace: human_phenotype
 xref: UMLS:C1442837
 is_a: HP:0001637  ! Abnormality of the myocardium
+intersection_of: PATO:0001561 
+intersection_of: inheres_in_part_of UBERON:0002349
+intersection_of: qualifier PATO:0000460
+intersection_of: towards GO:0070265
 
 [Term]
 id: HP:0001701
@@ -1109,6 +1223,9 @@ namespace: human_phenotype
 def: "An abnormality of the tricuspid valve." [HPO:probinson]
 xref: EPCC:06.01.00
 is_a: HP:0006705  ! Abnormality of the atrioventricular valves
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002134
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `tricuspid valve` (FMA:7234)." xsd:string
 
 [Term]
@@ -1119,6 +1236,9 @@ def: "One or more of the leaflets (cusps) of the tricuspid valve bulges back int
 xref: MeSH:D014263
 xref: UMLS:C0040962
 is_a: HP:0001702  ! Abnormality of the tricuspid valve
+intersection_of: PATO:0000623 
+intersection_of: inheres_in UBERON:0002134
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001705
@@ -1144,6 +1264,9 @@ comment: The function of the right ventricle is to receive blood from the right 
 synonym: "Right ventricular abnormality" EXACT []
 xref: UMLS:C0344887
 is_a: HP:0001713  ! Abnormality of cardiac ventricle
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0002080
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `right ventricle` (FMA:7098) of the heart." xsd:string
 
 [Term]
@@ -1181,6 +1304,9 @@ def: "An abnormality of the left ventricle of the heart." [HPO:probinson]
 synonym: "Left ventricular abnormality" EXACT []
 xref: UMLS:C0344905
 is_a: HP:0001713  ! Abnormality of cardiac ventricle
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0002084
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `left ventricle` (FMA:7101) of the heart." xsd:string
 
 [Term]
@@ -1193,6 +1319,9 @@ xref: UMLS:C0149721
 xref: UMLS:C1845018
 is_a: HP:0001711  ! Abnormality of the left ventricle
 is_a: HP:0001714  ! Ventricular hypertrophy
+intersection_of: PATO:0000584 
+intersection_of: inheres_in UBERON:0002084
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001713
@@ -1210,6 +1339,9 @@ alt_id: HP:0005167
 def: "Enlargement of the cardiac ventricular muscle tissue with increase in the width of the wall of the ventricle and loss of elasticity. Ventricular hypertrophy is clinically differentiated into left and right ventricular hypertrophy." [HPO:probinson]
 xref: UMLS:C0340279
 is_a: HP:0001713  ! Abnormality of cardiac ventricle
+intersection_of: PATO:0000585 
+intersection_of: inheres_in UBERON:0002082
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001716
@@ -1228,6 +1360,9 @@ def: "Calcification, that is, pathological deposition of calcium salts, affectin
 xref: UMLS:C1611184
 is_a: HP:0003207  ! Arterial calcification
 is_a: HP:0006704  ! Abnormality of the coronary arteries
+intersection_of: PATO:0001447 
+intersection_of: inheres_in UBERON:0001621
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "`Calcification` (PATO:0001447), that is, pathological deposition of calcium salts, affecting the `coronary arteries` (FMA:3800)." xsd:string
 
 [Term]
@@ -1242,6 +1377,9 @@ xref: ICD-10:Q23.2
 xref: MeSH:D008946
 xref: UMLS:C0026269
 is_a: HP:0001633  ! Abnormality of the mitral valve
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0002135
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001719
@@ -1278,6 +1416,9 @@ name: Aortic dilatation
 namespace: human_phenotype
 xref: UMLS:C0265004
 is_a: HP:0001679  ! Abnormality of the aorta
+intersection_of: PATO:0001571 
+intersection_of: inheres_in UBERON:0000947
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001726
@@ -1291,6 +1432,9 @@ name: Single ventricle
 namespace: human_phenotype
 xref: UMLS:C0152424
 is_a: HP:0001713  ! Abnormality of cardiac ventricle
+intersection_of: PATO:0002034 
+intersection_of: inheres_in UBERON:0002082
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001920
@@ -1301,6 +1445,9 @@ synonym: "Narrowing of kidney artery" EXACT [orcid.org/0000-0001-5208-3432]
 xref: UMLS:C0035067
 is_a: HP:0008776  ! Abnormality of the renal artery
 is_a: HP:0100545  ! Arterial stenosis
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0001184
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "The presence of `stenosis` (MPATH:80) of the `renal artery` (FMA:14751)." xsd:string
 
 [Term]
@@ -1320,6 +1467,9 @@ namespace: human_phenotype
 synonym: "Small heart" EXACT [orcid.org/0000-0001-5208-3432]
 synonym: "Underdeveloped heart" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0001627  ! Abnormal heart morphology
+intersection_of: PATO:0000645 
+intersection_of: inheres_in UBERON:0000948
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0001962
@@ -1503,6 +1653,9 @@ synonym: "Abnormality of blood vessels" EXACT [orcid.org/0000-0001-5208-3432]
 synonym: "Vascular abnormalities" EXACT []
 xref: UMLS:C0241657
 is_a: HP:0001626  ! Abnormality of the cardiovascular system
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002049
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `vasculature` (FMA:69050)." xsd:string
 
 [Term]
@@ -1570,6 +1723,9 @@ synonym: "Plaque build-up in arteries" BROAD [orcid.org/0000-0001-5208-3432]
 xref: MeSH:D050197
 xref: UMLS:C0004153
 is_a: HP:0002634  ! Arteriosclerosis
+intersection_of: PATO:0000470 
+intersection_of: inheres_in MPATH:28
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0002622
@@ -1587,6 +1743,10 @@ def: "An overriding aorta is a congenital heart defect where the aorta is positi
 synonym: "Dextroposition of aorta" EXACT []
 xref: UMLS:C0265886
 is_a: HP:0001679  ! Abnormality of the aorta
+intersection_of: PATO:0001590 
+intersection_of: inheres_in UBERON:0000947
+intersection_of: qualifier PATO:0000460
+intersection_of: towards UBERON:0004666
 
 [Term]
 id: HP:0002624
@@ -1596,6 +1756,9 @@ def: "An anomaly of vein." [HPO:probinson]
 synonym: "Abnormal vein" EXACT [orcid.org/0000-0001-5208-3432]
 xref: UMLS:C0241665
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001638
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An anomaly of `vein` (FMA:50723)." xsd:string
 
 [Term]
@@ -1672,6 +1835,9 @@ namespace: human_phenotype
 def: "Abnormal outpouching or sac-like dilatation in an artery that originates from he abdominal aorta." [HPO:probinson]
 is_a: HP:0002617  ! Aneurysm
 is_a: HP:0011004  ! Abnormality of the systemic arterial tree
+intersection_of: PATO:0002093 
+intersection_of: inheres_in UBERON:0012254
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0002637
@@ -1764,6 +1930,9 @@ comment: Most individuals aged over 60 years have progressively enlarging deposi
 xref: UMLS:C1168153
 is_a: HP:0004934  ! Vascular calcification
 is_a: HP:0011004  ! Abnormality of the systemic arterial tree
+intersection_of: PATO:0001447 
+intersection_of: inheres_in UBERON:0001637
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0003338
@@ -1815,6 +1984,9 @@ comment: Foam cells may contain polymorphic cytoplasmic inclusions consisting of
 synonym: "Presence of foam cells" EXACT []
 xref: MeSH:D005487
 is_a: HP:0002621  ! Atherosclerosis
+intersection_of: PATO:0000470 
+intersection_of: inheres_in CL:0000891
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0003759
@@ -1824,6 +1996,9 @@ def: "Congenital underdevelopment of lymph vessels." [HPO:probinson]
 comment: This feature can be demonstrated by lymphography.
 synonym: "Underdeveloped lymphatic vessels" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0100766  ! Abnormality of the lymphatic vessels
+intersection_of: PATO:0000645 
+intersection_of: inheres_in UBERON:0001473
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004296
@@ -1841,6 +2016,9 @@ alt_id: HP:0005260
 def: "An abnormality of the endocardium." [HPO:probinson]
 synonym: "Abnormality of the endomycoardium" EXACT []
 is_a: HP:0001627  ! Abnormal heart morphology
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002165
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `endocardium` (FMA:7280)." xsd:string
 
 [Term]
@@ -1848,6 +2026,9 @@ id: HP:0004307
 name: Abnormal anatomic location of the heart
 namespace: human_phenotype
 is_a: HP:0001627  ! Abnormal heart morphology
+intersection_of: PATO:0000140 
+intersection_of: inheres_in_part_of UBERON:0000948
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004308
@@ -1879,6 +2060,9 @@ def: "Deposition of calcium salts in the aortic valve." [HPO:probinson]
 xref: UMLS:C0428791
 is_a: HP:0001646  ! Abnormality of the aortic valve
 is_a: HP:0005146  ! Cardiac valve calcification
+intersection_of: PATO:0001447 
+intersection_of: inheres_in UBERON:0002137
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004381
@@ -1897,6 +2081,9 @@ def: "Abnormal calcification of the mitral valve." [HPO:probinson]
 xref: UMLS:C0919718
 is_a: HP:0001633  ! Abnormality of the mitral valve
 is_a: HP:0005146  ! Cardiac valve calcification
+intersection_of: PATO:0001447 
+intersection_of: inheres_in UBERON:0002135
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Abnormal calcification of the `mitral valve` (FMA:7235)." xsd:string
 
 [Term]
@@ -1926,6 +2113,9 @@ namespace: human_phenotype
 def: "An abnormality of the pulmonary artery." [HPO:probinson]
 synonym: "Abnormality of lung artery" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0004930  ! Abnormality of the pulmonary vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002012
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `pulmonary artery` (FMA:66326)." xsd:string
 
 [Term]
@@ -1936,6 +2126,9 @@ def: "An abnormal narrowing or constriction of the pulmonary artery, in the main
 synonym: "Narrowing of lung artery" EXACT [orcid.org/0000-0001-5208-3432]
 xref: UMLS:C0265911
 is_a: HP:0004414  ! Abnormality of the pulmonary artery
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0002012
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004416
@@ -2024,6 +2217,9 @@ namespace: human_phenotype
 xref: MeSH:D017180
 xref: UMLS:C1963247
 is_a: HP:0001649  ! Tachycardia
+intersection_of: HP:0001649  ! Tachycardia
+intersection_of: inheres_in UBERON:0002082
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004757
@@ -2068,6 +2264,9 @@ alt_id: HP:0004951
 synonym: "Small right heart chamber" EXACT [orcid.org/0000-0001-6908-9849]
 synonym: "Underdeveloped right heart chamber" EXACT [orcid.org/0000-0001-6908-9849]
 is_a: HP:0001707  ! Abnormality of the right ventricle
+intersection_of: PATO:0000645 
+intersection_of: inheres_in UBERON:0002080
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004763
@@ -2136,6 +2335,9 @@ namespace: human_phenotype
 synonym: "Abnormality of the lung blood vessels" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0002088  ! Abnormality of the lung
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0000102
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004931
@@ -2175,6 +2377,9 @@ synonym: "Pulmonary atresia" EXACT []
 xref: MeSH:D018633
 xref: UMLS:C0265908
 is_a: HP:0004414  ! Abnormality of the pulmonary artery
+intersection_of: PATO:0001819 
+intersection_of: inheres_in UBERON:0002012
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004937
@@ -2201,6 +2406,10 @@ namespace: human_phenotype
 alt_id: HP:0004967
 def: "Calcification, that is, pathological deposition of calcium salts, affecting arteries distributed throughout the body." [HPO:probinson]
 is_a: HP:0003207  ! Arterial calcification
+intersection_of: PATO:0001447 
+intersection_of: inheres_in UBERON:0001637
+intersection_of: qualifier PATO:0000460
+intersection_of: qualifier PATO:0002403
 property_value: HP:0040005 "`Calcification` (PATO:0001447), that is, pathological deposition of calcium salts, affecting arteries distributed throughout the body." xsd:string
 
 [Term]
@@ -2297,6 +2506,9 @@ namespace: human_phenotype
 xref: UMLS:C0162871
 is_a: HP:0004942  ! Aortic aneurysm
 is_a: HP:0005112  ! Dilatation of the abdominal aorta
+intersection_of: HP:0004942  ! Aortic aneurysm
+intersection_of: inheres_in UBERON:0000916
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004954
@@ -2322,6 +2534,9 @@ id: HP:0004959
 name: Dilatation of the descending thoracic aorta
 namespace: human_phenotype
 is_a: HP:0001724  ! Aortic dilatation
+intersection_of: PATO:0001571 
+intersection_of: inheres_in UBERON:0002345
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004960
@@ -2333,6 +2548,9 @@ synonym: "Absent lung artery" EXACT [orcid.org/0000-0001-5208-3432]
 synonym: "Missing pulmonary artery" EXACT [orcid.org/0000-0001-6908-9849]
 xref: UMLS:C0265905
 is_a: HP:0004414  ! Abnormality of the pulmonary artery
+intersection_of: PATO:0000462 
+intersection_of: inheres_in UBERON:0002012
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004961
@@ -2349,6 +2567,9 @@ namespace: human_phenotype
 def: "Calcification, that is, pathological deposition of calcium salts in the thoracic aorta." [HPO:probinson]
 xref: UMLS:C1969292
 is_a: HP:0004963  ! Calcification of the aorta
+intersection_of: PATO:0001447 
+intersection_of: inheres_in UBERON:0001515
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "`Calcification` (PATO:0001447), that is, pathological deposition of calcium salts in the `thoracic aorta` (FMA:3786)." xsd:string
 
 [Term]
@@ -2359,6 +2580,9 @@ def: "Calcification, that is, pathological deposition of calcium salts in the ao
 comment: Note that the phrase \"aortic calcification\" is mainly used to describe calcification of the aortic valve rather than of the aorta itself.
 is_a: HP:0001679  ! Abnormality of the aorta
 is_a: HP:0003207  ! Arterial calcification
+intersection_of: PATO:0001447 
+intersection_of: inheres_in UBERON:0000947
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "`Calcification` (PATO:0001447), that is, pathological deposition of calcium salts in the `aorta` (FMA:3734)." xsd:string
 
 [Term]
@@ -2415,6 +2639,9 @@ synonym: "Underdeveloped lung artery" EXACT [orcid.org/0000-0001-5208-3432]
 synonym: "Underdeveloped pulmonary artery" EXACT [orcid.org/0000-0001-6908-9849]
 xref: UMLS:C0265910
 is_a: HP:0004414  ! Abnormality of the pulmonary artery
+intersection_of: PATO:0000645 
+intersection_of: inheres_in UBERON:0002012
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0004972
@@ -2429,6 +2656,9 @@ name: Coarctation of abdominal aorta
 namespace: human_phenotype
 def: "Coarctation of the aorta is a narrowing or constriction of a segment of the abdominal aorta." [HPO:probinson]
 is_a: HP:0001680  ! Coarctation of aorta
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0001516
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005110
@@ -2449,12 +2679,18 @@ namespace: human_phenotype
 alt_id: HP:0005128
 synonym: "Dilation of the ascending aorta" EXACT []
 is_a: HP:0001724  ! Aortic dilatation
+intersection_of: PATO:0001571 
+intersection_of: inheres_in UBERON:0001496
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005112
 name: Dilatation of the abdominal aorta
 namespace: human_phenotype
 is_a: HP:0001724  ! Aortic dilatation
+intersection_of: PATO:0001571 
+intersection_of: inheres_in UBERON:0001516
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005113
@@ -2465,6 +2701,9 @@ synonym: "Aortic arch dilatation" EXACT []
 xref: UMLS:C1851119
 is_a: HP:0001724  ! Aortic dilatation
 is_a: HP:0012303  ! Abnormality of the aortic arch
+intersection_of: PATO:0001571 
+intersection_of: inheres_in UBERON:0001508
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005114
@@ -2528,6 +2767,9 @@ name: Pericardial constriction
 namespace: human_phenotype
 xref: UMLS:C0240709
 is_a: HP:0001697  ! Abnormality of the pericardium
+intersection_of: PATO:0001847 
+intersection_of: inheres_in_part_of UBERON:0002407
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005133
@@ -2547,6 +2789,9 @@ comment: The distinctive feature of APVS is the airway obstruction caused by tra
 synonym: "Absent pulmonary valve" EXACT []
 xref: UMLS:C0265831
 is_a: HP:0001641  ! Abnormality of the pulmonary valve
+intersection_of: PATO:0000462 
+intersection_of: inheres_in UBERON:0002146
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005135
@@ -2590,6 +2835,9 @@ namespace: human_phenotype
 synonym: "Narrowing of coronary artery" EXACT [orcid.org/0000-0001-5208-3432]
 xref: UMLS:C0242231
 is_a: HP:0001677  ! Coronary artery disease
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0001621
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005146
@@ -2599,6 +2847,9 @@ def: "Abnormal calcification of a cardiac valve." [HPO:probinson]
 synonym: "Calcifications of the cardiac valves" EXACT []
 is_a: HP:0001654  ! Abnormality of the heart valves
 is_a: HP:0011915  ! Cardiovascular calcification
+intersection_of: PATO:0001447 
+intersection_of: inheres_in_part_of UBERON:0000946
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Abnormal calcification of a `cardiac valve` (FMA:7110)." xsd:string
 
 [Term]
@@ -2639,6 +2890,9 @@ name: Oncocytic cardiomyopathy
 namespace: human_phenotype
 xref: UMLS:C1708371
 is_a: HP:0001638  ! Cardiomyopathy
+intersection_of: HP:0001638  ! Cardiomyopathy
+intersection_of: inheres_in CL:0002198
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005155
@@ -2655,6 +2909,9 @@ synonym: "Small left heart atrium" EXACT []
 synonym: "Underdeveloped left heart atrium" EXACT []
 xref: UMLS:C1970625
 is_a: HP:0005120  ! Abnormality of cardiac atrium
+intersection_of: PATO:0000645 
+intersection_of: inheres_in UBERON:0002079
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005157
@@ -2694,6 +2951,9 @@ name: Dysplastic pulmonary valve
 namespace: human_phenotype
 xref: UMLS:C1866206
 is_a: HP:0001641  ! Abnormality of the pulmonary valve
+intersection_of: PATO:0000640 
+intersection_of: inheres_in UBERON:0002146
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005165
@@ -2752,6 +3012,9 @@ name: Dysplastic aortic valve
 namespace: human_phenotype
 xref: UMLS:C1866207
 is_a: HP:0001646  ! Abnormality of the aortic valve
+intersection_of: PATO:0000640 
+intersection_of: inheres_in UBERON:0002137
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005177
@@ -2779,6 +3042,9 @@ synonym: "Tricuspid insufficiency" EXACT []
 xref: MeSH:D014262
 xref: UMLS:C0040961
 is_a: HP:0001702  ! Abnormality of the tricuspid valve
+intersection_of: PATO:0001628 
+intersection_of: inheres_in UBERON:0002134
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005181
@@ -2795,6 +3061,9 @@ def: "The presence of a bicuspid pulmonary valve." [HPO:probinson]
 comment: The pulmonary valve normally has three cusps (flaps), that is, it is normally tricuspid.
 xref: UMLS:C0344987
 is_a: HP:0001641  ! Abnormality of the pulmonary valve
+intersection_of: PATO:0002281 
+intersection_of: inheres_in UBERON:0002146
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "The presence of a bicuspid `pulmonary valve` (FMA:7246)." xsd:string
 
 [Term]
@@ -2852,6 +3121,9 @@ synonym: "Deficiency of internal carotid artery" RELATED [orcid.org/0000-0001-58
 synonym: "Hypotrophic internal carotid artery" RELATED [orcid.org/0000-0001-5889-4463]
 synonym: "Small internal carotid artery" EXACT [orcid.org/0000-0001-5889-4463]
 is_a: HP:3000062  ! Abnormality of internal carotid artery
+intersection_of: PATO:0000645 
+intersection_of: inheres_in UBERON:0001532
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005291
@@ -2872,6 +3144,9 @@ namespace: human_phenotype
 xref: MeSH:D014689
 xref: UMLS:C0042485
 is_a: HP:0002624  ! Venous abnormality
+intersection_of: PATO:0001628 
+intersection_of: inheres_in UBERON:0001638
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005294
@@ -2933,6 +3208,9 @@ namespace: human_phenotype
 def: "Calcification, that is, pathological deposition of calcium salts in the arch of aorta." [HPO:probinson]
 xref: UMLS:C1969291
 is_a: HP:0004962  ! Thoracic aorta calcification
+intersection_of: PATO:0001447 
+intersection_of: inheres_in UBERON:0001508
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "`Calcification` (PATO:0001447), that is, pathological deposition of calcium salts in the `arch of aorta` (FMA:3768)." xsd:string
 
 [Term]
@@ -2942,6 +3220,9 @@ namespace: human_phenotype
 synonym: "Underdeveloped lung veins" EXACT [orcid.org/0000-0001-5208-3432]
 xref: UMLS:C1970501
 is_a: HP:0004930  ! Abnormality of the pulmonary vasculature
+intersection_of: PATO:0000645 
+intersection_of: inheres_in UBERON:0002016
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005306
@@ -2954,6 +3235,9 @@ xref: MeSH:D018324
 xref: SNOMEDCT:83343001
 xref: UMLS:C0085666
 is_a: HP:0001028  ! Hemangioma
+intersection_of: HP:0001028  ! Hemangioma
+intersection_of: inheres_in UBERON:0001982
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005307
@@ -2981,6 +3265,9 @@ name: Agenesis of pulmonary vessels
 namespace: human_phenotype
 synonym: "Absent lung vessels" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0004930  ! Abnormality of the pulmonary vasculature
+intersection_of: PATO:0000462 
+intersection_of: inheres_in UBERON:0000102
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005312
@@ -3046,12 +3333,18 @@ name: Abnormality of the carotid arteries
 namespace: human_phenotype
 def: "Any abnormality of the carotid arteries, including the common carotid artery and its' arterial branches." []
 is_a: HP:0011004  ! Abnormality of the systemic arterial tree
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0001530
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005345
 name: Abnormality of the vena cava
 namespace: human_phenotype
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0004087
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0005598
@@ -3076,6 +3369,9 @@ xref: UMLS:C1860397
 is_a: HP:0002088  ! Abnormality of the lung
 is_a: HP:0005306  ! Capillary hemangiomas
 is_a: HP:0007461  ! Hemangiomatosis
+intersection_of: HP:0007461  ! Hemangiomatosis
+intersection_of: inheres_in UBERON:0016405
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0006107
@@ -3169,6 +3465,9 @@ id: HP:0006681
 name: Absent atrioventricular node
 namespace: human_phenotype
 is_a: HP:0001678  ! Atrioventricular block
+intersection_of: PATO:0000462 
+intersection_of: inheres_in UBERON:0002352
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0006682
@@ -3258,6 +3557,9 @@ namespace: human_phenotype
 def: "Abnormally short chordae tendineae of the tricuspid valve." [HPO:probinson]
 comment: The chordae tendineae connect the papillary muscles to the tricuspid valve and the mitral valve in the heart.
 is_a: HP:0001702  ! Abnormality of the tricuspid valve
+intersection_of: PATO:0000574 
+intersection_of: inheres_in UBERON:0014852
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Abnormally short `chordae tendineae` (FMA:76527) of the tricuspid valve." xsd:string
 
 [Term]
@@ -3332,6 +3634,9 @@ name: Abnormality of the coronary arteries
 namespace: human_phenotype
 def: "An abnormality of the coronary arteries." [HPO:probinson]
 is_a: HP:0011004  ! Abnormality of the systemic arterial tree
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0001621
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `coronary arteries` (FMA:3800)." xsd:string
 
 [Term]
@@ -3341,6 +3646,9 @@ namespace: human_phenotype
 alt_id: HP:0006675
 def: "An abnormality of an atrioventricular valve." [HPO:probinson]
 is_a: HP:0001654  ! Abnormality of the heart valves
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0002133
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of an `atrioventricular valve` (FMA:7233)." xsd:string
 
 [Term]
@@ -3352,6 +3660,9 @@ synonym: "Abnormality of liver blood vessels" EXACT [orcid.org/0000-0001-5208-34
 synonym: "Abnormality of the liver vasculature" EXACT []
 is_a: HP:0001392  ! Abnormality of the liver
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0006877
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `hepatic vasculature` (FMA:73748)." xsd:string
 
 [Term]
@@ -3406,6 +3717,9 @@ namespace: human_phenotype
 def: "Naevus flammeus localised in the skin of the forehead." [HPO:sdoelken]
 synonym: "Port-wine stain on forehead" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0001052  ! Nevus flammeus
+intersection_of: HP:0001052  ! Nevus flammeus
+intersection_of: inheres_in UBERON:0008200
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "`Naevus flammeus` (HP:0001052) localised in the skin of the forehead." xsd:string
 
 [Term]
@@ -3452,6 +3766,9 @@ alt_id: HP:0007611
 synonym: "Midfacial capillary hemangioma" EXACT []
 xref: UMLS:C1849377
 is_a: HP:0000996  ! Facial capillary hemangioma
+intersection_of: HP:0005306  ! Capillary hemangiomas
+intersection_of: inheres_in UBERON:0004089
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0007457
@@ -3490,6 +3807,9 @@ synonym: "Diffuse telangiectases" EXACT []
 synonym: "Telangiectases, random body distribution" EXACT []
 xref: UMLS:C1265776
 is_a: HP:0001009  ! Telangiectasia
+intersection_of: HP:0001009  ! Telangiectasia
+intersection_of: qualifier PATO:0000460
+intersection_of: qualifier PATO:0000635
 
 [Term]
 id: HP:0007561
@@ -3527,6 +3847,9 @@ synonym: "Port-wine stain on neck" EXACT [orcid.org/0000-0001-5208-3432]
 synonym: "Salmon patch" RELATED [orcid.org/0000-0001-6908-9849]
 synonym: "Stork bite" EXACT [orcid.org/0000-0001-6908-9849]
 is_a: HP:0001052  ! Nevus flammeus
+intersection_of: HP:0001052  ! Nevus flammeus
+intersection_of: inheres_in UBERON:0012477
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "`Naevus flammeus` (HP:0001052) localised in the skin of the neck. This is one of the most common birthmarks and present in approximately 25% of all newborns." xsd:string
 
 [Term]
@@ -3632,6 +3955,9 @@ namespace: human_phenotype
 synonym: "Abnormality of iris blood vessels" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0000525  ! Abnormality of the iris
 is_a: HP:0008047  ! Abnormality of the vasculature of the eye
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0004118
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0007985
@@ -3687,6 +4013,9 @@ def: "An arterial or venous retinal vascular anomaly." [HPO:probinson]
 synonym: "Abnormality of retina blood vessels" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0000479  ! Abnormality of the retina
 is_a: HP:0008047  ! Abnormality of the vasculature of the eye
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0004864
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0008047
@@ -3695,6 +4024,9 @@ namespace: human_phenotype
 synonym: "Abnormality of eye blood vessels" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0002597  ! Abnormality of the vasculature
 is_a: HP:0012374  ! Abnormality of the globe
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0002203
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0008054
@@ -3712,6 +4044,9 @@ def: "An abnormality of the renal artery." [HPO:probinson]
 synonym: "Abnormal kidney artery" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0011004  ! Abnormality of the systemic arterial tree
 is_a: HP:0012210  ! Abnormal renal morphology
+intersection_of: PATO:0000001 
+intersection_of: inheres_in_part_of UBERON:0001184
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `renal artery` (FMA:14751)." xsd:string
 
 [Term]
@@ -3722,6 +4057,9 @@ def: "An anomaly of a cerebral artery. The cerebral arteries comprise three main
 synonym: "Abnormality of the cerebral arteries" EXACT []
 is_a: HP:0011004  ! Abnormality of the systemic arterial tree
 is_a: HP:0100659  ! Abnormality of the cerebral vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0004449
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An anomaly of a cerebral artery. The cerebral arteries comprise three main pairs of arteries and their branches, which supply the cerebrum of the brain. These are the `anterior cerebral artery` (FMA:50028), the `middle cerebral artery` (FMA:50079), and the `posterior cerebral artery` (FMA:50583)." xsd:string
 
 [Term]
@@ -3735,6 +4073,10 @@ xref: UMLS:C1514915
 is_a: HP:0001028  ! Hemangioma
 is_a: HP:0009594  ! Retinal hamartoma
 is_a: HP:0010797  ! Hemangioblastoma
+intersection_of: PATO:0002002 
+intersection_of: inheres_in_part_of UBERON:0000966
+intersection_of: qualifier PATO:0000460
+intersection_of: towards MPATH:238
 
 [Term]
 id: HP:0009729
@@ -3744,6 +4086,9 @@ def: "A benign tumor of cardiac striated muscle." [HPO:curators]
 xref: UMLS:C1332852
 is_a: HP:0009730  ! Rhabdomyoma
 is_a: HP:0100544  ! Neoplasm of the heart
+intersection_of: HP:0009730  ! Rhabdomyoma
+intersection_of: inheres_in UBERON:0000948
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0009805
@@ -3784,6 +4129,9 @@ def: "An abnormality of the interventricular septum." [HPO:probinson]
 synonym: "Ventricular septum abnormality" EXACT []
 is_a: HP:0001671  ! Abnormality of the cardiac septa
 is_a: HP:0001713  ! Abnormality of cardiac ventricle
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0002094
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `interventricular septum` (FMA:7133)." xsd:string
 
 [Term]
@@ -3795,6 +4143,9 @@ synonym: "Pulmonary incompetence" EXACT []
 synonym: "Puolmonary valve insufficiency" EXACT []
 xref: UMLS:C0034088
 is_a: HP:0001641  ! Abnormality of the pulmonary valve
+intersection_of: PATO:0001628 
+intersection_of: inheres_in UBERON:0002146
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0010445
@@ -3818,6 +4169,9 @@ xref: EPCC:06.01.92
 xref: ICD-10:Q22.4
 xref: UMLS:C0040963
 is_a: HP:0001702  ! Abnormality of the tricuspid valve
+intersection_of: PATO:0001847 
+intersection_of: inheres_in_part_of UBERON:0002134
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0010617
@@ -3915,6 +4269,9 @@ namespace: human_phenotype
 def: "A congenital disorder of the aortic valve in which the orifice of the valve fails to develop." [HPO:probinson]
 synonym: "Aortic atresia" EXACT []
 is_a: HP:0001646  ! Abnormality of the aortic valve
+intersection_of: PATO:0001819 
+intersection_of: inheres_in UBERON:0002137
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0010942
@@ -3971,6 +4328,9 @@ synonym: "Arterial abnormalities" RELATED []
 synonym: "Systemic artery abnormality" EXACT []
 xref: UMLS:C0151489
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0004571
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `systemic arterial tree` (FMA:49894), which consists of the aorta and other systemic arteries." xsd:string
 
 [Term]
@@ -3979,6 +4339,9 @@ name: Abnormality of cardiovascular system physiology
 namespace: human_phenotype
 def: "Abnormal functionality of the cardiovascular system." [HPO:probinson]
 is_a: HP:0001626  ! Abnormality of the cardiovascular system
+intersection_of: PATO:0001509 
+intersection_of: inheres_in UBERON:0004535
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "`Abnormal` (PATO:0000460) `functionality` (PATO:0001509) of the `cardiovascular system` (FMA:7161)." xsd:string
 
 [Term]
@@ -3988,6 +4351,9 @@ namespace: human_phenotype
 def: "An abnormality of blood circulation." [HPO:probinson]
 synonym: "Blood circulation disorder" RELATED []
 is_a: HP:0011025  ! Abnormality of cardiovascular system physiology
+intersection_of: PATO:0000001 
+intersection_of: inheres_in GO:0008015
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of `blood circulation` (GO:0008015)." xsd:string
 
 [Term]
@@ -4006,6 +4372,9 @@ name: Abnormality of the left ventricular outflow tract
 namespace: human_phenotype
 def: "An abnormality of the outflow tract of the left ventricle." [HPO:probinson]
 is_a: HP:0001711  ! Abnormality of the left ventricle
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0005956
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `outflow tract of the left ventricle` (FMA:9473)." xsd:string
 
 [Term]
@@ -4276,6 +4645,9 @@ xref: EPCC:06.02.01
 xref: ICD-10:Q23.2
 is_a: HP:0001633  ! Abnormality of the mitral valve
 is_a: HP:0011546  ! Abnormal atrioventricular connection
+intersection_of: PATO:0001819 
+intersection_of: inheres_in_part_of UBERON:0002135
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0011561
@@ -4375,6 +4747,9 @@ namespace: human_phenotype
 def: "Congenital defect characterized by underdevelopment of the tricuspid valve." [DDD:dbrown]
 synonym: "Underdeveloped tricuspid valve" EXACT [orcid.org/0000-0001-6908-9849]
 is_a: HP:0001702  ! Abnormality of the tricuspid valve
+intersection_of: PATO:0000645 
+intersection_of: inheres_in_part_of UBERON:0002134
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0011574
@@ -4383,6 +4758,9 @@ namespace: human_phenotype
 def: "An atrioventricular valve that has failed to open (atretic)." [DDD:dbrown]
 synonym: "Unopened atrioventricular valve" EXACT [orcid.org/0000-0001-6908-9849]
 is_a: HP:0006705  ! Abnormality of the atrioventricular valves
+intersection_of: PATO:0001821 
+intersection_of: inheres_in_part_of UBERON:0002133
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0011575
@@ -4392,6 +4770,9 @@ def: "An tricuspid valve that has failed to open (atretic)." [DDD:dbrown]
 synonym: "Unopened tricuspid valve" EXACT [orcid.org/0000-0001-6908-9849]
 is_a: HP:0001702  ! Abnormality of the tricuspid valve
 is_a: HP:0011574  ! Imperforate atrioventricular valve
+intersection_of: PATO:0001821 
+intersection_of: inheres_in_part_of UBERON:0002134
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0011576
@@ -4429,6 +4810,9 @@ namespace: human_phenotype
 def: "Abnormally short chordae tendineae of the mitral valve." [HPO:probinson]
 comment: The chordae tendineae connect the papillary muscles to the tricuspid valve and the mitral valve in the heart.
 is_a: HP:0001633  ! Abnormality of the mitral valve
+intersection_of: PATO:0000574 
+intersection_of: inheres_in UBERON:0014851
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Abnormally short `chordae tendineae` (FMA:76527) of the mitral valve." xsd:string
 
 [Term]
@@ -4758,6 +5142,9 @@ namespace: human_phenotype
 def: "No pericardium around the heart, occurring as a congenital defect, not the result of a surgical pericardectomy." [DDD:dbrown]
 synonym: "Congenital absence of the pericardium" EXACT [orcid.org/0000-0001-6908-9849]
 is_a: HP:0011628  ! Congenital defect of the pericardium
+intersection_of: PATO:0000462 
+intersection_of: inheres_in UBERON:0002407
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0011630
@@ -4854,6 +5241,9 @@ name: Abnormality of the coronary sinus
 namespace: human_phenotype
 def: "An abnormality of the coronary sinus, which is formed by the union of the great cardiac vein and the left marginal vein and terminates in the right atrium. The coronary sinus functions to o collect deoxygenated blood from the myocardium of the heart and drain it into the right atrium." [DDD:dbrown, HPO:probinson]
 is_a: HP:0005120  ! Abnormality of cardiac atrium
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0005438
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `coronary sinus` (FMA:4706), which is formed by the union of the great cardiac vein and the left marginal vein and terminates in the right atrium. The coronary sinus functions to o collect deoxygenated blood from the myocardium of the heart and drain it into the right atrium." xsd:string
 
 [Term]
@@ -5002,6 +5392,9 @@ xref: EPCC:06.01.01
 xref: ICD-10:Q22.4
 xref: MeSH:D018785
 is_a: HP:0001702  ! Abnormality of the tricuspid valve
+intersection_of: PATO:0001819 
+intersection_of: inheres_in_part_of UBERON:0002134
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0011663
@@ -5127,6 +5520,9 @@ xref: MeSH:D001145
 xref: UMLS:C0237314
 xref: UMLS:C0855329
 is_a: HP:0011025  ! Abnormality of cardiovascular system physiology
+intersection_of: PATO:0001845 
+intersection_of: inheres_in GO:0060047
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0011676
@@ -5455,6 +5851,9 @@ def: "An abnormality of the pulmonary veins." [HPO:probinson]
 comment: The right superior, right inferior, left superior, and left inferior pulmonary veins carry oxygenated blood to the left atrium.
 synonym: "Abnormality of lung veins" EXACT []
 is_a: HP:0004930  ! Abnormality of the pulmonary vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0002016
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `pulmonary veins` (FMA:70827)." xsd:string
 
 [Term]
@@ -5599,6 +5998,9 @@ namespace: human_phenotype
 def: "Abnormal calcification in the cardiovascular system." [HPO:probinson]
 is_a: HP:0010766  ! Ectopic calcification
 is_a: HP:0030680  ! Abnormality of cardiovascular system morphology
+intersection_of: PATO:0001447 
+intersection_of: inheres_in_part_of UBERON:0004535
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Abnormal calcification in the `cardiovascular system` (FMA:7161)." xsd:string
 
 [Term]
@@ -5630,6 +6032,9 @@ name: Abnormality of the atrial septum
 namespace: human_phenotype
 def: "An abnormality of the interatrial septum." [HPO:probinson]
 is_a: HP:0001671  ! Abnormality of the cardiac septa
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0002085
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An abnormality of the `interatrial septum` (FMA:7108)." xsd:string
 
 [Term]
@@ -5657,6 +6062,9 @@ namespace: human_phenotype
 def: "Persistence of blood flow through the ductus venosus for longer than the normal time after birth." [HPO:probinson, pmid:16449256]
 comment: The ductus venosus is a bypass between the umbilical vein and the inferior vena cava in the fetus. The blood flow through this bypass decreases immediately after birth. Functional closure, which is followed by anatomic closure, is virtually complete within a few weeks of birth.
 is_a: HP:0010948  ! Abnormality of the fetal cardiovascular system
+intersection_of: PATO:0001507 
+intersection_of: inheres_in GO:0061116
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0012022
@@ -5809,6 +6217,9 @@ name: Abnormality of the aortic arch
 namespace: human_phenotype
 def: "An anomaly of the arch of aorta." [HPO:probinson]
 is_a: HP:0001679  ! Abnormality of the aorta
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001508
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An anomaly of the `arch of aorta`(FMA:3768)." xsd:string
 
 [Term]
@@ -5818,6 +6229,9 @@ namespace: human_phenotype
 def: "Underdevelopment of the arch of aorta." [HPO:probinson]
 synonym: "Underdeveloped aortic arch" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0012303  ! Abnormality of the aortic arch
+intersection_of: PATO:0000645 
+intersection_of: inheres_in UBERON:0001508
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Underdevelopment of the `arch of aorta`(FMA:3768)." xsd:string
 
 [Term]
@@ -5836,6 +6250,9 @@ namespace: human_phenotype
 def: "An anomaly of the celiac artery." [HPO:probinson]
 comment: The celiac artery (celiac trunk or truncus coeliacus) is the first major branch of the abdominal aorta.
 is_a: HP:0005114  ! Abnormalities of the peripheral arteries
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001640
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An anomaly of the `celiac artery` (FMA:50737)." xsd:string
 
 [Term]
@@ -5947,6 +6364,9 @@ name: Abnormality of cerebral veins
 namespace: human_phenotype
 def: "An anomaly of cerebral veins." [HPO:probinson]
 is_a: HP:0100659  ! Abnormality of the cerebral vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001663
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An anomaly of `cerebral veins` (FMA:70861)." xsd:string
 
 [Term]
@@ -6021,6 +6441,9 @@ def: "An anomaly of the circle of Willis, also known as the cerebral arterial ci
 comment: The circle of Willis is a circulatory anastomosis in the brain comprised of the anterior cerebral arteries, the anterior communicating artery, the internal carotid arteries, the posterior cerebral arteries, and the posterior communicating arteries.
 synonym: "Abnormality of the cerebral arterial circle" EXACT [http://orcid.org/0000-0001-6908-9849]
 is_a: HP:0009145  ! Abnormality of cerebral artery
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0003709
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "An anomaly of the `circle of Willis` (FMA:50454), also known as the cerebral arterial circle." xsd:string
 
 [Term]
@@ -6149,6 +6572,9 @@ def: "A vascular malformation resulting from a developmental error of venous tis
 comment: Venous malformations are always present at birth, and usually involve the skin of the face, limbs, or trunk.
 synonym: "Venous malformations" EXACT [HPO:skoehler]
 is_a: HP:0002624  ! Venous abnormality
+intersection_of: PATO:0000646 
+intersection_of: inheres_in UBERON:0001638
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0012722
@@ -6300,6 +6726,9 @@ namespace: human_phenotype
 def: "Abnormality of vascular function." [HPO:probinson]
 is_a: HP:0002597  ! Abnormality of the vasculature
 is_a: HP:0011025  ! Abnormality of cardiovascular system physiology
+intersection_of: PATO:0001509 
+intersection_of: inheres_in UBERON:0007798
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0030164
@@ -6330,6 +6759,9 @@ name: Abnormality of the vertebral artery
 namespace: human_phenotype
 def: "An anomaly of the vertebral artery, the major artery of the neck that originates from the subclavian artery and merges to form the single midline basilar artery in a complex called the vertebrobasilar system." [HPO:probinson]
 is_a: HP:0011004  ! Abnormality of the systemic arterial tree
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001535
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0030322
@@ -6387,6 +6819,9 @@ alt_id: HP:0002565
 def: "Any structural anomaly of the heart and great vessels." []
 synonym: "Cardiovascular malformations" EXACT []
 is_a: HP:0001626  ! Abnormality of the cardiovascular system
+intersection_of: PATO:0000051 
+intersection_of: inheres_in_part_of UBERON:0004535
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0030681
@@ -6394,6 +6829,9 @@ name: Abnormal morphology of myocardial trabeculae
 namespace: human_phenotype
 def: "Any structural anomaly of the muscular columns which project from the inner surface of the right and left ventricles of the heart (cardiac trabeculae, trabeculae carneae)." []
 is_a: HP:0001637  ! Abnormality of the myocardium
+intersection_of: BFO:0000019 
+intersection_of: inheres_in_part_of UBERON:0004124
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0030682
@@ -6580,6 +7018,9 @@ name: Aplasia of lymphatic vessels
 namespace: human_phenotype
 synonym: "Absent lymphatic vessels" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0100766  ! Abnormality of the lymphatic vessels
+intersection_of: PATO:0001483 
+intersection_of: inheres_in UBERON:0001473
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0045017
@@ -6596,6 +7037,11 @@ def: "A Malignant mesothelioma originating from cells of the pericardium (the th
 xref: UMLS:C1335381
 is_a: HP:0001697  ! Abnormality of the pericardium
 is_a: HP:0100001  ! Malignant mesothelioma
+intersection_of: PATO:0002002 
+intersection_of: inheres_in UBERON:0002407
+intersection_of: qualifier PATO:0000460
+intersection_of: qualifier PATO:0002097
+intersection_of: towards MPATH:365
 property_value: HP:0040005 "A `Malignant mesothelioma` (HP:0100001) originating from cells of the pericardium (the thin layer of mesothelium lining the heart)." xsd:string
 
 [Term]
@@ -6606,6 +7052,11 @@ def: "An anomalous configuration of blood vessels that shunts arterial blood dir
 xref: MeSH:D001165
 xref: UMLS:C0003857
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0002002 
+intersection_of: inheres_in UBERON:0001637
+intersection_of: inheres_in UBERON:0001638
+intersection_of: qualifier PATO:0000460
+intersection_of: towards MPATH:70
 
 [Term]
 id: HP:0100309
@@ -6650,6 +7101,9 @@ namespace: human_phenotype
 def: "Narrowing or constriction of the inner surface (lumen) of an artery." [HPO:probinson]
 synonym: "Narrowing of an artery" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0005114  ! Abnormalities of the peripheral arteries
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0001637
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0100546
@@ -6779,6 +7233,9 @@ name: Abnormality of the lymphatic vessels
 namespace: human_phenotype
 is_a: HP:0002597  ! Abnormality of the vasculature
 is_a: HP:0100763  ! Abnormality of the lymphatic system
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001473
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0100784
@@ -6805,6 +7262,9 @@ name: Celiac artery aneurysm
 namespace: human_phenotype
 def: "Abnormal outpouching or sac-like dilatation in the wall of the celiac artery." [HPO:probinson]
 is_a: HP:0002636  ! Aneurysm of an abdominal artery
+intersection_of: PATO:0002093 
+intersection_of: inheres_in UBERON:0001640
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Abnormal outpouching or sac-like dilatation in the wall of the `celiac artery` (FMA:50737)." xsd:string
 
 [Term]
@@ -6813,6 +7273,9 @@ name: Superior mesenteric artery aneurysm
 namespace: human_phenotype
 def: "Abnormal outpouching or sac-like dilatation in the wall of the superior mesenteric artery ." [HPO:probinson]
 is_a: HP:0011934  ! Mesenteric artery aneurysm
+intersection_of: PATO:0002093 
+intersection_of: inheres_in UBERON:0001182
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Abnormal outpouching or sac-like dilatation in the wall of the `superior mesenteric artery ` (FMA:14749)." xsd:string
 
 [Term]
@@ -6821,6 +7284,9 @@ name: Inferior mesenteric artery aneurysm
 namespace: human_phenotype
 def: "Abnormal outpouching or sac-like dilatation in the wall of the inferior mesenteric artery ." [HPO:probinson]
 is_a: HP:0011934  ! Mesenteric artery aneurysm
+intersection_of: PATO:0002093 
+intersection_of: inheres_in UBERON:0001183
+intersection_of: qualifier PATO:0000460
 property_value: HP:0040005 "Abnormal outpouching or sac-like dilatation in the wall of the `inferior mesenteric artery ` (FMA:14750)." xsd:string
 
 [Term]
@@ -6913,6 +7379,9 @@ def: "Abnormality of the first branch of the internal carotid artery." [orcid.or
 comment: The ophthalmic artery (OA) is the first branch of the internal carotid artery distal to the cavernous sinus. Branches of the OA supply all the structures in the orbit as well as some structures in the nose, face and meninges.
 synonym: "Ophthalmic artery anomaly" EXACT [orcid.org/0000-0001-5889-4463]
 is_a: HP:3000062  ! Abnormality of internal carotid artery
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001619
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:0430021
@@ -6934,6 +7403,9 @@ name: Abnormality of angular artery
 namespace: human_phenotype
 def: "An abnormality of the angular artery, the terminal branch of the facial artery." [GOC:TermGenie, orcid.org/0000-0001-5889-4463]
 is_a: HP:3000024  ! Abnormality of facial artery
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0010408
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000024
@@ -6941,6 +7413,9 @@ name: Abnormality of facial artery
 namespace: human_phenotype
 def: "An abnormality of a facial artery, one of the branches of the external carotid artery." [GOC:TermGenie, orcid.org/0000-0001-5889-4463]
 is_a: HP:0005344  ! Abnormality of the carotid arteries
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001612
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000031
@@ -6948,6 +7423,9 @@ name: Abnormality of anterior ethmoidal artery
 namespace: human_phenotype
 def: "An abnormality of an anterior ethmoidal artery." [GOC:TermGenie]
 is_a: HP:0410006  ! Abnormality of ophthalmic artery
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0012318
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000032
@@ -6955,6 +7433,9 @@ name: Abnormality of central retinal artery
 namespace: human_phenotype
 def: "An abnormality of a central retinal artery." [GOC:TermGenie]
 is_a: HP:0410006  ! Abnormality of ophthalmic artery
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001620
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000036
@@ -6965,6 +7446,9 @@ synonym: "Abnormality of blood vessel of head" EXACT []
 synonym: "Abnormality of vasculature of head" EXACT []
 is_a: HP:0000234  ! Abnormality of the head
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0003496
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000037
@@ -6977,6 +7461,9 @@ synonym: "Abnormality of the cervical vasculature" EXACT []
 synonym: "Abnormality of the vasculature of the neck" EXACT []
 is_a: HP:0000464  ! Abnormality of the neck
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0003502
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000039
@@ -6984,6 +7471,9 @@ name: Abnormality of dorsal nasal artery
 namespace: human_phenotype
 def: "An abnormality of a dorsal nasal artery." [GOC:TermGenie]
 is_a: HP:0410006  ! Abnormality of ophthalmic artery
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001623
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000041
@@ -6991,6 +7481,9 @@ name: Abnormality of external carotid artery
 namespace: human_phenotype
 def: "An abnormality of an external carotid artery." [GOC:TermGenie]
 is_a: HP:0005344  ! Abnormality of the carotid arteries
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001070
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000042
@@ -6999,6 +7492,9 @@ namespace: human_phenotype
 def: "An abnormality of a jugular vein." [GOC:TermGenie]
 is_a: HP:0002624  ! Venous abnormality
 is_a: HP:3000037  ! Abnormality of neck blood vessel
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0004711
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000043
@@ -7009,6 +7505,9 @@ synonym: "Abnormal vein of face" EXACT [orcid.org/0000-0001-5208-3432]
 is_a: HP:0002624  ! Venous abnormality
 is_a: HP:3000036  ! Abnormality of head blood vessel
 is_a: HP:3000037  ! Abnormality of neck blood vessel
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001653
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000049
@@ -7016,6 +7515,9 @@ name: Abnormality of greater palatine artery
 namespace: human_phenotype
 def: "An abnormality of a greater palatine artery." [GOC:TermGenie]
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0006664
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000054
@@ -7024,6 +7526,9 @@ namespace: human_phenotype
 def: "An abnormality of an inferior alveolar artery." [GOC:TermGenie]
 is_a: HP:0000153  ! Abnormality of the mouth
 is_a: HP:3000036  ! Abnormality of head blood vessel
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0014693
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000056
@@ -7032,6 +7537,9 @@ namespace: human_phenotype
 def: "An abnormality of an artery of lower lip." [GOC:TermGenie]
 synonym: "Abnormality of the inferior labial artery" EXACT []
 is_a: HP:3000024  ! Abnormality of facial artery
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0003471
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000059
@@ -7039,6 +7547,9 @@ name: Abnormality of inferior thyroid vein
 namespace: human_phenotype
 def: "An abnormality of an inferior thyroid vein." [GOC:TermGenie]
 is_a: HP:0002624  ! Venous abnormality
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0007156
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000060
@@ -7046,6 +7557,9 @@ name: Abnormality of infraorbital artery
 namespace: human_phenotype
 def: "An abnormality of an infraorbital artery." [GOC:TermGenie]
 is_a: HP:0002597  ! Abnormality of the vasculature
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0004646
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000062
@@ -7054,6 +7568,9 @@ namespace: human_phenotype
 def: "An abnormality of an internal carotid artery." [GOC:TermGenie]
 is_a: HP:0005344  ! Abnormality of the carotid arteries
 is_a: HP:3000036  ! Abnormality of head blood vessel
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001532
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000063
@@ -7061,6 +7578,9 @@ name: Abnormality of internal jugular vein
 namespace: human_phenotype
 def: "An abnormality of an internal jugular vein." [GOC:TermGenie]
 is_a: HP:3000042  ! Abnormality of jugular vein
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001586
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000065
@@ -7069,6 +7589,9 @@ namespace: human_phenotype
 def: "An abnormality of a lacrimal artery." [GOC:TermGenie]
 is_a: HP:0005344  ! Abnormality of the carotid arteries
 is_a: HP:3000036  ! Abnormality of head blood vessel
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001622
+intersection_of: qualifier PATO:0000460
 
 [Term]
 id: HP:3000074
@@ -7078,4 +7601,7 @@ def: "An abnormality of a lingual artery." [GOC:TermGenie]
 is_a: HP:0005344  ! Abnormality of the carotid arteries
 is_a: HP:0030809  ! Abnormal tongue morphology
 is_a: HP:3000036  ! Abnormality of head blood vessel
+intersection_of: PATO:0000001 
+intersection_of: inheres_in UBERON:0001610
+intersection_of: qualifier PATO:0000460
 

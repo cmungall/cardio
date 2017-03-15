@@ -40,15 +40,17 @@ all_cv4_tree: $(patsubst %, %cv-depth-4.tree, $(ONTS))
 clean:
 	rm *.png *.tree
 
+BLIPREL := -rel subclass -rel part_of -rel develops_from
+
 # ----------------------------------------
 # Ontology Slices
 # ----------------------------------------
 
 mpcv.obo:
-	blip ontol-query -r MP -query "subclassRT(ID,'$(MP_CV)')" -to obo > $@.tmp && mv $@.tmp $@
+	blip ontol-query -r MP -r mp_xp -query "subclassRT(ID,'$(MP_CV)')" -to obo > $@.tmp && mv $@.tmp $@
 
 hpcv.obo:
-	blip ontol-query -r HP -query "subclassRT(ID,'$(HP_CV)')" -to obo > $@.tmp && mv $@.tmp $@
+	blip ontol-query -r HP -r hp_xp -query "subclassRT(ID,'$(HP_CV)')" -to obo > $@.tmp && mv $@.tmp $@
 
 gocv.obo:
 	blip ontol-query -r go_basic -query "parentRT(ID,'$(GO_CV)')" -to obo > $@.tmp && mv $@.tmp $@
@@ -60,7 +62,7 @@ mondocv.obo:
 	blip ontol-query -r mondo -query "subclassRT(ID,'$(DO_CV)')" -to obo > $@.tmp && mv $@.tmp $@
 
 %-all.png: %.obo
-	blip ontol-subset -i $< -n % -to png > $@.tmp && mv $@.tmp $@
+	blip ontol-subset -i $< -n % -to png $(BLIPREL) > $@.tmp && mv $@.tmp $@
 
 # ----------------------------------------
 # Sub-Trees from Root
@@ -68,7 +70,7 @@ mondocv.obo:
 
 # requires biomake
 $(ONT)cv-depth-$(DEPTH).png: $(ONT)cv.obo
-	blip -u ontol_config_do ontol-subset -i $< -id $(bagof ROOT, root($(ONT),ROOT)) -down $(DEPTH) -to png > $@.tmp && mv $@.tmp $@
+	blip -u ontol_config_do ontol-subset -i $< -id $(bagof ROOT, root($(ONT),ROOT)) -down $(DEPTH) -to png $(BLIPREL) > $@.tmp && mv $@.tmp $@
 
 $(ONT)cv-depth-$(DEPTH).tree: $(ONT)cv.obo
 	blip -u ontol_config_do ontol-subset -i $< -id $(bagof ROOT, root($(ONT),ROOT)) -down $(DEPTH)  > $@.tmp && mv $@.tmp $@
