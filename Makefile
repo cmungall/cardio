@@ -99,5 +99,9 @@ mondocv-phenolog-go-cc-D.obo:
 mondocv-phenolog-go-%-slim.obo: mondocv-phenolog-go-%-D.obo
 	owltools $< --remove-dangling -o -f obo $@
 
+
 mondocv-phenolog-go-%-slim.png: mondocv-phenolog-go-%-slim.obo
 	blip ontol-subset -u ontol_config_do -i $< -n % -to png > $@
+
+mondocv-phenolog-go-%-summary.obo: mondocv-phenolog-go-%-slim.obo
+	obo-grep.pl -r 'relationship: assoc' $<  | obo-filter-tags.pl -t id -t name -t is_a -t relationship - > $@

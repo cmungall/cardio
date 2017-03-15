@@ -1,0 +1,143 @@
+format-version: 1.2
+subsetdef: DO_AGR_slim "DO_AGR_slim"
+subsetdef: DO_cancer_slim "DO cancer slim"
+subsetdef: DO_FlyBase_slim "DO_FlyBase_slim"
+subsetdef: DO_MGI_slim "DO_MGI_slim"
+subsetdef: DO_rare_slim "DO_rare_slim"
+subsetdef: goantislim_grouping "Grouping classes that can be excluded"
+subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
+subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
+subsetdef: GOLD "GOLD"
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_chembl "ChEMBL protein targets summary"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_goa "GOA and proteome slim"
+subsetdef: goslim_metagenomics "Metagenomics GO slim"
+subsetdef: goslim_mouse "Mouse GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_synapse "synapse GO slim"
+subsetdef: goslim_virus "Viral GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
+subsetdef: gosubset_prok "Prokaryotic GO subset"
+subsetdef: gram-negative_bacterial_infectious_disease "gram-negative bacterial infectious disease"
+subsetdef: gram-positive_bacterial_infectious_disease "gram-positive bacterial infectious disease"
+subsetdef: MEDIC-Slim "MEDIC (disease) slim"
+subsetdef: mesh_antislim "MESH antislim"
+subsetdef: mf_needs_review "Catalytic activity terms in need of attention"
+subsetdef: NCIthesaurus "NCIt"
+subsetdef: sexually_transmitted_infectious_disease "sexually transmitted infectious disease"
+subsetdef: termgenie_unvetted "Terms created by TermGenie that do not follow a template and require additional vetting by editors"
+subsetdef: tick-borne_infectious_disease "tick-borne infectious disease"
+subsetdef: TopNodes_DOcancerslim "TopNodes_DOcancerslim"
+subsetdef: virus_checked "Viral overhaul terms"
+subsetdef: zoonotic_infectious_disease "zoonotic infectious disease"
+synonymtypedef: syngo_official_label "label approved by the SynGO project"
+synonymtypedef: systematic_synonym "Systematic synonym" EXACT
+ontology: go
+
+[Term]
+id: DOID:0050451 ! Brugada syndrome
+name: Brugada syndrome
+is_a: DOID:10273 ! heart conduction disease
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+relationship: assoc GO:0010959 ! regulation of metal ion transport
+relationship: assoc GO:0032412 ! regulation of ion transmembrane transporter activity
+relationship: assoc GO:0035725 ! sodium ion transmembrane transport
+relationship: assoc GO:0043270 ! positive regulation of ion transport
+relationship: assoc GO:0086005 ! ventricular cardiac muscle cell action potential
+relationship: assoc GO:0086009 ! membrane repolarization
+relationship: assoc GO:0086014 ! atrial cardiac muscle cell action potential
+relationship: assoc GO:0086045 ! membrane depolarization during AV node cell action potential
+relationship: assoc GO:1904062 ! regulation of cation transmembrane transport
+
+[Term]
+id: DOID:0050545 ! visceral heterotaxy
+name: visceral heterotaxy
+is_a: DOID:1682 ! congenital heart disease
+relationship: assoc GO:0007507 ! heart development
+
+[Term]
+id: DOID:0050650 ! familial atrial fibrillation
+name: familial atrial fibrillation
+is_a: DOID:0060224 ! atrial fibrillation
+is_a: OMIM:611819 ! Long Qt Syndrome 10
+is_a: OMIM:613120 ! Brugada syndrome 7
+relationship: assoc GO:0043266 ! regulation of potassium ion transport
+relationship: assoc GO:0043270 ! positive regulation of ion transport
+relationship: assoc GO:0050880 ! regulation of blood vessel size
+relationship: assoc GO:0060307 ! regulation of ventricular cardiac muscle cell membrane repolarization
+relationship: assoc GO:0060371 ! regulation of atrial cardiac muscle cell membrane depolarization
+relationship: assoc GO:0060372 ! regulation of atrial cardiac muscle cell membrane repolarization
+relationship: assoc GO:0071435 ! potassium ion export
+relationship: assoc GO:0086005 ! ventricular cardiac muscle cell action potential
+relationship: assoc GO:0086012 ! membrane depolarization during cardiac muscle cell action potential
+relationship: assoc GO:0086013 ! membrane repolarization during cardiac muscle cell action potential
+relationship: assoc GO:0086015 ! SA node cell action potential
+relationship: assoc GO:0086017 ! Purkinje myocyte action potential
+relationship: assoc GO:0086043 ! bundle of His cell action potential
+relationship: assoc GO:0086091 ! regulation of heart rate by cardiac conduction
+relationship: assoc GO:1903524 ! positive regulation of blood circulation
+relationship: assoc GO:1904062 ! regulation of cation transmembrane transport
+
+[Term]
+id: DOID:0060224 ! atrial fibrillation
+name: atrial fibrillation
+is_a: DOID:10273 ! heart conduction disease
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+relationship: assoc GO:0035725 ! sodium ion transmembrane transport
+relationship: assoc GO:0055002 ! striated muscle cell development
+relationship: assoc GO:0055007 ! cardiac muscle cell differentiation
+relationship: assoc GO:0060078 ! regulation of postsynaptic membrane potential
+relationship: assoc GO:0086014 ! atrial cardiac muscle cell action potential
+relationship: assoc GO:0086016 ! AV node cell action potential
+
+[Term]
+id: DOID:11984 ! hypertrophic cardiomyopathy
+name: hypertrophic cardiomyopathy
+is_a: DOID:0060036 ! intrinsic cardiomyopathy
+is_a: DOID:5805 ! subvalvular aortic stenosis
+relationship: assoc GO:0002026 ! regulation of the force of heart contraction
+relationship: assoc GO:0010243 ! response to organonitrogen compound
+relationship: assoc GO:0043066 ! negative regulation of apoptotic process
+
+[Term]
+id: DOID:4079 ! heart valve disease
+name: heart valve disease
+is_a: DOID:114 ! heart disease
+relationship: assoc GO:0006875 ! cellular metal ion homeostasis
+relationship: assoc GO:0031960 ! response to corticosteroid
+relationship: assoc GO:0042110 ! T cell activation
+relationship: assoc GO:0048514 ! blood vessel morphogenesis
+relationship: assoc GO:0048534 ! hematopoietic or lymphoid organ development
+relationship: assoc GO:0050865 ! regulation of cell activation
+relationship: assoc GO:0071901 ! negative regulation of protein serine/threonine kinase activity
+relationship: assoc GO:1901701 ! cellular response to oxygen-containing compound
+relationship: assoc GO:2000377 ! regulation of reactive oxygen species metabolic process
+relationship: assoc GO:2001233 ! regulation of apoptotic signaling pathway
+
+[Term]
+id: OMIM:163950 ! Noonan syndrome 1
+name: Noonan syndrome 1
+is_a: DOID:3490 ! Noonan syndrome
+relationship: assoc GO:0007169 ! transmembrane receptor protein tyrosine kinase signaling pathway
+relationship: assoc GO:0007409 ! axonogenesis
+relationship: assoc GO:0030878 ! thyroid gland development
+relationship: assoc GO:0043410 ! positive regulation of MAPK cascade
+relationship: assoc GO:0045860 ! positive regulation of protein kinase activity
+relationship: assoc GO:0060324 ! face development
+relationship: assoc GO:0070371 ! ERK1 and ERK2 cascade
+
+[Term]
+id: Orphanet:99739 ! Rare familial disorder with hypertrophic cardiomyopathy
+name: Rare familial disorder with hypertrophic cardiomyopathy
+is_a: DOID:11984 ! hypertrophic cardiomyopathy
+relationship: assoc GO:0007568 ! aging
+relationship: assoc GO:0010038 ! response to metal ion
+relationship: assoc GO:0014070 ! response to organic cyclic compound
+relationship: assoc GO:0042493 ! response to drug
+relationship: assoc GO:0043069 ! negative regulation of programmed cell death
+relationship: assoc GO:0045859 ! regulation of protein kinase activity
+

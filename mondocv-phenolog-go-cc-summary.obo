@@ -1,0 +1,76 @@
+format-version: 1.2
+subsetdef: DO_AGR_slim "DO_AGR_slim"
+subsetdef: DO_cancer_slim "DO cancer slim"
+subsetdef: DO_FlyBase_slim "DO_FlyBase_slim"
+subsetdef: DO_MGI_slim "DO_MGI_slim"
+subsetdef: DO_rare_slim "DO_rare_slim"
+subsetdef: goantislim_grouping "Grouping classes that can be excluded"
+subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
+subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
+subsetdef: GOLD "GOLD"
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_chembl "ChEMBL protein targets summary"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_goa "GOA and proteome slim"
+subsetdef: goslim_metagenomics "Metagenomics GO slim"
+subsetdef: goslim_mouse "Mouse GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_synapse "synapse GO slim"
+subsetdef: goslim_virus "Viral GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
+subsetdef: gosubset_prok "Prokaryotic GO subset"
+subsetdef: gram-negative_bacterial_infectious_disease "gram-negative bacterial infectious disease"
+subsetdef: gram-positive_bacterial_infectious_disease "gram-positive bacterial infectious disease"
+subsetdef: MEDIC-Slim "MEDIC (disease) slim"
+subsetdef: mesh_antislim "MESH antislim"
+subsetdef: mf_needs_review "Catalytic activity terms in need of attention"
+subsetdef: NCIthesaurus "NCIt"
+subsetdef: sexually_transmitted_infectious_disease "sexually transmitted infectious disease"
+subsetdef: termgenie_unvetted "Terms created by TermGenie that do not follow a template and require additional vetting by editors"
+subsetdef: tick-borne_infectious_disease "tick-borne infectious disease"
+subsetdef: TopNodes_DOcancerslim "TopNodes_DOcancerslim"
+subsetdef: virus_checked "Viral overhaul terms"
+subsetdef: zoonotic_infectious_disease "zoonotic infectious disease"
+synonymtypedef: syngo_official_label "label approved by the SynGO project"
+synonymtypedef: systematic_synonym "Systematic synonym" EXACT
+ontology: go
+
+[Term]
+id: DOID:0050451 ! Brugada syndrome
+name: Brugada syndrome
+is_a: DOID:10273 ! heart conduction disease
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+relationship: assoc GO:0030315 ! T-tubule
+
+[Term]
+id: DOID:0050650 ! familial atrial fibrillation
+name: familial atrial fibrillation
+is_a: DOID:0060224 ! atrial fibrillation
+is_a: OMIM:611819 ! Long Qt Syndrome 10
+is_a: OMIM:613120 ! Brugada syndrome 7
+relationship: assoc GO:0014704 ! intercalated disc
+relationship: assoc GO:0034703 ! cation channel complex
+relationship: assoc GO:0098797 ! plasma membrane protein complex
+
+[Term]
+id: DOID:0060224 ! atrial fibrillation
+name: atrial fibrillation
+is_a: DOID:10273 ! heart conduction disease
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+relationship: assoc GO:0001518 ! voltage-gated sodium channel complex
+
+[Term]
+id: DOID:11726 ! Emery-Dreifuss muscular dystrophy
+name: Emery-Dreifuss muscular dystrophy
+is_a: Orphanet:217610 ! Neuromuscular disease with dilated cardiomyopathy
+relationship: assoc GO:0031965 ! nuclear membrane
+
+[Term]
+id: Orphanet:99739 ! Rare familial disorder with hypertrophic cardiomyopathy
+name: Rare familial disorder with hypertrophic cardiomyopathy
+is_a: DOID:11984 ! hypertrophic cardiomyopathy
+relationship: assoc GO:0044455 ! mitochondrial membrane part
+
