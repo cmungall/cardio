@@ -1,0 +1,51 @@
+ / HP:0000118 ! ?
+  is_a HP:0001626 ! Abnormality of the cardiovascular system *** 
+   is_a HP:0002597 ! Abnormality of the vasculature
+    is_a HP:0002617 ! Aneurysm
+    is_a HP:0002624 ! Venous abnormality
+    is_a HP:0002633 ! Vasculitis
+    is_a HP:0002634 ! Arteriosclerosis
+    is_a HP:0004296 ! Abnormality of gastrointestinal vasculature
+    is_a HP:0004930 ! Abnormality of the pulmonary vasculature
+    is_a HP:0004934 ! Vascular calcification
+    is_a HP:0004948 ! Vascular tortuosity
+    is_a HP:0005345 ! Abnormality of the vena cava
+    is_a HP:0006707 ! Abnormality of the hepatic vasculature
+    is_a HP:0008047 ! Abnormality of the vasculature of the eye
+    is_a HP:0011004 ! Abnormality of the systemic arterial tree
+    is_a HP:0011276 ! Vascular skin abnormality
+    is_a HP:0030163 ! Abnormal vascular physiology
+    is_a HP:0100026 ! Arteriovenous malformation
+    is_a HP:0100659 ! Abnormality of the cerebral vasculature
+    is_a HP:0100742 ! Vascular neoplasm
+    is_a HP:0100766 ! Abnormality of the lymphatic vessels
+    is_a HP:0200146 ! Cystic medial necrosis of the aorta
+    is_a HP:3000036 ! Abnormality of head blood vessel
+    is_a HP:3000037 ! Abnormality of neck blood vessel
+    is_a HP:3000049 ! Abnormality of greater palatine artery
+    is_a HP:3000060 ! Abnormality of infraorbital artery
+   is_a HP:0010948 ! Abnormality of the fetal cardiovascular system
+    is_a HP:0001195 ! Single umbilical artery
+    is_a HP:0010942 ! Echogenic intracardiac focus
+    is_a HP:0010947 ! Abnormality of ductus venosus blood flow
+    is_a HP:0010949 ! Abnormality of umbilical vein blood flow
+    is_a HP:0011726 ! Persistent fetal circulation
+    is_a HP:0012021 ! Persistent patent ductus venosus
+    is_a HP:0012022 ! Congenital portosystemic venous shunt
+   is_a HP:0011025 ! Abnormality of cardiovascular system physiology
+    is_a HP:0000822 ! Hypertension
+    is_a HP:0001279 ! Syncope
+    is_a HP:0001635 ! Congestive heart failure
+    is_a HP:0001693 ! Cardiac shunt
+    is_a HP:0002615 ! Hypotension
+    is_a HP:0003115 ! Abnormal EKG
+    is_a HP:0003116 ! Abnormal echocardiogram
+    is_a HP:0011028 ! Abnormality of blood circulation
+    is_a HP:0011675 ! Arrhythmia
+    is_a HP:0030148 ! Heart murmur
+    is_a HP:0030149 ! Cardiogenic shock
+    is_a HP:0030163 ! Abnormal vascular physiology
+   is_a HP:0030680 ! Abnormality of cardiovascular system morphology
+    is_a HP:0001627 ! Abnormal heart morphology
+    is_a HP:0011603 ! Congenital malformation of the great arteries
+    is_a HP:0011915 ! Cardiovascular calcification

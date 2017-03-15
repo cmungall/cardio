@@ -1,0 +1,35 @@
+ / MP:0000001 ! ?
+  is_a MP:0005385 ! cardiovascular system phenotype *** 
+   is_a MP:0001544 ! abnormal cardiovascular system physiology
+    is_a MP:0000230 ! abnormal systemic arterial blood pressure
+    is_a MP:0000249 ! abnormal blood vessel physiology
+    is_a MP:0000343 ! altered response to myocardial infarction
+    is_a MP:0001853 ! heart inflammation
+    is_a MP:0002128 ! abnormal blood circulation
+    is_a MP:0002972 ! abnormal cardiac muscle contractility
+    is_a MP:0003137 ! abnormal impulse conducting system conduction
+    is_a MP:0003328 ! portal hypertension
+    is_a MP:0003547 ! abnormal pulmonary pressure
+    is_a MP:0004039 ! abnormal cardiac cell glucose uptake
+    is_a MP:0004084 ! abnormal cardiac muscle relaxation
+    is_a MP:0004085 ! abnormal heartbeat
+    is_a MP:0004215 ! abnormal myocardial fiber physiology
+    is_a MP:0004484 ! altered response of heart to induced stress
+    is_a MP:0005330 ! cardiomyopathy
+    is_a MP:0006138 ! congestive heart failure
+    is_a MP:0008775 ! abnormal heart ventricle pressure
+    is_a MP:0010695 ! abnormal blood pressure regulation
+    is_a MP:0011390 ! abnormal fetal cardiomyocyte physiology
+    is_a MP:0011925 ! abnormal heart echocardiography feature
+    is_a MP:0011926 ! abnormal cardiac valve physiology
+    is_a MP:0020092 ! abnormal susceptibility to aortic cartilaginous metaplasia
+    is_a MP:0020095 ! abnormal mean heart rate adaptation
+    is_a MP:0020098 ! abnormal susceptibility to diet-induced aortic fatty streak lesions
+   is_a MP:0002127 ! abnormal cardiovascular system morphology
+    is_a MP:0000266 ! abnormal heart morphology
+    is_a MP:0001614 ! abnormal blood vessel morphology
+    is_a MP:0002925 ! abnormal cardiovascular development
+    is_a MP:0003279 ! aneurysm
+    is_a MP:0010291 ! increased cardiovascular system tumor incidence
+    is_a MP:0012419 ! decreased cardiovascular system tumor incidence
+    is_a MP:0013332 ! peliosis

@@ -1,0 +1,511 @@
+ / MP:0000001 ! ?
+  is_a MP:0005385 ! cardiovascular system phenotype *** 
+   is_a MP:0001544 ! abnormal cardiovascular system physiology
+    is_a MP:0000230 ! abnormal systemic arterial blood pressure
+     is_a MP:0002842 ! increased systemic arterial blood pressure
+      is_a MP:0000231 ! hypertension
+      is_a MP:0004875 ! increased mean systemic arterial blood pressure
+      is_a MP:0006143 ! increased systemic arterial diastolic blood pressure
+      is_a MP:0006144 ! increased systemic arterial systolic blood pressure
+     is_a MP:0002843 ! decreased systemic arterial blood pressure
+      is_a MP:0001596 ! hypotension
+      is_a MP:0004876 ! decreased mean systemic arterial blood pressure
+      is_a MP:0006263 ! decreased systemic arterial diastolic blood pressure
+      is_a MP:0006264 ! decreased systemic arterial systolic blood pressure
+     is_a MP:0003882 ! abnormal pulse pressure
+      is_a MP:0006265 ! increased pulse pressure
+      is_a MP:0006266 ! decreased pulse pressure
+    is_a MP:0000249 ! abnormal blood vessel physiology
+     is_a MP:0001619 ! abnormal vascular permeability
+      is_a MP:0003070 ! increased vascular permeability
+      is_a MP:0003071 ! decreased vascular permeability
+     is_a MP:0001863 ! vascular inflammation
+      is_a MP:0001864 ! vasculitis
+     is_a MP:0003438 ! abnormal carotid body physiology
+     is_a MP:0003711 ! pathological neovascularization
+      is_a MP:0005542 ! corneal vascularization
+      is_a MP:0005546 ! choroidal neovascularization
+      is_a MP:0008852 ! retinal neovascularization
+      is_a MP:0011161 ! increased hypodermis neovascularization
+     is_a MP:0004003 ! abnormal vascular endothelial cell physiology
+      is_a MP:0020146 ! abnormal vascular endothelial cell proliferation
+      is_a MP:0020317 ! abnormal vascular endothelial cell adhesion
+      is_a MP:0020320 ! abnormal vascular endothelial cell apoptosis
+     is_a MP:0004883 ! abnormal vascular wound healing
+     is_a MP:0004999 ! abnormal blood-inner ear barrier function
+     is_a MP:0005167 ! abnormal blood-brain barrier function
+     is_a MP:0005595 ! abnormal vascular smooth muscle physiology
+      is_a MP:0000250 ! abnormal vasoconstriction
+      is_a MP:0001613 ! abnormal vasodilation
+     is_a MP:0006088 ! abnormal blood-cerebrospinal fluid barrier function
+     is_a MP:0014020 ! intramural bleeding in blood vessel wall
+    is_a MP:0000343 ! altered response to myocardial infarction
+     is_a MP:0003037 ! increased myocardial infarction size
+     is_a MP:0003038 ! decreased myocardial infarction size
+     is_a MP:0003039 ! increased time of peak ischemic contracture
+     is_a MP:0003040 ! decreased time of peak ischemic contracture
+     is_a MP:0003041 ! increased time of onset of induced ischemic contracture
+     is_a MP:0003042 ! decreased time of onset of induced ischemic contracture
+    is_a MP:0001853 ! heart inflammation
+     is_a MP:0001854 ! atrial endocarditis
+     is_a MP:0001856 ! myocarditis
+     is_a MP:0001857 ! pericarditis
+    is_a MP:0002128 ! abnormal blood circulation
+     is_a MP:0000233 ! abnormal blood flow velocity
+      is_a MP:0003021 ! abnormal coronary flow rate
+      is_a MP:0005524 ! abnormal renal plasma flow rate
+     is_a MP:0000304 ! abnormal cardiac stroke volume
+      is_a MP:0011951 ! increased cardiac stroke volume
+      is_a MP:0011952 ! decreased cardiac stroke volume
+     is_a MP:0001598 ! abnormal blood viscosity
+     is_a MP:0001599 ! abnormal blood volume
+      is_a MP:0010127 ! hypervolemia
+      is_a MP:0010128 ! hypovolemia
+     is_a MP:0001627 ! abnormal cardiac output
+      is_a MP:0003393 ! decreased cardiac output
+      is_a MP:0003394 ! increased cardiac output
+     is_a MP:0001633 ! poor circulation
+      is_a MP:0013134 ! poor circulation in autopods
+      is_a MP:0013135 ! poor circulation in tail
+     is_a MP:0001914 ! hemorrhage
+      is_a MP:0000465 ! gastrointestinal hemorrhage
+      is_a MP:0001634 ! internal hemorrhage
+      is_a MP:0004245 ! genital hemorrhage
+      is_a MP:0008817 ! hematoma
+      is_a MP:0011514 ! skin hemorrhage
+      is_a MP:0013127 ! epistaxis
+      is_a MP:0013128 ! nipple hemorrhage
+     is_a MP:0002295 ! abnormal pulmonary circulation
+      is_a MP:0001182 ! lung hemorrhage
+      is_a MP:0002326 ! abnormal ventilation-perfusion ratio
+      is_a MP:0005243 ! hemothorax
+      is_a MP:0010855 ! pulmonary hyperemia
+     is_a MP:0003659 ! abnormal lymph circulation
+     is_a MP:0004009 ! abnormal diastolic filling velocity
+      is_a MP:0004010 ! increased diastolic filling velocity
+      is_a MP:0004011 ! decreased diastolic filling velocity
+     is_a MP:0005532 ! abnormal vascular resistance
+      is_a MP:0003033 ! abnormal pulmonary vascular resistance
+      is_a MP:0004877 ! abnormal systemic vascular resistance
+      is_a MP:0005529 ! abnormal renal vascular resistance
+     is_a MP:0006111 ! abnormal coronary circulation
+      is_a MP:0003021 ! abnormal coronary flow rate
+      is_a MP:0004120 ! cardiac ischemia
+      is_a MP:0006112 ! angina
+     is_a MP:0006114 ! cardiac murmur
+    is_a MP:0002972 ! abnormal cardiac muscle contractility
+     is_a MP:0005140 ! decreased cardiac muscle contractility
+      is_a MP:0005598 ! decreased ventricle muscle contractility
+     is_a MP:0005599 ! increased cardiac muscle contractility
+      is_a MP:0005600 ! increased ventricle muscle contractility
+    is_a MP:0003137 ! abnormal impulse conducting system conduction
+     is_a MP:0004072 ! abnormal frontal plane axis
+     is_a MP:0004116 ! abnormal atrioventricular bundle conduction
+     is_a MP:0006141 ! abnormal atrioventricular node conduction
+      is_a MP:0003901 ! abnormal PR interval
+      is_a MP:0010519 ! atrioventricular block
+     is_a MP:0006142 ! abnormal sinoatrial node conduction
+      is_a MP:0004070 ! abnormal P wave
+      is_a MP:0010520 ! sinoatrial block
+     is_a MP:0010508 ! abnormal heart electrocardiography waveform feature
+      is_a MP:0003897 ! abnormal ST segment
+      is_a MP:0003898 ! abnormal QRS complex
+      is_a MP:0003899 ! abnormal QT interval
+      is_a MP:0003901 ! abnormal PR interval
+      is_a MP:0004070 ! abnormal P wave
+      is_a MP:0010504 ! abnormal RR interval
+      is_a MP:0010505 ! abnormal T wave
+      is_a MP:0010552 ! abnormal HV interval
+      is_a MP:0011918 ! abnormal PQ interval
+      is_a MP:0011919 ! abnormal R wave
+      is_a MP:0011920 ! abnormal S wave
+      is_a MP:0011936 ! abnormal PP interval
+     is_a MP:0010559 ! heart block
+      is_a MP:0010519 ! atrioventricular block
+      is_a MP:0010520 ! sinoatrial block
+      is_a MP:0010560 ! intraventricular block
+    is_a MP:0003328 ! portal hypertension
+    is_a MP:0003547 ! abnormal pulmonary pressure
+     is_a MP:0004012 ! increased pulmonary artery pressure
+      is_a MP:0003548 ! pulmonary hypertension
+     is_a MP:0004013 ! decreased pulmonary artery pressure
+      is_a MP:0003549 ! pulmonary hypotension
+    is_a MP:0004039 ! abnormal cardiac cell glucose uptake
+    is_a MP:0004084 ! abnormal cardiac muscle relaxation
+    is_a MP:0004085 ! abnormal heartbeat
+     is_a MP:0001629 ! abnormal heart rate
+      is_a MP:0002626 ! increased heart rate
+      is_a MP:0004122 ! abnormal sinus arrhythmia
+      is_a MP:0005333 ! decreased heart rate
+     is_a MP:0001636 ! irregular heartbeat
+      is_a MP:0006109 ! fibrillation
+      is_a MP:0009732 ! ventricular premature beat
+     is_a MP:0004086 ! absent heartbeat
+     is_a MP:0011021 ! abnormal circadian regulation of heart rate
+    is_a MP:0004215 ! abnormal myocardial fiber physiology
+     is_a MP:0003221 ! abnormal cardiomyocyte apoptosis
+      is_a MP:0003222 ! increased cardiomyocyte apoptosis
+      is_a MP:0003223 ! decreased cardiomyocyte apoptosis
+     is_a MP:0012557 ! decreased calcium uptake by cardiac muscle
+     is_a MP:0012558 ! increased calcium uptake by cardiac muscle
+     is_a MP:0020081 ! degenerative myocardium
+     is_a MP:0020345 ! abnormal myocardial fiber currents
+      is_a MP:0020346 ! abnormal mycardial fiber calcium currents
+      is_a MP:0020347 ! abnormal mycoardial fiber sodium currents
+    is_a MP:0004484 ! altered response of heart to induced stress
+     is_a MP:0004485 ! increased response of heart to induced stress
+     is_a MP:0004486 ! decreased response of heart to induced stress
+    is_a MP:0005330 ! cardiomyopathy
+     is_a MP:0002795 ! dilated cardiomyopathy
+     is_a MP:0002952 ! ventricular cardiomyopathy
+    is_a MP:0006138 ! congestive heart failure
+    is_a MP:0008775 ! abnormal heart ventricle pressure
+     is_a MP:0010754 ! abnormal heart left ventricle pressure
+      is_a MP:0003819 ! increased left ventricle diastolic pressure
+      is_a MP:0003820 ! increased left ventricle systolic pressure
+      is_a MP:0003821 ! decreased left ventricle diastolic pressure
+      is_a MP:0003822 ! decreased left ventricle systolic pressure
+      is_a MP:0003823 ! increased left ventricle developed pressure
+      is_a MP:0003824 ! decreased left ventricle developed pressure
+     is_a MP:0010755 ! abnormal heart right ventricle pressure
+      is_a MP:0008776 ! increased right ventricle peak pressure
+      is_a MP:0008777 ! increased right ventricle diastolic pressure
+      is_a MP:0010756 ! decreased right ventricle peak pressure
+      is_a MP:0010757 ! decreased right ventricle diastolic pressure
+      is_a MP:0010758 ! increased right ventricle systolic pressure
+      is_a MP:0010759 ! decreased right ventricle systolic pressure
+    is_a MP:0010695 ! abnormal blood pressure regulation
+     is_a MP:0010697 ! abnormal systemic arterial blood pressure regulation
+      is_a MP:0011022 ! abnormal circadian regulation of systemic arterial blood pressure
+    is_a MP:0011390 ! abnormal fetal cardiomyocyte physiology
+     is_a MP:0003567 ! abnormal fetal cardiomyocyte proliferation
+      is_a MP:0011394 ! increased fetal cardiomyocyte proliferation
+      is_a MP:0011395 ! decreased fetal cardiomyocyte proliferation
+     is_a MP:0011391 ! abnormal fetal cardiomyocyte apoptosis
+      is_a MP:0011392 ! increased fetal cardiomyocyte apoptosis
+      is_a MP:0011393 ! decreased fetal cardiomyocyte apoptosis
+    is_a MP:0011925 ! abnormal heart echocardiography feature
+    is_a MP:0011926 ! abnormal cardiac valve physiology
+     is_a MP:0009384 ! cardiac valve regurgitation
+      is_a MP:0006046 ! atrioventricular valve regurgitation
+      is_a MP:0006049 ! semilunar valve regurgitation
+     is_a MP:0011927 ! abnormal cardiac valve flow
+      is_a MP:0011928 ! abnormal mitral valve flow
+      is_a MP:0011929 ! abnormal aortic valve flow
+      is_a MP:0011930 ! abnormal tricuspid valve flow
+      is_a MP:0011931 ! abnormal pulmonary valve flow
+    is_a MP:0020092 ! abnormal susceptibility to aortic cartilaginous metaplasia
+     is_a MP:0020093 ! decreased susceptibility to aortic cartilaginous metaplasia
+     is_a MP:0020094 ! increased susceptibility to aortic cartilaginous metaplasia
+    is_a MP:0020095 ! abnormal mean heart rate adaptation
+     is_a MP:0020096 ! high mean heart rate adaptation
+     is_a MP:0020097 ! low mean heart rate adaptation
+    is_a MP:0020098 ! abnormal susceptibility to diet-induced aortic fatty streak lesions
+     is_a MP:0020099 ! increased susceptibility to diet-induced aortic fatty streak lesions
+     is_a MP:0020100 ! decreased susceptibility to diet-induced aortic fatty streak lesions
+   is_a MP:0002127 ! abnormal cardiovascular system morphology
+    is_a MP:0000266 ! abnormal heart morphology
+     is_a MP:0000267 ! abnormal heart development
+      is_a MP:0000269 ! abnormal heart looping
+      is_a MP:0000270 ! abnormal heart tube morphology
+      is_a MP:0003228 ! abnormal sinus venosus morphology
+      is_a MP:0006107 ! abnormal fetal atrioventricular canal morphology
+      is_a MP:0008788 ! abnormal fetal cardiomyocyte morphology
+      is_a MP:0009382 ! abnormal cardiac jelly morphology
+      is_a MP:0010547 ! abnormal mesocardium morphology
+      is_a MP:0011646 ! abnormal sinuatrial valve morphology
+      is_a MP:0012082 ! delayed heart development
+      is_a MP:0012700 ! abnormal endocardial heart tube morphology
+     is_a MP:0000277 ! abnormal heart shape
+     is_a MP:0000285 ! abnormal heart valve morphology
+      is_a MP:0000287 ! heart valve hypoplasia
+      is_a MP:0002745 ! abnormal atrioventricular valve morphology
+      is_a MP:0002746 ! abnormal semilunar valve morphology
+      is_a MP:0003958 ! heart valve hyperplasia
+      is_a MP:0010490 ! abnormal inferior vena cava valve morphology
+      is_a MP:0010491 ! abnormal coronary sinus valve morphology
+      is_a MP:0010589 ! common truncal valve
+      is_a MP:0011648 ! thick heart valve cusps
+      is_a MP:0012250 ! absent heart valves
+     is_a MP:0000288 ! abnormal pericardium morphology
+      is_a MP:0000291 ! enlarged pericardium
+      is_a MP:0000292 ! distended pericardium
+      is_a MP:0003057 ! abnormal epicardium morphology
+      is_a MP:0003388 ! absent pericardium
+      is_a MP:0003389 ! constriction of pericardium
+      is_a MP:0005312 ! pericardial effusion
+     is_a MP:0002837 ! dystrophic cardiac calcinosis
+      is_a MP:0002838 ! decreased susceptibility to dystrophic cardiac calcinosis
+      is_a MP:0002839 ! increased susceptibility to dystrophic cardiac calcinosis
+     is_a MP:0003105 ! abnormal heart atrium morphology
+      is_a MP:0000282 ! abnormal interatrial septum morphology
+      is_a MP:0003140 ! dilated heart atrium
+      is_a MP:0003922 ! abnormal heart right atrium morphology
+      is_a MP:0003923 ! abnormal heart left atrium morphology
+      is_a MP:0004055 ! atrium hypoplasia
+      is_a MP:0006061 ! right atrial isomerism
+      is_a MP:0008461 ! left atrial isomerism
+      is_a MP:0008725 ! enlarged heart atrium
+      is_a MP:0010409 ! cor triatriatum
+      is_a MP:0010431 ! atrial situs inversus
+      is_a MP:0010489 ! abnormal heart atrium auricular region morphology
+      is_a MP:0010492 ! abnormal atrium endocardium morphology
+      is_a MP:0010493 ! abnormal atrium myocardium morphology
+      is_a MP:0011681 ! atrium cysts
+      is_a MP:0012687 ! abnormal heart atrium weight
+     is_a MP:0003141 ! cardiac fibrosis
+      is_a MP:0005608 ! cardiac interstitial fibrosis
+     is_a MP:0004123 ! abnormal impulse conducting system morphology
+      is_a MP:0004114 ! abnormal atrioventricular node morphology
+      is_a MP:0004115 ! abnormal sinoatrial node morphology
+      is_a MP:0004117 ! abnormal atrioventricular bundle morphology
+      is_a MP:0004124 ! abnormal Purkinje fiber morphology
+      is_a MP:0010517 ! abnormal Bachmann's bundle morphology
+     is_a MP:0004937 ! dilated heart
+      is_a MP:0002795 ! dilated cardiomyopathy
+      is_a MP:0003140 ! dilated heart atrium
+      is_a MP:0008022 ! dilated heart ventricle
+     is_a MP:0005294 ! abnormal heart ventricle morphology
+      is_a MP:0000279 ! ventricular hypoplasia
+      is_a MP:0000281 ! abnormal interventricular septum morphology
+      is_a MP:0003920 ! abnormal heart right ventricle morphology
+      is_a MP:0003921 ! abnormal heart left ventricle morphology
+      is_a MP:0004032 ! abnormal interventricular groove morphology
+      is_a MP:0008022 ! dilated heart ventricle
+      is_a MP:0008772 ! increased heart ventricle size
+      is_a MP:0010224 ! abnormal heart ventricle outflow tract morphology
+      is_a MP:0010421 ! ventricular aneurysm
+       is_a MP:0010416 ! interventricular septum membranous part aneurysm
+       is_a MP:0010423 ! heart right ventricle aneurysm
+       is_a MP:0010447 ! heart left ventricle aneurysm
+      is_a MP:0010494 ! abnormal ventricle endocardium morphology
+      is_a MP:0010499 ! abnormal ventricle myocardium morphology
+      is_a MP:0011254 ! superior-inferior ventricles
+      is_a MP:0012688 ! abnormal heart ventricles weight
+      is_a MP:0020135 ! abnormal heart ventricle wall thickness
+     is_a MP:0005406 ! abnormal heart size
+      is_a MP:0000274 ! enlarged heart
+      is_a MP:0002188 ! small heart
+      is_a MP:0004857 ! abnormal heart weight
+     is_a MP:0006065 ! abnormal heart position or orientation
+      is_a MP:0000644 ! dextrocardia
+      is_a MP:0000650 ! mesocardia
+      is_a MP:0006061 ! right atrial isomerism
+      is_a MP:0008461 ! left atrial isomerism
+      is_a MP:0010431 ! atrial situs inversus
+      is_a MP:0011254 ! superior-inferior ventricles
+      is_a MP:0011660 ! ectopia cordis
+     is_a MP:0006113 ! abnormal heart septum morphology
+      is_a MP:0000281 ! abnormal interventricular septum morphology
+      is_a MP:0000282 ! abnormal interatrial septum morphology
+      is_a MP:0010592 ! abnormal atrioventricular septum morphology
+      is_a MP:0010650 ! abnormal aorticopulmonary septum morphology
+     is_a MP:0008741 ! abnormal heart iron level
+     is_a MP:0010021 ! heart vascular congestion
+     is_a MP:0010425 ! abnormal heart and great vessel attachment
+      is_a MP:0010426 ! abnormal heart and great artery attachment
+      is_a MP:0010440 ! anomalous pulmonary venous connection
+     is_a MP:0010435 ! abnormal heart atrium and ventricle connection
+      is_a MP:0002745 ! abnormal atrioventricular valve morphology
+      is_a MP:0010433 ! double inlet heart left ventricle
+      is_a MP:0010434 ! double inlet heart right ventricle
+      is_a MP:0011510 ! biventricular, discordant atrioventricular connection
+      is_a MP:0011511 ! biventricular, ambiguous atrioventricular connection
+     is_a MP:0010545 ! abnormal heart layer morphology
+      is_a MP:0003974 ! abnormal endocardium morphology
+      is_a MP:0005329 ! abnormal myocardium layer morphology
+      is_a MP:0010546 ! abnormal subendocardium layer morphology
+     is_a MP:0010551 ! abnormal coronary vessel morphology
+      is_a MP:0004111 ! abnormal coronary artery morphology
+      is_a MP:0010436 ! abnormal coronary sinus morphology
+      is_a MP:0010453 ! abnormal coronary vein morphology
+      is_a MP:0010561 ! absent coronary vessels
+     is_a MP:0011388 ! absent heart
+     is_a MP:0012501 ! abnormal pericardial cavity morphology
+      is_a MP:0001787 ! pericardial edema
+      is_a MP:0005244 ! hemopericardium
+     is_a MP:0012515 ! abnormal heart apex morphology
+      is_a MP:0020323 ! abnormal heart apex size
+    is_a MP:0001614 ! abnormal blood vessel morphology
+     is_a MP:0000255 ! vasculature congestion
+      is_a MP:0006134 ! artery occlusion
+      is_a MP:0006137 ! venoocclusion
+      is_a MP:0010017 ! visceral vascular congestion
+      is_a MP:0010022 ! brain vascular congestion
+     is_a MP:0000259 ! abnormal vascular development
+      is_a MP:0000260 ! abnormal angiogenesis
+      is_a MP:0001622 ! abnormal vasculogenesis
+      is_a MP:0003229 ! abnormal vitelline vasculature morphology
+      is_a MP:0003542 ! abnormal vascular endothelial cell development
+      is_a MP:0010564 ! abnormal fetal ductus arteriosus morphology
+      is_a MP:0011401 ! abnormal vascular smooth muscle development
+      is_a MP:0012732 ! abnormal perineural vascular plexus morphology
+      is_a MP:0013925 ! abnormal vascular plexus formation
+     is_a MP:0000265 ! atretic vasculature
+     is_a MP:0000530 ! abnormal kidney blood vessel morphology
+      is_a MP:0000532 ! kidney vascular congestion
+      is_a MP:0010451 ! kidney microaneurysm
+      is_a MP:0011309 ! abnormal kidney arterial blood vessel morphology
+      is_a MP:0011310 ! abnormal kidney capillary morphology
+      is_a MP:0011311 ! abnormal kidney venous blood vessel morphology
+      is_a MP:0011324 ! abnormal kidney vasa recta morphology
+      is_a MP:0011507 ! kidney thrombosis
+     is_a MP:0002191 ! abnormal artery morphology
+      is_a MP:0000484 ! abnormal pulmonary artery morphology
+      is_a MP:0000486 ! abnormal pulmonary trunk morphology
+      is_a MP:0003410 ! abnormal artery development
+      is_a MP:0003991 ! arteriosclerosis
+      is_a MP:0004111 ! abnormal coronary artery morphology
+      is_a MP:0004112 ! abnormal arteriole morphology
+      is_a MP:0006133 ! calcified artery
+      is_a MP:0006134 ! artery occlusion
+      is_a MP:0006135 ! artery stenosis
+      is_a MP:0011655 ! abnormal systemic artery morphology
+     is_a MP:0002725 ! abnormal vein morphology
+      is_a MP:0002726 ! abnormal pulmonary vein morphology
+      is_a MP:0003411 ! abnormal vein development
+      is_a MP:0004125 ! abnormal venule morphology
+      is_a MP:0006062 ! abnormal vena cava morphology
+      is_a MP:0006136 ! varicose veins
+      is_a MP:0006137 ! venoocclusion
+      is_a MP:0010439 ! abnormal hepatic vein morphology
+      is_a MP:0010453 ! abnormal coronary vein morphology
+      is_a MP:0010668 ! abnormal hepatic portal vein morphology
+      is_a MP:0011311 ! abnormal kidney venous blood vessel morphology
+      is_a MP:0011569 ! abnormal azygos vein morphology
+      is_a MP:0012255 ! abnormal intersomitic vein morphology
+      is_a MP:0013811 ! abnormal orbital vein morphology
+      is_a MP:0013863 ! abnormal paraumbilical vein morphology
+      is_a MP:0013872 ! abnormal jugular vein morphology
+      is_a MP:0013873 ! abnormal ductus venosus morphology
+      is_a MP:0013983 ! abnormal superior mesenteric vein morphology
+     is_a MP:0002792 ! abnormal retinal vasculature morphology
+      is_a MP:0008852 ! retinal neovascularization
+      is_a MP:0010097 ! abnormal retinal blood vessel morphology
+      is_a MP:0010098 ! abnormal retinal blood vessel pattern
+      is_a MP:0010452 ! retina microaneurysm
+     is_a MP:0003231 ! abnormal placenta vasculature
+      is_a MP:0008803 ! abnormal placental labyrinth vasculature morphology
+     is_a MP:0003658 ! abnormal capillary morphology
+      is_a MP:0006238 ! abnormal choriocapillaris morphology
+      is_a MP:0011310 ! abnormal kidney capillary morphology
+      is_a MP:0020326 ! dilated capillary
+      is_a MP:0020327 ! abnormal capillary branching pattern
+      is_a MP:0020328 ! abnormal capillary density
+      is_a MP:0020331 ! increased capillary tortuosity
+     is_a MP:0003719 ! abnormal pericyte morphology
+     is_a MP:0004007 ! abnormal lung vasculature morphology
+      is_a MP:0003180 ! abnormal pulmonary endothelial cell surface
+      is_a MP:0010018 ! pulmonary vascular congestion
+      is_a MP:0010635 ! aorta pulmonary collateral arteries
+     is_a MP:0004368 ! abnormal stria vascularis vasculature morphology
+     is_a MP:0004938 ! dilated vasculature
+      is_a MP:0020326 ! dilated capillary
+     is_a MP:0005412 ! vascular stenosis
+      is_a MP:0005413 ! vascular restenosis
+      is_a MP:0006135 ! artery stenosis
+      is_a MP:0010438 ! pulmonary vein stenosis
+     is_a MP:0005592 ! abnormal vascular smooth muscle morphology
+      is_a MP:0002975 ! vascular smooth muscle hypertrophy
+      is_a MP:0002976 ! vascular smooth muscle hypotrophy
+      is_a MP:0003814 ! vascular smooth muscle hypoplasia
+      is_a MP:0005489 ! vascular smooth muscle hyperplasia
+      is_a MP:0009865 ! abnormal aorta smooth muscle morphology
+      is_a MP:0011401 ! abnormal vascular smooth muscle development
+     is_a MP:0006083 ! abnormal blood vessel elastic tissue morphology
+      is_a MP:0009862 ! abnormal aorta elastic tissue morphology
+     is_a MP:0006093 ! arteriovenous malformation
+      is_a MP:0010480 ! pulmonary arteriovenous malformation
+      is_a MP:0010529 ! hepatic arteriovenous malformation
+      is_a MP:0010530 ! cerebral arteriovenous malformation
+      is_a MP:0010531 ! gastrointestinal arteriovenous malformation
+     is_a MP:0006192 ! abnormal conjunctival vasculature morphology
+      is_a MP:0006193 ! conjunctival telangiectasia
+     is_a MP:0006237 ! abnormal choroid vasculature morphology
+      is_a MP:0005546 ! choroidal neovascularization
+      is_a MP:0006238 ! abnormal choriocapillaris morphology
+     is_a MP:0008242 ! abnormal perivascular macrophage morphology
+     is_a MP:0009489 ! abnormal blood vessel endothelium morphology
+      is_a MP:0006055 ! abnormal vascular endothelial cell morphology
+      is_a MP:0009864 ! abnormal aorta endothelium morphology
+      is_a MP:0011453 ! abnormal glomerular capillary endothelium morphology
+      is_a MP:0011860 ! abnormal peritubular capillary endothelium morphology
+     is_a MP:0009820 ! abnormal liver vasculature morphology
+      is_a MP:0008989 ! abnormal liver sinusoid morphology
+      is_a MP:0010019 ! liver vascular congestion
+      is_a MP:0010529 ! hepatic arteriovenous malformation
+     is_a MP:0011749 ! perivascular fibrosis
+     is_a MP:0011773 ! abnormal urinary bladder blood vessel morphology
+     is_a MP:0012253 ! abnormal intersomitic vessel morphology
+      is_a MP:0010662 ! abnormal intersomitic artery morphology
+      is_a MP:0012254 ! absent intersomitic vessels
+      is_a MP:0012255 ! abnormal intersomitic vein morphology
+     is_a MP:0012562 ! vasculature degeneration
+     is_a MP:0013869 ! vascular diverticulum
+     is_a MP:0014012 ! abnormal cranial blood vasculature morphology
+      is_a MP:0004950 ! abnormal brain vasculature morphology
+     is_a MP:0014086 ! hemangioma
+    is_a MP:0002925 ! abnormal cardiovascular development
+     is_a MP:0000259 ! abnormal vascular development
+      is_a MP:0000260 ! abnormal angiogenesis
+      is_a MP:0001622 ! abnormal vasculogenesis
+      is_a MP:0003229 ! abnormal vitelline vasculature morphology
+      is_a MP:0003542 ! abnormal vascular endothelial cell development
+      is_a MP:0010564 ! abnormal fetal ductus arteriosus morphology
+      is_a MP:0011401 ! abnormal vascular smooth muscle development
+      is_a MP:0012732 ! abnormal perineural vascular plexus morphology
+      is_a MP:0013925 ! abnormal vascular plexus formation
+     is_a MP:0000267 ! abnormal heart development
+      is_a MP:0000269 ! abnormal heart looping
+      is_a MP:0000270 ! abnormal heart tube morphology
+      is_a MP:0003228 ! abnormal sinus venosus morphology
+      is_a MP:0006107 ! abnormal fetal atrioventricular canal morphology
+      is_a MP:0008788 ! abnormal fetal cardiomyocyte morphology
+      is_a MP:0009382 ! abnormal cardiac jelly morphology
+      is_a MP:0010547 ! abnormal mesocardium morphology
+      is_a MP:0011646 ! abnormal sinuatrial valve morphology
+      is_a MP:0012082 ! delayed heart development
+      is_a MP:0012700 ! abnormal endocardial heart tube morphology
+     is_a MP:0006126 ! abnormal cardiac outflow tract development
+      is_a MP:0010454 ! abnormal truncus arteriosus septation
+      is_a MP:0010585 ! abnormal conotruncal ridge morphology
+      is_a MP:0014044 ! absent cardiac outflow tract
+     is_a MP:0008825 ! abnormal cardiac epithelial to mesenchymal transition
+     is_a MP:0011264 ! abnormal cardiac mesenchyme morphology
+     is_a MP:0012278 ! abnormal cardiogenic mesoderm morphology
+     is_a MP:0012498 ! abnormal cardiogenic plate morphology
+      is_a MP:0012499 ! absent cardiogenic plate
+     is_a MP:0012500 ! abnormal angioblastic cord morphology
+     is_a MP:0012510 ! abnormal aortic sac morphology
+      is_a MP:0012511 ! dilated aortic sac
+     is_a MP:0012747 ! abnormal cardiac neural crest cell morphology
+      is_a MP:0012748 ! increased cardiac neural crest cell number
+      is_a MP:0012749 ! decreased cardiac neural crest cell number
+      is_a MP:0012751 ! impaired cardiac neural crest cell differentiation
+    is_a MP:0003279 ! aneurysm
+     is_a MP:0003274 ! intestinal microaneurysm
+     is_a MP:0003275 ! gastric microaneurysm
+     is_a MP:0006278 ! aortic aneurysm
+      is_a MP:0010658 ! thoracic aorta aneurysm
+      is_a MP:0010659 ! abdominal aorta aneurysm
+     is_a MP:0010421 ! ventricular aneurysm
+      is_a MP:0010416 ! interventricular septum membranous part aneurysm
+      is_a MP:0010423 ! heart right ventricle aneurysm
+      is_a MP:0010447 ! heart left ventricle aneurysm
+     is_a MP:0010450 ! atrial septal aneurysm
+     is_a MP:0010451 ! kidney microaneurysm
+     is_a MP:0010452 ! retina microaneurysm
+     is_a MP:0010462 ! pulmonary artery aneurysm
+     is_a MP:0010477 ! coronary artery aneurysm
+     is_a MP:0010478 ! intracranial aneurysm
+     is_a MP:0010479 ! brain aneurysm
+     is_a MP:0011358 ! renal artery aneurysm
+    is_a MP:0010291 ! increased cardiovascular system tumor incidence
+     is_a MP:0003392 ! increased atrial myxoma incidence
+     is_a MP:0006140 ! increased cardiac rhabdomyoma incidence
+     is_a MP:0010339 ! increased cardiac fibroma incidence
+    is_a MP:0012419 ! decreased cardiovascular system tumor incidence
+    is_a MP:0013332 ! peliosis
+     is_a MP:0013333 ! pituitary gland peliosis
+      is_a MP:0013334 ! adenohypophysis peliosis
+     is_a MP:0013335 ! hepatic peliosis

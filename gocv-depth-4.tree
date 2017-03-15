@@ -1,0 +1,188 @@
+ / GO:0003008 ! ?
+  is_a GO:0003013 ! circulatory system process *** 
+   is_a GO:0003015 ! heart process
+    is_a GO:0002015 ! regulation of systemic arterial blood pressure by atrial baroreceptor feedback
+    is_a GO:0060047 ! heart contraction
+     regulates GO:0008016 ! regulation of heart contraction
+      is_a GO:0002026 ! regulation of the force of heart contraction
+      is_a GO:0002027 ! regulation of heart rate
+      is_a GO:0002531 ! regulation of heart contraction involved in acute-phase response
+      is_a GO:0045822 ! negative regulation of heart contraction
+       is_a GO:0001986 ! negative regulation of the force of heart contraction involved in baroreceptor response to increased systemic arterial blood pressure
+       is_a GO:0003108 ! negative regulation of the force of heart contraction by chemical signal
+       is_a GO:0010459 ! negative regulation of heart rate
+       is_a GO:0055118 ! negative regulation of cardiac muscle contraction
+      is_a GO:0045823 ! positive regulation of heart contraction
+       is_a GO:0001989 ! positive regulation of the force of heart contraction involved in baroreceptor response to decreased systemic arterial blood pressure
+       is_a GO:0003099 ! positive regulation of the force of heart contraction by chemical signal
+       is_a GO:0010460 ! positive regulation of heart rate
+       is_a GO:0060452 ! positive regulation of cardiac muscle contraction
+      is_a GO:0055117 ! regulation of cardiac muscle contraction
+      is_a GO:0061337 ! cardiac conduction
+     negatively regulates GO:0045822 ! negative regulation of heart contraction
+      is_a GO:0001986 ! negative regulation of the force of heart contraction involved in baroreceptor response to increased systemic arterial blood pressure
+      is_a GO:0003108 ! negative regulation of the force of heart contraction by chemical signal
+      is_a GO:0010459 ! negative regulation of heart rate
+      is_a GO:0055118 ! negative regulation of cardiac muscle contraction
+     positively regulates GO:0045823 ! positive regulation of heart contraction
+      is_a GO:0001989 ! positive regulation of the force of heart contraction involved in baroreceptor response to decreased systemic arterial blood pressure
+      is_a GO:0003099 ! positive regulation of the force of heart contraction by chemical signal
+      is_a GO:0010460 ! positive regulation of heart rate
+      is_a GO:0060452 ! positive regulation of cardiac muscle contraction
+     po GO:0060048 ! cardiac muscle contraction
+      regulates GO:0010882 ! regulation of cardiac muscle contraction by calcium ion signaling
+      regulates GO:0055117 ! regulation of cardiac muscle contraction
+      negatively regulates GO:0055118 ! negative regulation of cardiac muscle contraction
+      positively regulates GO:0060452 ! positive regulation of cardiac muscle contraction
+      po GO:0086003 ! cardiac muscle cell contraction
+    po GO:0086023 ! adrenergic receptor signaling pathway involved in heart process
+     is_a GO:0086024 ! adrenergic receptor signaling pathway involved in positive regulation of heart rate
+      regulates GO:1903245 ! regulation of adrenergic receptor signaling pathway involved in positive regulation of heart rate
+      negatively regulates GO:1903246 ! negative regulation of adrenergic receptor signaling pathway involved in positive regulation of heart rate
+      positively regulates GO:1903247 ! positive regulation of adrenergic receptor signaling pathway involved in positive regulation of heart rate
+     is_a GO:0086030 ! adrenergic receptor signaling pathway involved in cardiac muscle relaxation
+     is_a GO:0086094 ! positive regulation of ryanodine-sensitive calcium-release channel activity by adrenergic receptor signaling pathway involved in positive regulation of cardiac muscle contraction
+     regulates GO:1901204 ! regulation of adrenergic receptor signaling pathway involved in heart process
+     negatively regulates GO:1901205 ! negative regulation of adrenergic receptor signaling pathway involved in heart process
+     positively regulates GO:1901206 ! positive regulation of adrenergic receptor signaling pathway involved in heart process
+    po GO:0086093 ! G-protein coupled acetylcholine receptor signaling pathway involved in heart process
+     is_a GO:0086033 ! G-protein coupled acetylcholine receptor signaling pathway involved in negative regulation of heart rate
+      is_a GO:0086095 ! positive regulation of IKACh channel activity by G-protein coupled acetylcholine receptor signaling pathway involved in negative regulation of heart rate
+    po GO:0086096 ! adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process
+    po GO:0086098 ! angiotensin-activated signaling pathway involved in heart process
+    po GO:0086099 ! phospholipase C-activating angiotensin-activated signaling pathway involved in heart process
+    po GO:0086101 ! endothelin receptor signaling pathway involved in heart process
+    po GO:0086103 ! G-protein coupled receptor signaling pathway involved in heart process
+    po GO:1905251 ! epidermal growth factor receptor signaling pathway involved in heart process
+     regulates GO:1905282 ! regulation of epidermal growth factor receptor signaling pathway involved in heart process
+     negatively regulates GO:1905283 ! negative regulation of epidermal growth factor receptor signaling pathway involved in heart process
+     positively regulates GO:1905284 ! positive regulation of epidermal growth factor receptor signaling pathway involved in heart process
+   is_a GO:0003017 ! lymph circulation
+   is_a GO:0003018 ! vascular process in circulatory system
+    is_a GO:0001981 ! baroreceptor detection of arterial stretch
+     is_a GO:0003023 ! baroreceptor detection of increased arterial stretch
+     is_a GO:0003024 ! baroreceptor detection of decreased arterial stretch
+    is_a GO:0043114 ! regulation of vascular permeability
+     is_a GO:0002528 ! regulation of vascular permeability involved in acute inflammatory response
+     is_a GO:0043116 ! negative regulation of vascular permeability
+     is_a GO:0043117 ! positive regulation of vascular permeability
+     is_a GO:1990185 ! regulation of lymphatic vascular permeability
+    is_a GO:0050880 ! regulation of blood vessel size
+     is_a GO:1990029 ! vasomotion
+    is_a GO:1990183 ! lymphatic vascular process in circulatory system
+     is_a GO:1990185 ! regulation of lymphatic vascular permeability
+     is_a GO:1990186 ! regulation of lymphatic vessel size
+      is_a GO:1990192 ! collecting lymphatic vessel constriction
+   is_a GO:0008015 ! blood circulation
+    po GO:0008217 ! regulation of blood pressure
+     is_a GO:0003050 ! regulation of systemic arterial blood pressure by atrial natriuretic peptide
+     is_a GO:0003073 ! regulation of systemic arterial blood pressure
+      po GO:0001976 ! neurological system process involved in regulation of systemic arterial blood pressure
+      is_a GO:0002530 ! regulation of systemic arterial blood pressure involved in acute-phase response
+      is_a GO:0003044 ! regulation of systemic arterial blood pressure mediated by a chemical signal
+      is_a GO:0003045 ! regulation of systemic arterial blood pressure by physical factors
+      is_a GO:0003052 ! circadian regulation of systemic arterial blood pressure
+      po GO:0003071 ! renal system process involved in regulation of systemic arterial blood pressure
+      po GO:0003084 ! positive regulation of systemic arterial blood pressure
+      po GO:0003085 ! negative regulation of systemic arterial blood pressure
+     is_a GO:0010850 ! regulation of blood pressure by chemoreceptor signaling pathway
+     is_a GO:0014916 ! regulation of lung blood pressure
+      is_a GO:0061766 ! positive regulation of lung blood pressure
+      is_a GO:0061767 ! negative regulation of lung blood pressure
+     is_a GO:0044495 ! modulation of blood pressure in other organism
+      is_a GO:0044496 ! negative regulation of blood pressure in other organism
+      is_a GO:0044497 ! positive regulation of blood pressure in other organism
+      has_part GO:0044498 ! envenomation resulting in modulation of blood pressure in other organism
+     is_a GO:0045776 ! negative regulation of blood pressure
+      is_a GO:0003085 ! negative regulation of systemic arterial blood pressure
+      is_a GO:0044496 ! negative regulation of blood pressure in other organism
+     is_a GO:0045777 ! positive regulation of blood pressure
+      is_a GO:0003084 ! positive regulation of systemic arterial blood pressure
+      is_a GO:0003321 ! positive regulation of blood pressure by epinephrine-norepinephrine
+      is_a GO:0044497 ! positive regulation of blood pressure in other organism
+    po GO:0035703 ! monocyte migration into blood stream
+    po GO:0043114 ! regulation of vascular permeability
+     is_a GO:0002528 ! regulation of vascular permeability involved in acute inflammatory response
+     is_a GO:0043116 ! negative regulation of vascular permeability
+     is_a GO:0043117 ! positive regulation of vascular permeability
+     is_a GO:1990185 ! regulation of lymphatic vascular permeability
+    po GO:0050880 ! regulation of blood vessel size
+     is_a GO:1990029 ! vasomotion
+    po GO:0060047 ! heart contraction
+     regulates GO:0008016 ! regulation of heart contraction
+      is_a GO:0002026 ! regulation of the force of heart contraction
+      is_a GO:0002027 ! regulation of heart rate
+      is_a GO:0002531 ! regulation of heart contraction involved in acute-phase response
+      is_a GO:0045822 ! negative regulation of heart contraction
+       is_a GO:0001986 ! negative regulation of the force of heart contraction involved in baroreceptor response to increased systemic arterial blood pressure
+       is_a GO:0003108 ! negative regulation of the force of heart contraction by chemical signal
+       is_a GO:0010459 ! negative regulation of heart rate
+       is_a GO:0055118 ! negative regulation of cardiac muscle contraction
+      is_a GO:0045823 ! positive regulation of heart contraction
+       is_a GO:0001989 ! positive regulation of the force of heart contraction involved in baroreceptor response to decreased systemic arterial blood pressure
+       is_a GO:0003099 ! positive regulation of the force of heart contraction by chemical signal
+       is_a GO:0010460 ! positive regulation of heart rate
+       is_a GO:0060452 ! positive regulation of cardiac muscle contraction
+      is_a GO:0055117 ! regulation of cardiac muscle contraction
+      is_a GO:0061337 ! cardiac conduction
+     negatively regulates GO:0045822 ! negative regulation of heart contraction
+      is_a GO:0001986 ! negative regulation of the force of heart contraction involved in baroreceptor response to increased systemic arterial blood pressure
+      is_a GO:0003108 ! negative regulation of the force of heart contraction by chemical signal
+      is_a GO:0010459 ! negative regulation of heart rate
+      is_a GO:0055118 ! negative regulation of cardiac muscle contraction
+     positively regulates GO:0045823 ! positive regulation of heart contraction
+      is_a GO:0001989 ! positive regulation of the force of heart contraction involved in baroreceptor response to decreased systemic arterial blood pressure
+      is_a GO:0003099 ! positive regulation of the force of heart contraction by chemical signal
+      is_a GO:0010460 ! positive regulation of heart rate
+      is_a GO:0060452 ! positive regulation of cardiac muscle contraction
+     po GO:0060048 ! cardiac muscle contraction
+      regulates GO:0010882 ! regulation of cardiac muscle contraction by calcium ion signaling
+      regulates GO:0055117 ! regulation of cardiac muscle contraction
+      negatively regulates GO:0055118 ! negative regulation of cardiac muscle contraction
+      positively regulates GO:0060452 ! positive regulation of cardiac muscle contraction
+      po GO:0086003 ! cardiac muscle cell contraction
+    regulates GO:1903522 ! regulation of blood circulation
+     is_a GO:0008016 ! regulation of heart contraction
+      is_a GO:0002026 ! regulation of the force of heart contraction
+      is_a GO:0002027 ! regulation of heart rate
+      is_a GO:0002531 ! regulation of heart contraction involved in acute-phase response
+      is_a GO:0045822 ! negative regulation of heart contraction
+       is_a GO:0001986 ! negative regulation of the force of heart contraction involved in baroreceptor response to increased systemic arterial blood pressure
+       is_a GO:0003108 ! negative regulation of the force of heart contraction by chemical signal
+       is_a GO:0010459 ! negative regulation of heart rate
+       is_a GO:0055118 ! negative regulation of cardiac muscle contraction
+      is_a GO:0045823 ! positive regulation of heart contraction
+       is_a GO:0001989 ! positive regulation of the force of heart contraction involved in baroreceptor response to decreased systemic arterial blood pressure
+       is_a GO:0003099 ! positive regulation of the force of heart contraction by chemical signal
+       is_a GO:0010460 ! positive regulation of heart rate
+       is_a GO:0060452 ! positive regulation of cardiac muscle contraction
+      is_a GO:0055117 ! regulation of cardiac muscle contraction
+      is_a GO:0061337 ! cardiac conduction
+     is_a GO:1903523 ! negative regulation of blood circulation
+      is_a GO:0045822 ! negative regulation of heart contraction
+       is_a GO:0001986 ! negative regulation of the force of heart contraction involved in baroreceptor response to increased systemic arterial blood pressure
+       is_a GO:0003108 ! negative regulation of the force of heart contraction by chemical signal
+       is_a GO:0010459 ! negative regulation of heart rate
+       is_a GO:0055118 ! negative regulation of cardiac muscle contraction
+     is_a GO:1903524 ! positive regulation of blood circulation
+      is_a GO:0045823 ! positive regulation of heart contraction
+       is_a GO:0001989 ! positive regulation of the force of heart contraction involved in baroreceptor response to decreased systemic arterial blood pressure
+       is_a GO:0003099 ! positive regulation of the force of heart contraction by chemical signal
+       is_a GO:0010460 ! positive regulation of heart rate
+       is_a GO:0060452 ! positive regulation of cardiac muscle contraction
+    negatively regulates GO:1903523 ! negative regulation of blood circulation
+     is_a GO:0045822 ! negative regulation of heart contraction
+      is_a GO:0001986 ! negative regulation of the force of heart contraction involved in baroreceptor response to increased systemic arterial blood pressure
+      is_a GO:0003108 ! negative regulation of the force of heart contraction by chemical signal
+      is_a GO:0010459 ! negative regulation of heart rate
+      is_a GO:0055118 ! negative regulation of cardiac muscle contraction
+    positively regulates GO:1903524 ! positive regulation of blood circulation
+     is_a GO:0045823 ! positive regulation of heart contraction
+      is_a GO:0001989 ! positive regulation of the force of heart contraction involved in baroreceptor response to decreased systemic arterial blood pressure
+      is_a GO:0003099 ! positive regulation of the force of heart contraction by chemical signal
+      is_a GO:0010460 ! positive regulation of heart rate
+      is_a GO:0060452 ! positive regulation of cardiac muscle contraction
+    is_a GO:1990768 ! gastric mucosal blood circulation
+     regulates GO:1904344 ! regulation of gastric mucosal blood circulation
+     negatively regulates GO:1904345 ! negative regulation of gastric mucosal blood circulation
+     positively regulates GO:1904346 ! positive regulation of gastric mucosal blood circulation

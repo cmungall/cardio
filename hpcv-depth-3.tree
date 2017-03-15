@@ -1,0 +1,230 @@
+ / HP:0000118 ! ?
+  is_a HP:0001626 ! Abnormality of the cardiovascular system *** 
+   is_a HP:0002597 ! Abnormality of the vasculature
+    is_a HP:0002617 ! Aneurysm
+     is_a HP:0002636 ! Aneurysm of an abdominal artery
+     is_a HP:0004942 ! Aortic aneurysm
+     is_a HP:0004944 ! Cerebral aneurysm
+     is_a HP:0006698 ! Ventricular aneurysm
+     is_a HP:0008014 ! Central fundal arteriolar microaneurysms
+     is_a HP:0030745 ! Ductus arteriosus aneurysm
+    is_a HP:0002624 ! Venous abnormality
+     is_a HP:0001015 ! Prominent superficial veins
+     is_a HP:0002639 ! Budd-Chiari syndrome
+     is_a HP:0002642 ! Arteriovenous fistulas of celiac and mesenteric vessels
+     is_a HP:0005293 ! Venous insufficiency
+     is_a HP:0012721 ! Venous malformation
+     is_a HP:3000042 ! Abnormality of jugular vein
+     is_a HP:3000043 ! Abnormality of facial vein
+     is_a HP:3000059 ! Abnormality of inferior thyroid vein
+    is_a HP:0002633 ! Vasculitis
+     is_a HP:0005291 ! Inflammatory arteriopathy
+     is_a HP:0005300 ! Nodular inflammatory vasculitis
+     is_a HP:0005310 ! Large vessel vasculitis
+     is_a HP:0005318 ! Cerebral vasculitis
+     is_a HP:0011944 ! Small vessel vasculitis
+     is_a HP:0200029 ! Vasculitis in the skin
+    is_a HP:0002634 ! Arteriosclerosis
+     is_a HP:0002621 ! Atherosclerosis
+     is_a HP:0004931 ! Arteriosclerosis of small cerebral arteries
+     is_a HP:0005177 ! Premature arteriosclerosis
+    is_a HP:0004296 ! Abnormality of gastrointestinal vasculature
+     is_a HP:0000471 ! Gastrointestinal angiodysplasia
+     is_a HP:0002604 ! Gastrointestinal telangiectasia
+     is_a HP:0002629 ! Gastrointestinal arteriovenous malformation
+    is_a HP:0004930 ! Abnormality of the pulmonary vasculature
+     is_a HP:0004414 ! Abnormality of the pulmonary artery
+     is_a HP:0005304 ! Hypoplastic pulmonary veins
+     is_a HP:0005311 ! Agenesis of pulmonary vessels
+     is_a HP:0005316 ! Peripheral pulmonary vessel aplasia
+     is_a HP:0005317 ! Increased pulmonary vascular resistance
+     is_a HP:0011718 ! Abnormality of the pulmonary veins
+    is_a HP:0004934 ! Vascular calcification
+     is_a HP:0002504 ! Calcification of the small brain vessels
+     is_a HP:0003207 ! Arterial calcification
+    is_a HP:0004948 ! Vascular tortuosity
+     is_a HP:0005116 ! Arterial tortuosity
+    is_a HP:0005345 ! Abnormality of the vena cava
+     is_a HP:0005301 ! Persistent left superior vena cava
+     is_a HP:0011671 ! Interrupted inferior vena cava with azygous continuation
+     is_a HP:0011685 ! Infra-aortic superior vena cava
+    is_a HP:0006707 ! Abnormality of the hepatic vasculature
+     is_a HP:0001409 ! Portal hypertension
+     is_a HP:0005201 ! Anomalous splenoportal venous system
+     is_a HP:0006574 ! Hepatic arteriovenous malformation
+     is_a HP:0006576 ! Hepatic vascular malformations
+    is_a HP:0008047 ! Abnormality of the vasculature of the eye
+     is_a HP:0007905 ! Abnormal iris vasculature
+     is_a HP:0008046 ! Abnormality of the retinal vasculature
+     is_a HP:0008054 ! Abnormality of the vasculature of the conjunctiva
+    is_a HP:0011004 ! Abnormality of the systemic arterial tree
+     is_a HP:0000630 ! Abnormality of retinal arteries
+     is_a HP:0001679 ! Abnormality of the aorta
+     is_a HP:0002636 ! Aneurysm of an abdominal artery
+     is_a HP:0003207 ! Arterial calcification
+     is_a HP:0005114 ! Abnormalities of the peripheral arteries
+     is_a HP:0005116 ! Arterial tortuosity
+     is_a HP:0005294 ! Arterial dissection
+     is_a HP:0005313 ! Arterial fibromuscular dysplasia
+     is_a HP:0005344 ! Abnormality of the carotid arteries
+     is_a HP:0006704 ! Abnormality of the coronary arteries
+     is_a HP:0008776 ! Abnormality of the renal artery
+     is_a HP:0009145 ! Abnormality of cerebral artery
+     is_a HP:0011353 ! Arterial intimal fibrosis
+     is_a HP:0012089 ! Arteritis
+     is_a HP:0012180 ! Cystic medial necrosis
+     is_a HP:0030321 ! Abnormality of the vertebral artery
+    is_a HP:0011276 ! Vascular skin abnormality
+     is_a HP:0000965 ! Cutis marmorata
+     is_a HP:0001009 ! Telangiectasia
+     is_a HP:0001014 ! Angiokeratoma
+     is_a HP:0001025 ! Urticaria
+     is_a HP:0001933 ! Subcutaneous hemorrhage
+     is_a HP:0007394 ! Prominent superficial blood vessels
+     is_a HP:0010783 ! Erythema
+     is_a HP:0011137 ! Non-pruritic urticaria
+     is_a HP:0100665 ! Angioedema
+     is_a HP:0200029 ! Vasculitis in the skin
+    is_a HP:0030163 ! Abnormal vascular physiology
+     is_a HP:0004417 ! Intermittent claudication
+     is_a HP:0030005 ! Capillary leak
+     is_a HP:0030164 ! Jaw claudication
+     is_a HP:0030846 ! Abnormality of venous physiology
+     is_a HP:0030850 ! Abnormal pulse pressure
+    is_a HP:0100026 ! Arteriovenous malformation
+     is_a HP:0001052 ! Nevus flammeus
+     is_a HP:0002390 ! Spinal arteriovenous malformation
+     is_a HP:0002408 ! Cerebral arteriovenous malformation
+     is_a HP:0002629 ! Gastrointestinal arteriovenous malformation
+     is_a HP:0004947 ! Arteriovenous fistula
+     is_a HP:0006548 ! Pulmonary arteriovenous malformation
+     is_a HP:0006574 ! Hepatic arteriovenous malformation
+    is_a HP:0100659 ! Abnormality of the cerebral vasculature
+     is_a HP:0001297 ! Stroke
+     is_a HP:0002170 ! Intracranial hemorrhage
+     is_a HP:0002408 ! Cerebral arteriovenous malformation
+     is_a HP:0005318 ! Cerebral vasculitis
+     is_a HP:0009145 ! Abnormality of cerebral artery
+     is_a HP:0012480 ! Abnormality of cerebral veins
+     is_a HP:0012520 ! Perivascular spaces
+    is_a HP:0100742 ! Vascular neoplasm
+     is_a HP:0001028 ! Hemangioma
+     is_a HP:0012797 ! Lymphatic vessel neoplasm
+    is_a HP:0100766 ! Abnormality of the lymphatic vessels
+     is_a HP:0003759 ! Hypoplasia of lymphatic vessels
+     is_a HP:0012797 ! Lymphatic vessel neoplasm
+     is_a HP:0045006 ! Aplasia of lymphatic vessels
+    is_a HP:0200146 ! Cystic medial necrosis of the aorta
+    is_a HP:3000036 ! Abnormality of head blood vessel
+     is_a HP:0000630 ! Abnormality of retinal arteries
+     is_a HP:0001043 ! Prominent scalp veins
+     is_a HP:3000043 ! Abnormality of facial vein
+     is_a HP:3000054 ! Abnormality of inferior alveolar artery
+     is_a HP:3000062 ! Abnormality of internal carotid artery
+     is_a HP:3000065 ! Abnormality of lacrimal artery
+     is_a HP:3000074 ! Abnormality of lingual artery
+    is_a HP:3000037 ! Abnormality of neck blood vessel
+     is_a HP:3000042 ! Abnormality of jugular vein
+     is_a HP:3000043 ! Abnormality of facial vein
+    is_a HP:3000049 ! Abnormality of greater palatine artery
+    is_a HP:3000060 ! Abnormality of infraorbital artery
+   is_a HP:0010948 ! Abnormality of the fetal cardiovascular system
+    is_a HP:0001195 ! Single umbilical artery
+    is_a HP:0010942 ! Echogenic intracardiac focus
+    is_a HP:0010947 ! Abnormality of ductus venosus blood flow
+    is_a HP:0010949 ! Abnormality of umbilical vein blood flow
+    is_a HP:0011726 ! Persistent fetal circulation
+    is_a HP:0012021 ! Persistent patent ductus venosus
+    is_a HP:0012022 ! Congenital portosystemic venous shunt
+   is_a HP:0011025 ! Abnormality of cardiovascular system physiology
+    is_a HP:0000822 ! Hypertension
+     is_a HP:0000875 ! Episodic hypertension
+     is_a HP:0001409 ! Portal hypertension
+     is_a HP:0002640 ! Hypertension associated with pheochromocytoma
+     is_a HP:0004421 ! Elevated systolic blood pressure
+     is_a HP:0004972 ! Elevated mean arterial pressure
+     is_a HP:0005117 ! Elevated diastolic blood pressure
+     is_a HP:0100735 ! Hypertensive crisis
+     is_a HP:0100817 ! Renovascular hypertension
+    is_a HP:0001279 ! Syncope
+     is_a HP:0012668 ! Vasovagal syncope
+     is_a HP:0012669 ! Carotid sinus syncope
+     is_a HP:0012670 ! Orthostatic syncope
+    is_a HP:0001635 ! Congestive heart failure
+     is_a HP:0001722 ! High-output congestive heart failure
+     is_a HP:0005130 ! Restrictive heart failure
+     is_a HP:0006673 ! Reduced systolic function
+     is_a HP:0009805 ! Low-output congestive heart failure
+    is_a HP:0001693 ! Cardiac shunt
+     is_a HP:0001694 ! Right-to-left shunt
+     is_a HP:0012382 ! Left-to-right shunt
+     is_a HP:0012383 ! Bidirectional shunt
+    is_a HP:0002615 ! Hypotension
+     is_a HP:0001278 ! Orthostatic hypotension
+     is_a HP:0002632 ! Low-to-normal blood pressure
+    is_a HP:0003115 ! Abnormal EKG
+     is_a HP:0001657 ! Prolonged QT interval
+     is_a HP:0005135 ! EKG: T-wave abnormalities
+     is_a HP:0005165 ! Shortened PR interval
+     is_a HP:0006677 ! Prolonged QRS complex
+     is_a HP:0012232 ! Shortened QT interval
+     is_a HP:0012248 ! Prolonged PR interval
+     is_a HP:0012249 ! Abnormal ST segment
+     is_a HP:0012272 ! J wave
+    is_a HP:0003116 ! Abnormal echocardiogram
+     is_a HP:0012664 ! Reduced ejection fraction
+     is_a HP:0012667 ! Regional left ventricular wall motion abnormality
+    is_a HP:0011028 ! Abnormality of blood circulation
+     is_a HP:0011029 ! Internal hemorrhage
+     is_a HP:0011104 ! Abnormality of blood volume homeostasis
+    is_a HP:0011675 ! Arrhythmia
+     is_a HP:0001649 ! Tachycardia
+     is_a HP:0001662 ! Bradycardia
+     is_a HP:0001675 ! Rhythm disturbances associated with pheochromocytoma
+     is_a HP:0001695 ! Cardiac arrest
+     is_a HP:0001962 ! Palpitations
+     is_a HP:0004308 ! Ventricular arrhythmia
+     is_a HP:0005115 ! Supraventricular arrhythmia
+     is_a HP:0005150 ! Abnormal atrioventricular conduction
+     is_a HP:0011702 ! Abnormal electrophysiology of sinoatrial node origin
+     is_a HP:0012722 ! Heart block
+    is_a HP:0030148 ! Heart murmur
+    is_a HP:0030149 ! Cardiogenic shock
+    is_a HP:0030163 ! Abnormal vascular physiology
+     is_a HP:0004417 ! Intermittent claudication
+     is_a HP:0030005 ! Capillary leak
+     is_a HP:0030164 ! Jaw claudication
+     is_a HP:0030846 ! Abnormality of venous physiology
+     is_a HP:0030850 ! Abnormal pulse pressure
+   is_a HP:0030680 ! Abnormality of cardiovascular system morphology
+    is_a HP:0001627 ! Abnormal heart morphology
+     is_a HP:0001637 ! Abnormality of the myocardium
+     is_a HP:0001640 ! Cardiomegaly
+     is_a HP:0001654 ! Abnormality of the heart valves
+     is_a HP:0001671 ! Abnormality of the cardiac septa
+     is_a HP:0001697 ! Abnormality of the pericardium
+     is_a HP:0001713 ! Abnormality of cardiac ventricle
+     is_a HP:0001961 ! Hypoplastic heart
+     is_a HP:0003338 ! Focal necrosis of right ventricular muscle cells
+     is_a HP:0004306 ! Abnormality of the endocardium
+     is_a HP:0004307 ! Abnormal anatomic location of the heart
+     is_a HP:0005120 ! Abnormality of cardiac atrium
+     is_a HP:0011534 ! Abnormal spatial orientation of the cardiac segments
+     is_a HP:0011545 ! Abnormal connection of the cardiac segments
+     is_a HP:0011723 ! Congenital malformation of the right heart
+     is_a HP:0045017 ! Congenital malformation of the left heart
+     is_a HP:0100544 ! Neoplasm of the heart
+    is_a HP:0011603 ! Congenital malformation of the great arteries
+     is_a HP:0001643 ! Patent ductus arteriosus
+     is_a HP:0001660 ! Truncus arteriosus
+     is_a HP:0001669 ! Transposition of the great arteries
+     is_a HP:0001710 ! Conotruncal defect
+     is_a HP:0011540 ! Congenitally corrected transposition of the great arteries
+     is_a HP:0011604 ! Aortopulmonary window
+     is_a HP:0030745 ! Ductus arteriosus aneurysm
+    is_a HP:0011915 ! Cardiovascular calcification
+     is_a HP:0004934 ! Vascular calcification
+      is_a HP:0002504 ! Calcification of the small brain vessels
+      is_a HP:0003207 ! Arterial calcification
+     is_a HP:0005146 ! Cardiac valve calcification
+     is_a HP:0006690 ! Myocardial calcification

@@ -1,0 +1,254 @@
+ / DOID:1287 ! ?
+  is_a DOID:114 ! heart disease *** 
+   is_a DOID:0050700 ! cardiomyopathy
+    is_a DOID:0050083 ! Keshan disease
+    is_a DOID:0060036 ! intrinsic cardiomyopathy
+    is_a DOID:3978 ! extrinsic cardiomyopathy
+    is_a MESH:C535580 ! Najjar syndrome
+    is_a MESH:C535582 ! Cardiomyopathy hypogonadism collagenoma syndrome
+    is_a MESH:C563319 ! Myopathy, Myofibrillar, Desmin-Related
+    is_a MESH:C563984 ! Atrial Standstill
+    is_a MESH:D002598 ! Chagas Cardiomyopathy
+    is_a MESH:D015428 ! Myocardial Reperfusion Injury
+    is_a MESH:D058065 ! Diabetic Cardiomyopathies
+    is_a OMIM:145350 ! Hypertaurinuric Cardiomyopathy
+    is_a OMIM:208750 ! Ataxia, Deafness, and Cardiomyopathy
+    is_a OMIM:212130 ! Cardiomyopathy Associated With Myopathy and Sudden Death
+    is_a OMIM:225740 ! Encephalopathy, Axonal, With Necrotizing Myopathy, Cardiomyopathy, and Cataracts
+    is_a OMIM:300280 ! Uruguay Faciocardiomusculoskeletal Syndrome
+    is_a OMIM:300829 ! Cardiomyopathy, Fatal Fetal, Due to Myocardial Calcification
+    is_a OMIM:309930 ! Muscular Dystrophy, Cardiac Type
+    is_a OMIM:606842 ! Cardioneuromyopathy With Hyaline Masses and Nemaline Rods
+    is_a OMIM:608810 ! myofibrillar myopathy 2
+    is_a OMIM:616651 ! Roifman syndrome
+    is_a Orphanet:217678 ! Unclassified cardiomyopathy
+    is_a Orphanet:329874 ! Idiopathic giant cell myocarditis
+   is_a DOID:0050825 ! endocardium disease
+    is_a DOID:10314 ! endocarditis
+    is_a OMIM:226000 ! endocardial fibroelastosis
+   is_a DOID:10273 ! heart conduction disease
+    is_a DOID:0050451 ! Brugada syndrome
+    is_a DOID:0050793 ! short QT syndrome
+    is_a DOID:0050820 ! atrioventricular block
+    is_a DOID:0050824 ! sinoatrial node disease
+    is_a DOID:0060224 ! atrial fibrillation
+    is_a DOID:0060674 ! catecholaminergic polymorphic ventricular tachycardia
+    is_a DOID:10272 ! left bundle branch hemiblock
+    is_a DOID:13209 ! right bundle branch block
+    is_a OMIM:194200 ! Wolff-Parkinson-White syndrome
+   is_a DOID:11516 ! hypertensive heart disease
+   is_a DOID:117 ! heart cancer
+    is_a DOID:116 ! pericardium cancer
+    is_a DOID:9299 ! myocardium cancer
+    is_a NCIT:C3548 ! Malignant Cardiac Neoplasm
+    is_a NCIT:C3605 ! Benign Cardiac Neoplasm
+    is_a NCIT:C45753 ! Cardiac Inflammatory Myofibroblastic Tumor
+    is_a NCIT:C5346 ! Endocardial Neoplasm
+    is_a NCIT:C6410 ! Cardiac Paraganglioma
+    is_a Orphanet:168194 ! Rare cardiac tumor
+    is_a Orphanet:271841 ! Genetic cardiac tumor
+   is_a DOID:118 ! pericardial effusion
+    is_a DOID:11482 ! hemopericardium
+    is_a DOID:115 ! cardiac tamponade
+    is_a OMIM:260900 ! Pericardial Effusion, Chronic
+   is_a DOID:1682 ! congenital heart disease
+    is_a DC:0000506 ! Congenital Heart Defects, Multiple Types
+    is_a DOID:0050431 ! arrhythmogenic right ventricular cardiomyopathy
+    is_a DOID:0050545 ! visceral heterotaxy
+    is_a DOID:0050779 ! hydrolethalus syndrome
+    is_a DOID:0060233 ! cardiofaciocutaneous syndrome
+    is_a DOID:0060289 ! Ohdo syndrome
+    is_a DOID:0060770 ! dextro-looped transposition of the great arteries
+    is_a DOID:13832 ! patent ductus arteriosus
+    is_a DOID:14291 ! LEOPARD syndrome
+    is_a DOID:14323 ! Marfan syndrome
+    is_a DOID:1681 ! heart septal defect
+    is_a DOID:2843 ! long QT syndrome
+    is_a DOID:3490 ! Noonan syndrome
+    is_a DOID:3491 ! Turner syndrome
+    is_a DOID:4297 ! scimitar syndrome
+    is_a DOID:9245 ! Alagille syndrome
+    is_a DOID:9955 ! hypoplastic left heart syndrome
+    is_a MESH:C535464 ! Conotruncal cardiac defects
+    is_a MESH:C535578 ! Cardiocranial syndrome
+    is_a MESH:C535613 ! Al Gazali Aziz Salem syndrome
+    is_a MESH:C535682 ! Right ventricle hypoplasia
+    is_a MESH:C535704 ! Malpuech facial clefting syndrome
+    is_a MESH:C535856 ! Hecht Scott syndrome
+    is_a MESH:C535871 ! Rommen Mueller Sybert syndrome
+    is_a MESH:C536147 ! Mehta Lewis Patton syndrome
+    is_a MESH:C536187 ! Ectrodactyly cardiopathy dysmorphism
+    is_a MESH:C536205 ! Ellis Yale Winter syndrome
+    is_a MESH:C536534 ! VATER association
+    is_a MESH:C536537 ! Ventricular extrasystoles perodactyly Robin sequence
+    is_a MESH:C536729 ! Zunich neuroectodermal syndrome
+    is_a MESH:C536784 ! Tabatznik syndrome
+    is_a MESH:C536896 ! Tamari Goodman syndrome
+    is_a MESH:C537011 ! Kasznica Carlson Coppedge syndrome
+    is_a MESH:C537137 ! Orstavik Lindemann Solberg syndrome
+    is_a MESH:C537193 ! Saal Bulas syndrome
+    is_a MESH:C537223 ! Sacral meningocele conotruncal heart defects
+    is_a MESH:C537676 ! Gay Feinmesser Cohen syndrome
+    is_a MESH:C537795 ! Baetz-Greenwalt syndrome
+    is_a MESH:C538160 ! McPherson Clemens syndrome
+    is_a MESH:C538323 ! Hittner Hirsch Kreh syndrome
+    is_a MESH:C538325 ! Ho Kaufman Mcalister syndrome
+    is_a MESH:C538357 ! Powell Chandra Saal syndrome
+    is_a MESH:C563087 ! Mexican Cardiomelic Dysplasia
+    is_a MESH:C563821 ! Meacham Syndrome
+    is_a MESH:C564011 ! Pancreatic Hypoplasia, Congenital, with Diabetes Mellitus and Congenital Heart Disease
+    is_a MESH:C564690 ! Noncompaction of Left Ventricular Myocardium with Congenital Heart Defects
+    is_a MESH:C564752 ! Vater Association With Hydrocephalus
+    is_a MESH:C564875 ! Bonneau Syndrome
+    is_a MESH:C565001 ! Fragile Site 16p12
+    is_a MESH:C566604 ! Deafness, Congenital Heart Defects, and Posterior Embryotoxon
+    is_a MESH:C566997 ! Aplasia Cutis Congenita, Congenital Heart Defect, And Frontonasal Cysts
+    is_a MESH:C567444 ! Congenital Heart Defects, X-Linked
+    is_a MESH:D003310 ! Cor Triatriatum
+    is_a MESH:D003330 ! Coronary Vessel Anomalies
+    is_a MESH:D003420 ! Crisscross Heart
+    is_a MESH:D004541 ! Eisenmenger Complex
+    is_a MESH:D014286 ! Trilogy of Fallot
+    is_a MESH:D054083 ! Ectopia Cordis
+    is_a MESH:D056830 ! Isolated Noncompaction of the Ventricular Myocardium
+    is_a OMIM:104350 ! Amastia, Bilateral, With Ureteral Triplication and Dysmorphism
+    is_a OMIM:109730 ! Familial bicuspid aortic valve
+    is_a OMIM:114620 ! Craniofaciofrontodigital syndrome
+    is_a OMIM:120000 ! Aorta coarctation
+    is_a OMIM:122850 ! Cranioacrofacial Syndrome
+    is_a OMIM:126320 ! Distichiasis With Congenital Anomalies of the Heart and Peripheral Vasculature
+    is_a OMIM:154600 ! jaw-winking syndrome
+    is_a OMIM:184705 ! Holoprosencephaly-radial heart renal anomalies syndrome
+    is_a OMIM:185120 ! Short stature-wormian bones-dextrocardia syndrome
+    is_a OMIM:187500 ! tetralogy of Fallot
+    is_a OMIM:194200 ! Wolff-Parkinson-White syndrome
+    is_a OMIM:209970 ! Beemer-Ertbruggen syndrome
+    is_a OMIM:212093 ! Cardiac Valvular Defect, Developmental
+    is_a OMIM:212100 ! Cardioauditory Syndrome of Sanchez Cascos
+    is_a OMIM:212135 ! Heart defects-limb shortening syndrome
+    is_a OMIM:215850 ! Verloove Vanhorick-Brubakk syndrome
+    is_a OMIM:217980 ! Toriello-Carey syndrome
+    is_a OMIM:224700 ! Ebstein anomaly
+    is_a OMIM:227270 ! Lethal faciocardiomelic dysplasia
+    is_a OMIM:227280 ! Faciocardiorenal syndrome
+    is_a OMIM:231060 ! Genito-palato-cardiac syndrome
+    is_a OMIM:236110 ! Holzgreve-Wagner-Rehder Syndrome
+    is_a OMIM:236700 ! McKusick-Kaufman syndrome
+    is_a OMIM:239800 ! hypertelorism, microtia, facial clefting syndrome
+    is_a OMIM:248950 ! McDonough syndrome
+    is_a OMIM:249420 ! Frank-Ter Haar syndrome
+    is_a OMIM:264180 ! Pseudodiastrophic dysplasia
+    is_a OMIM:265150 ! Pulmonary atresia-intact ventricular septum syndrome
+    is_a OMIM:270460 ! Heart defect-round face-congenital developmental delay syndrome
+    is_a OMIM:271950 ! Subaortic Stenosis, Membranous
+    is_a OMIM:302060 ! Barth syndrome
+    is_a OMIM:305400 ! Aarskog syndrome
+    is_a OMIM:311900 ! TARP syndrome
+    is_a OMIM:312870 ! Simpson-Golabi-Behmel syndrome
+    is_a OMIM:314400 ! Cardiac Valvular Dysplasia, X-Linked
+    is_a OMIM:600252 ! Lowry-MacLean syndrome
+    is_a OMIM:600460 ! Acro-cardio-facial syndrome
+    is_a OMIM:600987 ! Cardiac Malformation, Cleft Lip/Palate, Microcephaly, and Digital Anomalies
+    is_a OMIM:601348 ! Ectrodactyly of Lower Limbs, Congenital Heart Defect, and Micrognathia
+    is_a OMIM:601355 ! Microcephaly-cardiac defect-lung malsegmentation syndrome
+    is_a OMIM:602531 ! Grange syndrome
+    is_a OMIM:604211 ! Hirschsprung Disease With Heart Defects, Laryngeal Anomalies, and Preaxial Polydactyly
+    is_a OMIM:604690 ! Growth and Developmental Retardation, Ocular Ptosis, Cardiac Defect, and Anal Atresia
+    is_a OMIM:605067 ! Tricuspid atresia
+    is_a OMIM:605321 ! Frontoocular Syndrome
+    is_a OMIM:608227 ! Cataract-congenital heart disease-neural tube defect syndrome
+    is_a OMIM:608406 ! Braddock syndrome
+    is_a OMIM:608572 ! Choanal atresia-hearing loss-cardiac defects-craniofacial dysmorphism syndrome
+    is_a OMIM:609029 ! Emanuel syndrome
+    is_a OMIM:609620 ! Familial short QT syndrome
+    is_a OMIM:610253 ! Kleefstra syndrome
+    is_a OMIM:610338 ! Right Pulmonary Artery, Anomalous Origin Of, Familial
+    is_a OMIM:612475 ! chromosome 1q21.1 duplication syndrome
+    is_a OMIM:612582 ! chromosome 6pter-p24 deletion syndrome
+    is_a OMIM:612731 ! Faciocardiomelic Syndrome
+    is_a OMIM:613680 ! Developmental delay-microcephaly-facial dysmorphism syndrome, Hutterite type
+    is_a OMIM:613870 ! Hirschsprung Disease, Cardiac Defects, and Autonomic Dysfunction
+    is_a Orphanet:2519 ! Microcephaly-seizures-intellectual disability-heart disease syndrome
+    is_a Orphanet:2894 ! Pilotto syndrome
+    is_a Orphanet:3316 ! Thomas syndrome
+    is_a Orphanet:567 ! 22q11.2 deletion syndrome
+   is_a DOID:1787 ! pericarditis
+    is_a DOID:10234 ! histoplasmosis pericarditis
+    is_a DOID:10507 ! Dressler's syndrome
+    is_a DOID:11481 ! constrictive pericarditis
+    is_a DOID:1869 ! chronic rheumatic pericarditis
+    is_a DOID:4962 ! pericardial tuberculosis
+    is_a OMIM:260900 ! Pericardial Effusion, Chronic
+   is_a DOID:4079 ! heart valve disease
+    is_a DOID:0050826 ! tricuspid valve disease
+    is_a DOID:0050827 ! rheumatic heart disease
+    is_a DOID:5749 ! pulmonary valve disease
+    is_a DOID:61 ! mitral valve disease
+    is_a DOID:62 ! aortic valve disease
+    is_a MESH:C562388 ! Bicuspid Aortic Valve
+    is_a MESH:D016127 ! Heart Valve Prolapse
+    is_a MESH:D018633 ! Pulmonary Atresia
+    is_a OMIM:126190 ! Short stature-valvular heart disease-characteristic facies syndrome
+    is_a OMIM:185069 ! Storm Syndrome
+    is_a OMIM:212093 ! Cardiac Valvular Defect, Developmental
+    is_a OMIM:605067 ! Tricuspid atresia
+   is_a DOID:6000 ! congestive heart failure
+    is_a DOID:0060319 ! cardiac arrest
+    is_a DOID:14172 ! rheumatic congestive heart failure
+    is_a DOID:8515 ! Cor pulmonale
+    is_a DOID:9651 ! systolic heart failure
+    is_a DOID:9775 ! diastolic heart failure
+    is_a MESH:D004418 ! Dyspnea, Paroxysmal
+    is_a MESH:D004489 ! Edema, Cardiac
+    is_a MESH:D059347 ! Cardio-Renal Syndrome
+   is_a DOID:9768 ! heart aneurysm
+    is_a DOID:3362 ! coronary aneurysm
+   is_a MESH:C536714 ! Yorifuji Okuno syndrome
+   is_a MESH:C566895 ! Gangliosidosis, Generalized GM1, Type I, with Cardiac Involvement
+   is_a MESH:D001145 ! Arrhythmias, Cardiac
+    is_a DOID:0050451 ! Brugada syndrome
+    is_a DOID:0050793 ! short QT syndrome
+    is_a DOID:0060224 ! atrial fibrillation
+    is_a DOID:2843 ! long QT syndrome
+    is_a MESH:C566186 ! Cardiac Conduction Defect, Nonprogressive
+    is_a MESH:D001146 ! Arrhythmia, Sinus
+    is_a MESH:D001282 ! Atrial Flutter
+    is_a MESH:D001919 ! Bradycardia
+    is_a MESH:D005117 ! Cardiac Complexes, Premature
+    is_a MESH:D006327 ! Heart Block
+    is_a MESH:D011226 ! Pre-Excitation Syndromes
+    is_a MESH:D013610 ! Tachycardia
+    is_a MESH:D014693 ! Ventricular Fibrillation
+    is_a MESH:D017574 ! Parasystole
+    is_a MESH:D054141 ! Ventricular Flutter
+    is_a MESH:D056104 ! Commotio Cordis
+    is_a OMIM:115000 ! Cardiac Arrhythmia
+    is_a OMIM:241080 ! Woodhouse-Sakati syndrome
+    is_a OMIM:312870 ! Simpson-Golabi-Behmel syndrome
+    is_a OMIM:603642 ! Atrial Septal Defect, Secundum, With Various Cardiac and Noncardiac Defects
+    is_a OMIM:610141 ! ?
+   is_a MESH:D002275 ! Carcinoid Heart Disease
+   is_a MESH:D002303 ! Cardiac Output, Low
+   is_a MESH:D006332 ! Cardiomegaly
+    is_a DOID:12930 ! dilated cardiomyopathy
+    is_a MESH:D017379 ! Hypertrophy, Left Ventricular
+    is_a MESH:D017380 ! Hypertrophy, Right Ventricular
+    is_a OMIM:227150 ! Ethanolaminosis
+    is_a OMIM:231050 ! Geleophysic Dysplasia 1
+    is_a OMIM:239850 ! hypertrichotic osteochondrodysplasia Cantu type
+   is_a MESH:D006341 ! Heart Rupture
+    is_a MESH:D006342 ! Heart Rupture, Post-Infarction
+   is_a MESH:D011026 ! Pneumopericardium
+   is_a MESH:D011185 ! Postpericardiotomy Syndrome
+   is_a MESH:D014694 ! Ventricular Outflow Obstruction
+    is_a DOID:1712 ! aortic valve stenosis
+    is_a DOID:6420 ! pulmonary valve stenosis
+   is_a MESH:D016534 ! Cardiac Output, High
+   is_a MESH:D017202 ! Myocardial Ischemia
+    is_a MESH:D000787 ! Angina Pectoris
+    is_a MESH:D003327 ! Coronary Disease
+    is_a MESH:D015428 ! Myocardial Reperfusion Injury
+    is_a MESH:D054058 ! Acute Coronary Syndrome
+   is_a MESH:D018754 ! Ventricular Dysfunction
+    is_a MESH:D018487 ! Ventricular Dysfunction, Left
+    is_a MESH:D018497 ! Ventricular Dysfunction, Right

@@ -1,0 +1,130 @@
+ / UBERON:0000467 ! ?
+  is_a UBERON:0004535 ! cardiovascular system *** 
+   po UBERON:0000178 ! blood
+    po UBERON:0001969 ! blood plasma
+    df UBERON:0010210 ! blood clot
+    is_a UBERON:0012168 ! umbilical cord blood
+    is_a UBERON:0013755 ! arterial blood
+    is_a UBERON:0013756 ! venous blood
+    is_a UBERON:0013757 ! capillary blood
+   po UBERON:0003084 ! heart primordium
+    df UBERON:0004139 ! cardiogenic plate
+    df UBERON:0004291 ! heart rudiment
+   po UBERON:0003613 ! cardiovascular system elastic tissue
+    is_a UBERON:0003610 ! heart elastic tissue
+    is_a UBERON:0003614 ! blood vessel elastic tissue
+   po UBERON:0004160 ! proepicardium
+    df UBERON:0002348 ! epicardium
+   po UBERON:0004572 ! arterial system
+    po UBERON:0003509 ! arterial blood vessel
+    po UBERON:0004571 ! systemic arterial system
+    po UBERON:0004695 ! arterial system smooth muscle
+    po UBERON:0004700 ! arterial system endothelium
+    po UBERON:0011694 ! embryo portion of umbilical artery
+   po UBERON:0004852 ! cardiovascular system endothelium
+    is_a UBERON:0002042 ! lymphatic vessel endothelium
+    is_a UBERON:0004189 ! glomerular endothelium
+    is_a UBERON:0004638 ! blood vessel endothelium
+    is_a UBERON:0004700 ! arterial system endothelium
+    is_a UBERON:0004701 ! venous system endothelium
+    is_a UBERON:0008307 ! heart endothelium
+    is_a UBERON:0008339 ! microvascular endothelium
+   po UBERON:0007798 ! vascular system
+    po UBERON:0002049 ! vasculature
+    po UBERON:0003304 ! mesoderm blood island
+    po UBERON:0004019 ! baroreceptor
+    is_a UBERON:0004571 ! systemic arterial system
+    is_a UBERON:0004572 ! arterial system
+     po UBERON:0003509 ! arterial blood vessel
+     po UBERON:0004571 ! systemic arterial system
+     po UBERON:0004695 ! arterial system smooth muscle
+     po UBERON:0004700 ! arterial system endothelium
+     po UBERON:0011694 ! embryo portion of umbilical artery
+    is_a UBERON:0004582 ! venous system
+    is_a UBERON:0008886 ! pulmonary vascular system
+     po UBERON:0002012 ! pulmonary artery
+     po UBERON:0002016 ! pulmonary vein
+     po UBERON:0002333 ! pulmonary trunk
+     po UBERON:0035754 ! pulmonary capillary plexus
+     po UBERON:0035764 ! pulmonary lymph node
+    is_a UBERON:0013146 ! venous system of brain
+    is_a UBERON:0014701 ! extraembryonic vascular system
+   po UBERON:0008886 ! pulmonary vascular system
+    po UBERON:0002012 ! pulmonary artery
+    po UBERON:0002016 ! pulmonary vein
+    po UBERON:0002333 ! pulmonary trunk
+    po UBERON:0035754 ! pulmonary capillary plexus
+    po UBERON:0035764 ! pulmonary lymph node
+   is_a UBERON:0011695 ! embryonic cardiovascular system
+    po UBERON:0002083 ! ductus venosus
+    po UBERON:0005440 ! ductus arteriosus
+    po UBERON:0014903 ! primordial vasculature
+   po UBERON:0013220 ! foramen of Panizza
+   po UBERON:0015410 ! heart plus pericardium
+    po UBERON:0000948 ! heart
+    po UBERON:0002407 ! pericardium
+ / UBERON:0001009 ! ?
+  po UBERON:0004535 ! cardiovascular system *** 
+   po UBERON:0000178 ! blood
+    po UBERON:0001969 ! blood plasma
+    df UBERON:0010210 ! blood clot
+    is_a UBERON:0012168 ! umbilical cord blood
+    is_a UBERON:0013755 ! arterial blood
+    is_a UBERON:0013756 ! venous blood
+    is_a UBERON:0013757 ! capillary blood
+   po UBERON:0003084 ! heart primordium
+    df UBERON:0004139 ! cardiogenic plate
+    df UBERON:0004291 ! heart rudiment
+   po UBERON:0003613 ! cardiovascular system elastic tissue
+    is_a UBERON:0003610 ! heart elastic tissue
+    is_a UBERON:0003614 ! blood vessel elastic tissue
+   po UBERON:0004160 ! proepicardium
+    df UBERON:0002348 ! epicardium
+   po UBERON:0004572 ! arterial system
+    po UBERON:0003509 ! arterial blood vessel
+    po UBERON:0004571 ! systemic arterial system
+    po UBERON:0004695 ! arterial system smooth muscle
+    po UBERON:0004700 ! arterial system endothelium
+    po UBERON:0011694 ! embryo portion of umbilical artery
+   po UBERON:0004852 ! cardiovascular system endothelium
+    is_a UBERON:0002042 ! lymphatic vessel endothelium
+    is_a UBERON:0004189 ! glomerular endothelium
+    is_a UBERON:0004638 ! blood vessel endothelium
+    is_a UBERON:0004700 ! arterial system endothelium
+    is_a UBERON:0004701 ! venous system endothelium
+    is_a UBERON:0008307 ! heart endothelium
+    is_a UBERON:0008339 ! microvascular endothelium
+   po UBERON:0007798 ! vascular system
+    po UBERON:0002049 ! vasculature
+    po UBERON:0003304 ! mesoderm blood island
+    po UBERON:0004019 ! baroreceptor
+    is_a UBERON:0004571 ! systemic arterial system
+    is_a UBERON:0004572 ! arterial system
+     po UBERON:0003509 ! arterial blood vessel
+     po UBERON:0004571 ! systemic arterial system
+     po UBERON:0004695 ! arterial system smooth muscle
+     po UBERON:0004700 ! arterial system endothelium
+     po UBERON:0011694 ! embryo portion of umbilical artery
+    is_a UBERON:0004582 ! venous system
+    is_a UBERON:0008886 ! pulmonary vascular system
+     po UBERON:0002012 ! pulmonary artery
+     po UBERON:0002016 ! pulmonary vein
+     po UBERON:0002333 ! pulmonary trunk
+     po UBERON:0035754 ! pulmonary capillary plexus
+     po UBERON:0035764 ! pulmonary lymph node
+    is_a UBERON:0013146 ! venous system of brain
+    is_a UBERON:0014701 ! extraembryonic vascular system
+   po UBERON:0008886 ! pulmonary vascular system
+    po UBERON:0002012 ! pulmonary artery
+    po UBERON:0002016 ! pulmonary vein
+    po UBERON:0002333 ! pulmonary trunk
+    po UBERON:0035754 ! pulmonary capillary plexus
+    po UBERON:0035764 ! pulmonary lymph node
+   is_a UBERON:0011695 ! embryonic cardiovascular system
+    po UBERON:0002083 ! ductus venosus
+    po UBERON:0005440 ! ductus arteriosus
+    po UBERON:0014903 ! primordial vasculature
+   po UBERON:0013220 ! foramen of Panizza
+   po UBERON:0015410 ! heart plus pericardium
+    po UBERON:0000948 ! heart
+    po UBERON:0002407 ! pericardium

@@ -1,0 +1,29 @@
+ / GO:0003008 ! ?
+  is_a GO:0003013 ! circulatory system process *** 
+   is_a GO:0003015 ! heart process
+    is_a GO:0002015 ! regulation of systemic arterial blood pressure by atrial baroreceptor feedback
+    is_a GO:0060047 ! heart contraction
+    po GO:0086023 ! adrenergic receptor signaling pathway involved in heart process
+    po GO:0086093 ! G-protein coupled acetylcholine receptor signaling pathway involved in heart process
+    po GO:0086096 ! adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process
+    po GO:0086098 ! angiotensin-activated signaling pathway involved in heart process
+    po GO:0086099 ! phospholipase C-activating angiotensin-activated signaling pathway involved in heart process
+    po GO:0086101 ! endothelin receptor signaling pathway involved in heart process
+    po GO:0086103 ! G-protein coupled receptor signaling pathway involved in heart process
+    po GO:1905251 ! epidermal growth factor receptor signaling pathway involved in heart process
+   is_a GO:0003017 ! lymph circulation
+   is_a GO:0003018 ! vascular process in circulatory system
+    is_a GO:0001981 ! baroreceptor detection of arterial stretch
+    is_a GO:0043114 ! regulation of vascular permeability
+    is_a GO:0050880 ! regulation of blood vessel size
+    is_a GO:1990183 ! lymphatic vascular process in circulatory system
+   is_a GO:0008015 ! blood circulation
+    po GO:0008217 ! regulation of blood pressure
+    po GO:0035703 ! monocyte migration into blood stream
+    po GO:0043114 ! regulation of vascular permeability
+    po GO:0050880 ! regulation of blood vessel size
+    po GO:0060047 ! heart contraction
+    regulates GO:1903522 ! regulation of blood circulation
+    negatively regulates GO:1903523 ! negative regulation of blood circulation
+    positively regulates GO:1903524 ! positive regulation of blood circulation
+    is_a GO:1990768 ! gastric mucosal blood circulation

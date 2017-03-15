@@ -1,0 +1,78 @@
+ / GO:0003008 ! ?
+  is_a GO:0003013 ! circulatory system process *** 
+   is_a GO:0003015 ! heart process
+    is_a GO:0002015 ! regulation of systemic arterial blood pressure by atrial baroreceptor feedback
+    is_a GO:0060047 ! heart contraction
+     regulates GO:0008016 ! regulation of heart contraction
+     negatively regulates GO:0045822 ! negative regulation of heart contraction
+     positively regulates GO:0045823 ! positive regulation of heart contraction
+     po GO:0060048 ! cardiac muscle contraction
+    po GO:0086023 ! adrenergic receptor signaling pathway involved in heart process
+     is_a GO:0086024 ! adrenergic receptor signaling pathway involved in positive regulation of heart rate
+     is_a GO:0086030 ! adrenergic receptor signaling pathway involved in cardiac muscle relaxation
+     is_a GO:0086094 ! positive regulation of ryanodine-sensitive calcium-release channel activity by adrenergic receptor signaling pathway involved in positive regulation of cardiac muscle contraction
+     regulates GO:1901204 ! regulation of adrenergic receptor signaling pathway involved in heart process
+     negatively regulates GO:1901205 ! negative regulation of adrenergic receptor signaling pathway involved in heart process
+     positively regulates GO:1901206 ! positive regulation of adrenergic receptor signaling pathway involved in heart process
+    po GO:0086093 ! G-protein coupled acetylcholine receptor signaling pathway involved in heart process
+     is_a GO:0086033 ! G-protein coupled acetylcholine receptor signaling pathway involved in negative regulation of heart rate
+    po GO:0086096 ! adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process
+    po GO:0086098 ! angiotensin-activated signaling pathway involved in heart process
+    po GO:0086099 ! phospholipase C-activating angiotensin-activated signaling pathway involved in heart process
+    po GO:0086101 ! endothelin receptor signaling pathway involved in heart process
+    po GO:0086103 ! G-protein coupled receptor signaling pathway involved in heart process
+    po GO:1905251 ! epidermal growth factor receptor signaling pathway involved in heart process
+     regulates GO:1905282 ! regulation of epidermal growth factor receptor signaling pathway involved in heart process
+     negatively regulates GO:1905283 ! negative regulation of epidermal growth factor receptor signaling pathway involved in heart process
+     positively regulates GO:1905284 ! positive regulation of epidermal growth factor receptor signaling pathway involved in heart process
+   is_a GO:0003017 ! lymph circulation
+   is_a GO:0003018 ! vascular process in circulatory system
+    is_a GO:0001981 ! baroreceptor detection of arterial stretch
+     is_a GO:0003023 ! baroreceptor detection of increased arterial stretch
+     is_a GO:0003024 ! baroreceptor detection of decreased arterial stretch
+    is_a GO:0043114 ! regulation of vascular permeability
+     is_a GO:0002528 ! regulation of vascular permeability involved in acute inflammatory response
+     is_a GO:0043116 ! negative regulation of vascular permeability
+     is_a GO:0043117 ! positive regulation of vascular permeability
+     is_a GO:1990185 ! regulation of lymphatic vascular permeability
+    is_a GO:0050880 ! regulation of blood vessel size
+     is_a GO:1990029 ! vasomotion
+    is_a GO:1990183 ! lymphatic vascular process in circulatory system
+     is_a GO:1990185 ! regulation of lymphatic vascular permeability
+     is_a GO:1990186 ! regulation of lymphatic vessel size
+   is_a GO:0008015 ! blood circulation
+    po GO:0008217 ! regulation of blood pressure
+     is_a GO:0003050 ! regulation of systemic arterial blood pressure by atrial natriuretic peptide
+     is_a GO:0003073 ! regulation of systemic arterial blood pressure
+     is_a GO:0010850 ! regulation of blood pressure by chemoreceptor signaling pathway
+     is_a GO:0014916 ! regulation of lung blood pressure
+     is_a GO:0044495 ! modulation of blood pressure in other organism
+     is_a GO:0045776 ! negative regulation of blood pressure
+     is_a GO:0045777 ! positive regulation of blood pressure
+    po GO:0035703 ! monocyte migration into blood stream
+    po GO:0043114 ! regulation of vascular permeability
+     is_a GO:0002528 ! regulation of vascular permeability involved in acute inflammatory response
+     is_a GO:0043116 ! negative regulation of vascular permeability
+     is_a GO:0043117 ! positive regulation of vascular permeability
+     is_a GO:1990185 ! regulation of lymphatic vascular permeability
+    po GO:0050880 ! regulation of blood vessel size
+     is_a GO:1990029 ! vasomotion
+    po GO:0060047 ! heart contraction
+     regulates GO:0008016 ! regulation of heart contraction
+     negatively regulates GO:0045822 ! negative regulation of heart contraction
+     positively regulates GO:0045823 ! positive regulation of heart contraction
+     po GO:0060048 ! cardiac muscle contraction
+    regulates GO:1903522 ! regulation of blood circulation
+     is_a GO:0008016 ! regulation of heart contraction
+     is_a GO:1903523 ! negative regulation of blood circulation
+      is_a GO:0045822 ! negative regulation of heart contraction
+     is_a GO:1903524 ! positive regulation of blood circulation
+      is_a GO:0045823 ! positive regulation of heart contraction
+    negatively regulates GO:1903523 ! negative regulation of blood circulation
+     is_a GO:0045822 ! negative regulation of heart contraction
+    positively regulates GO:1903524 ! positive regulation of blood circulation
+     is_a GO:0045823 ! positive regulation of heart contraction
+    is_a GO:1990768 ! gastric mucosal blood circulation
+     regulates GO:1904344 ! regulation of gastric mucosal blood circulation
+     negatively regulates GO:1904345 ! negative regulation of gastric mucosal blood circulation
+     positively regulates GO:1904346 ! positive regulation of gastric mucosal blood circulation
