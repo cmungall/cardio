@@ -66,8 +66,8 @@ $(ONT)cv-depth-$(DEPTH).tree: $(ONT)cv.obo
 # Logical defs
 # ----------------------------------------
 
-mpld.obo:
-	blip ontol-query -r MP -r mp_xp -query "subclassRT(X,'$(MP_CV)'),differentium(X,_,ID)" -to obo > $@.tmp && mv $@.tmp $@
+mpld-%.obo:
+	blip ontol-query -r $* -r MP -r mp_xp -query "subclassRT(X,'$(MP_CV)'),differentium(X,_,ID)" -to obo > $@.tmp && mv $@.tmp $@
 
-hpld.obo:
-	blip ontol-query -r HP -r hp_xp -query "subclassRT(X,'$(HP_CV)'),differentium(X,_,ID)" -to obo > $@.tmp && mv $@.tmp $@
+hpld-%.obo:
+	blip ontol-query -r $* -r HP -r hp_xp -query "subclassRT(X,'$(HP_CV)'),differentium(X,_,ID)" -to obo > $@.tmp && mv $@.tmp $@
