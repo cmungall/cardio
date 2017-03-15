@@ -84,61 +84,6 @@ treat-xrefs-as-reverse-genus-differentia: ZFA part_of NCBITaxon:7954
 treat-xrefs-as-reverse-genus-differentia: ZFS part_of NCBITaxon:7954
 
 [Term]
-id: HP:0001629
-name: Ventricular septal defect
-namespace: human_phenotype
-alt_id: HP:0001652
-def: "A hole between the two bottom chambers (ventricles) of the heart. The defect is centered around the most superior aspect of the ventricular septum." [HPO:curators]
-synonym: "Ventricular septal defects" EXACT []
-synonym: "Ventriculoseptal defect" EXACT []
-xref: UMLS:C1859213
-is_a: HP:0010438  ! Abnormality of the ventricular septum
-intersection_of: PATO:0000609 
-intersection_of: inheres_in UBERON:0002094 ! interventricular septum
-intersection_of: qualifier PATO:0000460
-
-[Term]
-id: HP:0001642
-name: Pulmonic stenosis
-namespace: human_phenotype
-def: "A narrowing of the right ventricular outflow tract that can occur at the pulmonary valve (valvular stenosis) or just below the pulmonary valve (infundibular stenosis)." [HPO:probinson]
-comment: Infundibular pulmonic stenosis is mostly caused by overgrowth of the heart muscle wall (hypertrophy of the septoparietal trabeculae). Pulmonic stenosis is often seen as a part of Fallot' s tetralogy, in which case the events leading to the formation of the overriding aorta are also believed to be a cause of the pulmonic stenosis. The pulmonic stenosis is the major cause of the malformations seen in patients with Fallot tetralogy, with the other associated malformations acting as compensatory mechanisms to the pulmonic stenosis. The degree of stenosis varies between individuals with TOF, and is the primary determinant of symptoms and severity. This malformation is infrequently described as sub-pulmonary stenosis or subpulmonary obstruction.
-synonym: "Narrowing of pulmonic valve" EXACT [orcid.org/0000-0001-5208-3432]
-synonym: "Pulmonary stenosis" EXACT []
-synonym: "Pulmonary valve stenosis" EXACT []
-synonym: "Pulmonic valve stenosis" EXACT []
-xref: UMLS:C1956257
-is_a: HP:0001641  ! Abnormality of the pulmonary valve
-intersection_of: PATO:0001847 
-intersection_of: inheres_in UBERON:0002146 ! pulmonary valve
-intersection_of: qualifier PATO:0000460
-
-[Term]
-id: HP:0001667
-name: Right ventricular hypertrophy
-namespace: human_phenotype
-def: "In this case the right ventricle is more muscular than normal, causing a characteristic boot-shaped (coeur-en-sabot) appearance as seen on anterior- posterior chest x-rays. Right ventricular hypertrophy is commonly associated with any form of right ventricular outflow obstruction or pulmonary hypertension, which may in turn owe its origin to left-sided disease. The echocardiographic signs are thickening of the anterior right ventricular wall and the septum. Cavity size is usually normal, or slightly enlarged. In many cases there is associated volume overload present due to tricuspid regurgitation, in the absence of this, septal motion is normal." [HPO:probinson]
-xref: UMLS:C0232305
-is_a: HP:0001707  ! Abnormality of the right ventricle
-is_a: HP:0001714  ! Ventricular hypertrophy
-intersection_of: PATO:0000584 
-intersection_of: inheres_in UBERON:0002080 ! heart right ventricle
-intersection_of: qualifier PATO:0000460
-
-[Term]
-id: HP:0002623
-name: Overriding aorta
-namespace: human_phenotype
-def: "An overriding aorta is a congenital heart defect where the aorta is positioned directly over a ventricular septal defect, instead of over the left ventricle. The result is that the aorta receives some blood from the right ventricle, which reduces the amount of oxygen in the blood. It is one of the four conditions of the Tetralogy of Fallot. The aortic root can be displaced toward the front (anteriorly) or directly above the septal defect, but it is always abnormally located to the right of the root of the pulmonary artery. The degree of override is quite variable, with 5-95% of the valve being connected to the right ventricle." [HPO:curators]
-synonym: "Dextroposition of aorta" EXACT []
-xref: UMLS:C0265886
-is_a: HP:0001679  ! Abnormality of the aorta
-intersection_of: PATO:0001590 
-intersection_of: inheres_in UBERON:0000947 ! aorta
-intersection_of: qualifier PATO:0000460
-intersection_of: towards UBERON:0004666 ! interventricular septum membranous part
-
-[Term]
 id: UBERON:0000102
 name: lung vasculature
 namespace: uberon

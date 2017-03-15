@@ -18,7 +18,7 @@ DO_CV = DOID:114
 ONTS = mp hp go ub mondo
 XONTS = uberon go cl
 
-all: all_cv all_cv_png all_cv2_png all_cv3_png all_cv4_png all_cv2_tree all_cv3_tree all_cv4_tree
+all: all_cv all_cv_png all_cv2_png all_cv3_png all_cv4_png all_cv2_tree all_cv3_tree all_cv4_tree all_x
 
 all_cv: $(patsubst %, %cv.obo, $(ONTS))
 
@@ -81,4 +81,4 @@ mpld-%.obo:
 	blip ontol-query -r $* -r MP -r mp_xp -query "subclassRT(X,'$(MP_CV)'),differentium(X,_,ID),id_idspace(ID,S),upcase_atom('$*',S)" -to obo > $@.tmp && mv $@.tmp $@
 
 hpld-%.obo:
-	blip ontol-query -r $* -r HP -r hp_xp -query "subclassRT(X,'$(HP_CV)'),differentium(X,_,ID)" -to obo > $@.tmp && mv $@.tmp $@
+	blip ontol-query -r $* -r HP -r hp_xp -query "subclassRT(X,'$(HP_CV)'),differentium(X,_,ID),id_idspace(ID,S),upcase_atom('$*',S)" -to obo > $@.tmp && mv $@.tmp $@
