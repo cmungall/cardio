@@ -1,0 +1,138 @@
+format-version: 1.2
+ontology: go
+subsetdef: goantislim_grouping "Grouping classes that can be excluded"
+subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
+subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_chembl "ChEMBL protein targets summary"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_goa "GOA and proteome slim"
+subsetdef: goslim_metagenomics "Metagenomics GO slim"
+subsetdef: goslim_mouse "Mouse GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_synapse "synapse GO slim"
+subsetdef: goslim_virus "Viral GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
+subsetdef: gosubset_prok "Prokaryotic GO subset"
+subsetdef: hposlim_core "Core clinical terminology"
+subsetdef: mf_needs_review "Catalytic activity terms in need of attention"
+subsetdef: secondary_consequence "Consequence of a disorder in another organ system."
+subsetdef: termgenie_unvetted "Terms created by TermGenie that do not follow a template and require additional vetting by editors"
+subsetdef: virus_checked "Viral overhaul terms"
+synonymtypedef: layperson "layperson term"
+synonymtypedef: syngo_official_label "label approved by the SynGO project"
+synonymtypedef: systematic_synonym "Systematic synonym" EXACT
+
+[Term]
+id: GO:0008015
+name: blood circulation
+namespace: biological_process
+alt_id: GO:0070261
+def: "The flow of blood through the body of an animal, enabling the transport of nutrients to the tissues and the removal of waste products." [GOC:mtg_heart, ISBN:0192800825]
+subset: goslim_pir  ! PIR GO slim
+synonym: "hemolymph circulation" RELATED []
+is_a: GO:0003013  ! circulatory system process
+
+[Term]
+id: GO:0060047
+name: heart contraction
+namespace: biological_process
+def: "The multicellular organismal process in which the heart decreases in volume in a characteristic way to propel blood through the body." [GOC:dph]
+synonym: "cardiac contraction" RELATED []
+synonym: "heart beating" EXACT []
+synonym: "hemolymph circulation" RELATED []
+is_a: GO:0003015  ! heart process
+relationship: part_of GO:0008015 ! blood circulation
+
+[Term]
+id: GO:0060048
+name: cardiac muscle contraction
+namespace: biological_process
+def: "Muscle contraction of cardiac muscle tissue." [GOC:dph]
+synonym: "heart muscle contraction" EXACT []
+is_a: GO:0006941  ! striated muscle contraction
+relationship: part_of GO:0060047 ! heart contraction
+
+[Term]
+id: GO:0061116
+name: ductus venosus closure
+namespace: biological_process
+def: "The morphogenesis process in which the ductus venosus changes to no longer permit blood flow after birth." [GOC:dph]
+is_a: GO:0048845  ! venous blood vessel morphogenesis
+
+[Term]
+id: GO:0070265
+name: necrotic cell death
+namespace: biological_process
+def: "A type of cell death that is morphologically characterized by an increasingly translucent cytoplasm, swelling of organelles, minor ultrastructural modifications of the nucleus (specifically, dilatation of the nuclear membrane and condensation of chromatin into small, irregular, circumscribed patches) and increased cell volume (oncosis), culminating in the disruption of the plasma membrane and subsequent loss of intracellular contents. Necrotic cells do not fragment into discrete corpses as their apoptotic counterparts do. Moreover, their nuclei remain intact and can aggregate and accumulate in necrotic tissues." [GOC:mtg_apoptosis, PMID:18846107, PMID:20823910]
+comment: Note that the word necrosis has been widely used in earlier literature to describe forms of cell death which are now known by more precise terms, such as apoptosis. Necrosis can occur in a regulated fashion, involving a precise sequence of signals; in this case, consider annotating to GO:0097300 'programmed necrotic cell death' or to its more specific child GO:0070266 'necroptotic process'.
+synonym: "cellular necrosis" EXACT [GOC:add]
+synonym: "necrosis" BROAD [GOC:mah]
+is_a: GO:0008219  ! cell death
+
+[Term]
+id: HP:0001629
+name: Ventricular septal defect
+namespace: human_phenotype
+alt_id: HP:0001652
+def: "A hole between the two bottom chambers (ventricles) of the heart. The defect is centered around the most superior aspect of the ventricular septum." [HPO:curators]
+synonym: "Ventricular septal defects" EXACT []
+synonym: "Ventriculoseptal defect" EXACT []
+xref: UMLS:C1859213
+is_a: HP:0010438  ! Abnormality of the ventricular septum
+intersection_of: PATO:0000609 
+intersection_of: inheres_in UBERON:0002094
+intersection_of: qualifier PATO:0000460
+
+[Term]
+id: HP:0001642
+name: Pulmonic stenosis
+namespace: human_phenotype
+def: "A narrowing of the right ventricular outflow tract that can occur at the pulmonary valve (valvular stenosis) or just below the pulmonary valve (infundibular stenosis)." [HPO:probinson]
+comment: Infundibular pulmonic stenosis is mostly caused by overgrowth of the heart muscle wall (hypertrophy of the septoparietal trabeculae). Pulmonic stenosis is often seen as a part of Fallot' s tetralogy, in which case the events leading to the formation of the overriding aorta are also believed to be a cause of the pulmonic stenosis. The pulmonic stenosis is the major cause of the malformations seen in patients with Fallot tetralogy, with the other associated malformations acting as compensatory mechanisms to the pulmonic stenosis. The degree of stenosis varies between individuals with TOF, and is the primary determinant of symptoms and severity. This malformation is infrequently described as sub-pulmonary stenosis or subpulmonary obstruction.
+synonym: "Narrowing of pulmonic valve" EXACT [orcid.org/0000-0001-5208-3432]
+synonym: "Pulmonary stenosis" EXACT []
+synonym: "Pulmonary valve stenosis" EXACT []
+synonym: "Pulmonic valve stenosis" EXACT []
+xref: UMLS:C1956257
+is_a: HP:0001641  ! Abnormality of the pulmonary valve
+intersection_of: PATO:0001847 
+intersection_of: inheres_in UBERON:0002146
+intersection_of: qualifier PATO:0000460
+
+[Term]
+id: HP:0001667
+name: Right ventricular hypertrophy
+namespace: human_phenotype
+def: "In this case the right ventricle is more muscular than normal, causing a characteristic boot-shaped (coeur-en-sabot) appearance as seen on anterior- posterior chest x-rays. Right ventricular hypertrophy is commonly associated with any form of right ventricular outflow obstruction or pulmonary hypertension, which may in turn owe its origin to left-sided disease. The echocardiographic signs are thickening of the anterior right ventricular wall and the septum. Cavity size is usually normal, or slightly enlarged. In many cases there is associated volume overload present due to tricuspid regurgitation, in the absence of this, septal motion is normal." [HPO:probinson]
+xref: UMLS:C0232305
+is_a: HP:0001707  ! Abnormality of the right ventricle
+is_a: HP:0001714  ! Ventricular hypertrophy
+intersection_of: PATO:0000584 
+intersection_of: inheres_in UBERON:0002080
+intersection_of: qualifier PATO:0000460
+
+[Term]
+id: HP:0002623
+name: Overriding aorta
+namespace: human_phenotype
+def: "An overriding aorta is a congenital heart defect where the aorta is positioned directly over a ventricular septal defect, instead of over the left ventricle. The result is that the aorta receives some blood from the right ventricle, which reduces the amount of oxygen in the blood. It is one of the four conditions of the Tetralogy of Fallot. The aortic root can be displaced toward the front (anteriorly) or directly above the septal defect, but it is always abnormally located to the right of the root of the pulmonary artery. The degree of override is quite variable, with 5-95% of the valve being connected to the right ventricle." [HPO:curators]
+synonym: "Dextroposition of aorta" EXACT []
+xref: UMLS:C0265886
+is_a: HP:0001679  ! Abnormality of the aorta
+intersection_of: PATO:0001590 
+intersection_of: inheres_in UBERON:0000947
+intersection_of: qualifier PATO:0000460
+intersection_of: towards UBERON:0004666
+
+[Typedef]
+id: part_of
+name: part of
+namespace: external
+is_transitive: true
+inverse_of: has_part  ! has_part
+xref: BFO:0000050
+

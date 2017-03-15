@@ -1,0 +1,409 @@
+format-version: 1.2
+ontology: go
+subsetdef: CvDC_Terms "NHLBI Cardiovascular Development Consortium (CvDC) Terms"
+subsetdef: Europhenome_Terms "Terms in use by Europhenome"
+subsetdef: IMPC "Terms in use by IMPC"
+subsetdef: IMPC_Prenatal "Terms in use by IMPC Early Viability Group"
+subsetdef: Sanger_Terms "Terms in use by Mouse Genetics Project, Sanger Institute, Wellcome Trust Genome Campus"
+subsetdef: goantislim_grouping "Grouping classes that can be excluded"
+subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
+subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_chembl "ChEMBL protein targets summary"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_goa "GOA and proteome slim"
+subsetdef: goslim_metagenomics "Metagenomics GO slim"
+subsetdef: goslim_mouse "Mouse GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_synapse "synapse GO slim"
+subsetdef: goslim_virus "Viral GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
+subsetdef: gosubset_prok "Prokaryotic GO subset"
+subsetdef: mf_needs_review "Catalytic activity terms in need of attention"
+subsetdef: termgenie_unvetted "Terms created by TermGenie that do not follow a template and require additional vetting by editors"
+subsetdef: virus_checked "Viral overhaul terms"
+synonymtypedef: syngo_official_label "label approved by the SynGO project"
+synonymtypedef: systematic_synonym "Systematic synonym" EXACT
+
+[Term]
+id: GO:0000917
+name: barrier septum assembly
+namespace: biological_process
+alt_id: GO:0071937
+alt_id: GO:1902411
+def: "The assembly and arrangement of a septum that spans the plasma membrane interface between progeny cells following cytokinesis. The progeny cells that form a barrier septum are not able to exchange intracellular material." [GOC:mtg_cell_cycle]
+synonym: "barrier septum assembly involved in cell cycle cytokinesis" EXACT []
+synonym: "barrier septum assembly involved in cell cycle cytokinesis involved in mitotic cell cycle" EXACT [GOC:TermGenie]
+synonym: "barrier septum formation" EXACT [GOC:mah]
+synonym: "barrier septum formation involved in cell cycle cytokinesis" EXACT []
+synonym: "barrier septum formation involved in cell cycle cytokinesis involved in mitotic cell cycle" EXACT [GOC:TermGenie]
+synonym: "barrier septum formation involved in mitotic cell cycle" EXACT [GOC:TermGenie]
+synonym: "formation of barrier septum" EXACT []
+synonym: "formation of barrier septum involved in mitotic cell cycle" EXACT [GOC:TermGenie]
+synonym: "mitotic barrier septum assembly" EXACT []
+synonym: "septation" BROAD []
+synonym: "septin assembly and septum biosynthesis" RELATED []
+synonym: "septin assembly and septum biosynthesis involved in mitotic cell cycle" RELATED [GOC:TermGenie]
+synonym: "septin assembly and septum formation" RELATED []
+synonym: "septin assembly and septum formation involved in mitotic cell cycle" RELATED [GOC:TermGenie]
+is_a: GO:0090529  ! cell septum assembly
+is_a: GO:1902410  ! mitotic cytokinetic process
+relationship: part_of GO:0000278 ! mitotic cell cycle
+relationship: part_of GO:0000281 ! mitotic cytokinesis
+relationship: part_of GO:0061640 ! cytoskeleton-dependent cytokinesis
+
+[Term]
+id: GO:0001525
+name: angiogenesis
+namespace: biological_process
+def: "Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels." [ISBN:0878932453]
+synonym: "blood vessel formation from pre-existing blood vessels" EXACT systematic_synonym []
+xref: Wikipedia:Angiogenesis
+is_a: GO:0044767  ! single-organism developmental process
+is_a: GO:0048646  ! anatomical structure formation involved in morphogenesis
+relationship: part_of GO:0048514 ! blood vessel morphogenesis
+
+[Term]
+id: GO:0001568
+name: blood vessel development
+namespace: biological_process
+def: "The process whose specific outcome is the progression of a blood vessel over time, from its formation to the mature structure. The blood vessel is the vasculature carrying blood." [GOC:hjd, UBERON:0001981]
+is_a: GO:0044767  ! single-organism developmental process
+is_a: GO:0048856  ! anatomical structure development
+relationship: part_of GO:0001944 ! vasculature development
+
+[Term]
+id: GO:0001569
+name: branching involved in blood vessel morphogenesis
+namespace: biological_process
+def: "The process of coordinated growth and sprouting of blood vessels giving rise to the organized vascular system." [GOC:dph]
+synonym: "patterning of blood vessels" BROAD [GOC:dph]
+is_a: GO:0048754  ! branching morphogenesis of an epithelial tube
+relationship: part_of GO:0001525 ! angiogenesis
+relationship: part_of GO:0048514 ! blood vessel morphogenesis
+intersection_of: GO:0048754  ! branching morphogenesis of an epithelial tube
+intersection_of: part_of GO:0048514 ! blood vessel morphogenesis
+
+[Term]
+id: GO:0001570
+name: vasculogenesis
+namespace: biological_process
+def: "The differentiation of endothelial cells from progenitor cells during blood vessel development, and the de novo formation of blood vessels and tubes." [PMID:8999798]
+synonym: "vascular morphogenesis" EXACT []
+xref: Wikipedia:Vasculogenesis
+is_a: GO:0030154  ! cell differentiation
+relationship: part_of GO:0048514 ! blood vessel morphogenesis
+
+[Term]
+id: GO:0001947
+name: heart looping
+namespace: biological_process
+def: "The tube morphogenesis process in which the primitive heart tube loops asymmetrically. This looping brings the primitive heart chambers into alignment preceding their future integration. Heart looping begins with dextral-looping and ends when the main regional divisions of the mature heart and primordium of the great arterial trunks become established preceeding septation." [GOC:dph, PMID:12094232]
+synonym: "cardiac looping" EXACT []
+is_a: GO:0003143  ! embryonic heart tube morphogenesis
+relationship: part_of GO:0061371 ! determination of heart left/right asymmetry
+
+[Term]
+id: GO:0001974
+name: blood vessel remodeling
+namespace: biological_process
+def: "The reorganization or renovation of existing blood vessels." [GOC:hjd]
+is_a: GO:0048771  ! tissue remodeling
+
+[Term]
+id: GO:0003151
+name: outflow tract morphogenesis
+namespace: biological_process
+def: "The process in which the anatomical structures of the outflow tract are generated and organized. The outflow tract is the portion of the heart through which blood flows into the arteries." [GOC:mtg_heart, UBERON:0004145]
+is_a: GO:0009653  ! anatomical structure morphogenesis
+is_a: GO:0044767  ! single-organism developmental process
+relationship: part_of GO:0003007 ! heart morphogenesis
+
+[Term]
+id: GO:0003274
+name: endocardial cushion fusion
+namespace: biological_process
+def: "The cell-cell adhesion process of mesenchymal cardiac cushion cells that contributes to the process of cushion shaping." [GOC:mtg_heart]
+is_a: GO:0016337  ! single organismal cell-cell adhesion
+is_a: GO:0061343  ! cell adhesion involved in heart morphogenesis
+is_a: GO:0098742  ! cell-cell adhesion via plasma-membrane adhesion molecules
+relationship: part_of GO:0003203 ! endocardial cushion morphogenesis
+intersection_of: GO:0098742  ! cell-cell adhesion via plasma-membrane adhesion molecules
+intersection_of: part_of GO:0003203 ! endocardial cushion morphogenesis
+
+[Term]
+id: GO:0006950
+name: response to stress
+namespace: biological_process
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation)." [GOC:mah]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: gocheck_do_not_manually_annotate  ! Term not to be used for direct manual annotation
+subset: goslim_aspergillus  ! Aspergillus GO slim
+subset: goslim_candida  ! Candida GO slim
+subset: goslim_chembl  ! ChEMBL protein targets summary
+subset: goslim_generic  ! Generic GO slim
+subset: goslim_metagenomics  ! Metagenomics GO slim
+subset: goslim_plant  ! Plant GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "response to abiotic stress" RELATED []
+synonym: "response to biotic stress" RELATED []
+is_a: GO:0050896  ! response to stimulus
+
+[Term]
+id: GO:0007507
+name: heart development
+namespace: biological_process
+alt_id: GO:0007511
+def: "The process whose specific outcome is the progression of the heart over time, from its formation to the mature structure. The heart is a hollow, muscular organ, which, by contracting rhythmically, keeps up the circulation of the blood." [GOC:jid, UBERON:0000948]
+synonym: "cardiac development" RELATED []
+synonym: "dorsal vessel development" NARROW []
+xref: Wikipedia:Heart_development
+is_a: GO:0044767  ! single-organism developmental process
+is_a: GO:0048513  ! animal organ development
+relationship: part_of GO:0072359 ! circulatory system development
+
+[Term]
+id: GO:0008015
+name: blood circulation
+namespace: biological_process
+alt_id: GO:0070261
+def: "The flow of blood through the body of an animal, enabling the transport of nutrients to the tissues and the removal of waste products." [GOC:mtg_heart, ISBN:0192800825]
+subset: goslim_pir  ! PIR GO slim
+synonym: "hemolymph circulation" RELATED []
+is_a: GO:0003013  ! circulatory system process
+
+[Term]
+id: GO:0008217
+name: regulation of blood pressure
+namespace: biological_process
+def: "Any process that modulates the force with which blood travels through the circulatory system. The process is controlled by a balance of processes that increase pressure and decrease pressure." [GOC:dph, GOC:mtg_cardio, ISBN:0721643949]
+synonym: "blood pressure homeostasis" RELATED []
+synonym: "blood pressure regulation" EXACT []
+synonym: "control of blood pressure" RELATED []
+xref: Wikipedia:Blood_pressure#Regulation
+is_a: GO:0065008  ! regulation of biological quality
+relationship: part_of GO:0008015 ! blood circulation
+
+[Term]
+id: GO:0009986
+name: cell surface
+namespace: cellular_component
+alt_id: GO:0009928
+alt_id: GO:0009929
+def: "The external part of the cell wall and/or plasma membrane." [GOC:jl, GOC:mtg_sensu, GOC:sm]
+comment: Note that this term is intended to annotate gene products that are attached (integrated or loosely bound) to the plasma membrane or cell wall.
+subset: goslim_pir  ! PIR GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "cell associated" EXACT []
+synonym: "cell bound" EXACT []
+is_a: GO:0044464  ! cell part
+
+[Term]
+id: GO:0014704
+name: intercalated disc
+namespace: cellular_component
+def: "A complex cell-cell junction at which myofibrils terminate in cardiomyocytes; mediates mechanical and electrochemical integration between individual cardiomyocytes. The intercalated disc contains regions of tight mechanical attachment (fasciae adherentes and desmosomes) and electrical coupling (gap junctions) between adjacent cells." [GOC:mtg_muscle, PMID:11732910]
+synonym: "intercalated disk" EXACT []
+xref: Wikipedia:Intercalated_disc
+is_a: GO:0044291  ! cell-cell contact zone
+
+[Term]
+id: GO:0036053
+name: glomerular endothelium fenestra
+namespace: cellular_component
+def: "A large plasma membrane-lined circular pore that perforates the flattened glomerular endothelium and, unlike those of other fenestrated capillaries, is not spanned by diaphragms; the density and size of glomerular fenestrae account, at least in part, for the high permeability of the glomerular capillary wall to water and small solutes." [GOC:cjm, MP:0011454, PMID:19129259]
+synonym: "GEnC fenestration" EXACT [PMID:19129259]
+synonym: "glomerular endothelial cell fenestration" EXACT [PMID:19129259]
+is_a: GO:0046930  ! pore complex
+
+[Term]
+id: GO:0042310
+name: vasoconstriction
+namespace: biological_process
+def: "A decrease in the diameter of blood vessels, especially arteries, due to constriction of smooth muscle cells that line the vessels, and usually causing an increase in blood pressure." [GOC:pr, ISBN:0192800752]
+synonym: "negative regulation of blood vessel size" EXACT []
+xref: Wikipedia:Vasoconstriction
+is_a: GO:0097756  ! negative regulation of blood vessel diameter
+
+[Term]
+id: GO:0042311
+name: vasodilation
+namespace: biological_process
+def: "An increase in the internal diameter of blood vessels, especially arterioles or capillaries, due to relaxation of smooth muscle cells that line the vessels, and usually resulting in a decrease in blood pressure." [GOC:pr, ISBN:0192800981]
+synonym: "positive regulation of blood vessel size" EXACT []
+synonym: "vasodilatation" EXACT []
+xref: Wikipedia:Vasodilation
+is_a: GO:0097755  ! positive regulation of blood vessel diameter
+
+[Term]
+id: GO:0043534
+name: blood vessel endothelial cell migration
+namespace: biological_process
+def: "The orderly movement of an endothelial cell into the extracellular matrix in order to form new blood vessels during angiogenesis." [PMID:11166264]
+is_a: GO:0043542  ! endothelial cell migration
+
+[Term]
+id: GO:0046323
+name: glucose import
+namespace: biological_process
+def: "The directed movement of the hexose monosaccharide glucose into a cell or organelle." [GOC:ai]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "glucose uptake" EXACT [GOC:dph, GOC:tb]
+xref: Wikipedia:Glucose_uptake
+is_a: GO:0015758  ! glucose transport
+
+[Term]
+id: GO:0048468
+name: cell development
+namespace: biological_process
+def: "The process whose specific outcome is the progression of the cell over time, from its formation to the mature structure. Cell development does not include the steps involved in committing a cell to a specific fate." [GOC:go_curators]
+subset: goslim_candida  ! Candida GO slim
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "terminal differentiation" RELATED [GOC:dph, GOC:tb]
+is_a: GO:0048856  ! anatomical structure development
+is_a: GO:0048869  ! cellular developmental process
+relationship: part_of GO:0030154 ! cell differentiation
+
+[Term]
+id: GO:0048513
+name: animal organ development
+namespace: biological_process
+def: "Development of a tissue or tissues that work together to perform a specific function or functions. Development pertains to the process whose specific outcome is the progression of a structure over time, from its formation to the mature structure. Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions." [GOC:dph, GOC:jid]
+synonym: "development of an organ" EXACT []
+synonym: "organogenesis" EXACT []
+xref: Wikipedia:Organogenesis
+is_a: GO:0048856  ! anatomical structure development
+relationship: part_of GO:0048731 ! system development
+
+[Term]
+id: GO:0048731
+name: system development
+namespace: biological_process
+def: "The process whose specific outcome is the progression of an organismal system over time, from its formation to the mature structure. A system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a given biological process." [GOC:dph, GOC:jid]
+subset: goslim_mouse  ! Mouse GO slim
+is_a: GO:0048856  ! anatomical structure development
+relationship: part_of GO:0007275 ! multicellular organism development
+
+[Term]
+id: GO:0048844
+name: artery morphogenesis
+namespace: biological_process
+def: "The process in which the anatomical structures of arterial blood vessels are generated and organized. Arteries are blood vessels that transport blood from the heart to the body and its organs." [GOC:dsf, PMID:16740480]
+synonym: "arterial morphogenesis" EXACT []
+synonym: "arteriogenesis" EXACT [GOC:mtg_heart]
+is_a: GO:0048514  ! blood vessel morphogenesis
+relationship: part_of GO:0060840 ! artery development
+
+[Term]
+id: GO:0055119
+name: relaxation of cardiac muscle
+namespace: biological_process
+def: "The process in which the extent of cardiac muscle contraction is reduced." [GOC:ecd]
+is_a: GO:0090075  ! relaxation of muscle
+
+[Term]
+id: GO:0060047
+name: heart contraction
+namespace: biological_process
+def: "The multicellular organismal process in which the heart decreases in volume in a characteristic way to propel blood through the body." [GOC:dph]
+synonym: "cardiac contraction" RELATED []
+synonym: "heart beating" EXACT []
+synonym: "hemolymph circulation" RELATED []
+is_a: GO:0003015  ! heart process
+relationship: part_of GO:0008015 ! blood circulation
+
+[Term]
+id: GO:0060048
+name: cardiac muscle contraction
+namespace: biological_process
+def: "Muscle contraction of cardiac muscle tissue." [GOC:dph]
+synonym: "heart muscle contraction" EXACT []
+is_a: GO:0006941  ! striated muscle contraction
+relationship: part_of GO:0060047 ! heart contraction
+
+[Term]
+id: GO:0060055
+name: angiogenesis involved in wound healing
+namespace: biological_process
+def: "Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels and contribute to the series of events that restore integrity to a damaged tissue, following an injury." [GOC:dph, PMID:15039218]
+is_a: GO:0001525  ! angiogenesis
+relationship: part_of GO:0042060 ! wound healing
+intersection_of: GO:0001525  ! angiogenesis
+intersection_of: part_of GO:0042060 ! wound healing
+
+[Term]
+id: GO:0060317
+name: cardiac epithelial to mesenchymal transition
+namespace: biological_process
+def: "A transition where a cardiac epithelial cell loses apical/basolateral polarity, severs intercellular adhesive junctions, degrades basement membrane components and becomes a migratory mesenchymal cell." [GOC:BHF, GOC:dph, PMID:16314491, PMID:1996351]
+synonym: "heart epithelial to mesenchymal transition" EXACT []
+is_a: GO:0001837  ! epithelial to mesenchymal transition
+relationship: part_of GO:0003007 ! heart morphogenesis
+
+[Term]
+id: GO:0060837
+name: blood vessel endothelial cell differentiation
+namespace: biological_process
+def: "The process in which a relatively unspecialized cell acquires specialized features of a blood vessel endothelial cell, a thin flattened cell that lines the inside surfaces of blood vessels." [GOC:dph, GOC:sdb_2009, GOC:tb]
+is_a: GO:0045446  ! endothelial cell differentiation
+relationship: part_of GO:0001568 ! blood vessel development
+
+[Term]
+id: GO:0060840
+name: artery development
+namespace: biological_process
+def: "The progression of the artery over time, from its initial formation to the mature structure. An artery is a blood vessel that carries blood away from the heart to a capillary bed." [GOC:dph, GOC:sdb_2009, GOC:tb]
+is_a: GO:0001568  ! blood vessel development
+
+[Term]
+id: GO:0060841
+name: venous blood vessel development
+namespace: biological_process
+def: "The progression of the venous blood vessel over time from its initial formation to the mature structure. Venous blood vessels carry blood back to the heart after the capillary bed." [GOC:dph, GOC:sdb_2009, GOC:tb]
+is_a: GO:0001568  ! blood vessel development
+
+[Term]
+id: GO:0060856
+name: establishment of blood-brain barrier
+namespace: biological_process
+def: "Establishment of the barrier between the blood and the brain. The cells in the brain are packed tightly together preventing the passage of most molecules from the blood into the brain. Only lipid soluble molecules or those that are actively transported can pass through the blood-brain barrier." [GOC:dph, GOC:sart]
+synonym: "establishment of BBB" EXACT [PMID:20080302]
+is_a: GO:0048468  ! cell development
+
+[Term]
+id: GO:0071953
+name: elastic fiber
+namespace: cellular_component
+def: "An extracellular matrix part that consists of an insoluble core of polymerized tropoelastin monomers and a surrounding mantle of microfibrils. Elastic fibers provide elasticity and recoiling to tissues and organs, and maintain structural integrity against mechanical strain." [GOC:BHF, GOC:mah, PMID:20236620]
+synonym: "elastic fibre" EXACT [GOC:mah]
+synonym: "elastin fiber" EXACT [GOC:BHF]
+is_a: GO:0044420  ! extracellular matrix component
+
+[Term]
+id: GO:1902262
+name: apoptotic process involved in blood vessel morphogenesis
+namespace: biological_process
+def: "Any apoptotic process that is involved in blood vessel morphogenesis." [GOC:TermGenie, GOC:dph, GOC:mtg_apoptosis, PMID:16163358]
+synonym: "apoptosis involved in patterning of blood vessels" NARROW [GOC:TermGenie]
+synonym: "apoptotic cell death involved in patterning of blood vessels" EXACT [GOC:TermGenie]
+synonym: "apoptotic program involved in patterning of blood vessels" NARROW [GOC:TermGenie]
+synonym: "apoptotic programmed cell death involved in patterning of blood vessels" EXACT [GOC:TermGenie]
+synonym: "programmed cell death by apoptosis involved in patterning of blood vessels" EXACT [GOC:TermGenie]
+synonym: "signaling (initiator) caspase activity involved in patterning of blood vessels" RELATED [GOC:TermGenie]
+synonym: "type I programmed cell death involved in patterning of blood vessels" NARROW [GOC:TermGenie]
+is_a: GO:0060561  ! apoptotic process involved in morphogenesis
+relationship: part_of GO:0048514 ! blood vessel morphogenesis
+intersection_of: GO:0006915  ! apoptotic process
+intersection_of: part_of GO:0048514 ! blood vessel morphogenesis
+
+[Typedef]
+id: part_of
+name: part of
+namespace: external
+is_transitive: true
+inverse_of: has_part  ! has_part
+xref: BFO:0000050
+

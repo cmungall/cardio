@@ -1,0 +1,304 @@
+format-version: 1.2
+ontology: cl
+subsetdef: CvDC_Terms "NHLBI Cardiovascular Development Consortium (CvDC) Terms"
+subsetdef: Europhenome_Terms "Terms in use by Europhenome"
+subsetdef: IMPC "Terms in use by IMPC"
+subsetdef: IMPC_Prenatal "Terms in use by IMPC Early Viability Group"
+subsetdef: Sanger_Terms "Terms in use by Mouse Genetics Project, Sanger Institute, Wellcome Trust Genome Campus"
+subsetdef: ubprop:upper_level "abstract upper-level terms not directly useful for analysis"
+synonymtypedef: HUMAN_PREFERRED "preferred term when talking about an instance of this class in Homo sapiens"
+synonymtypedef: LATIN "latin term"
+synonymtypedef: PLURAL "plural term"
+
+[Term]
+id: CL:0000071
+name: blood vessel endothelial cell
+namespace: cell
+def: "An endothelial cell that lines the vasculature." [GOC:tfm]
+synonym: "cuboidal endothelial cell of vascular tree" EXACT []
+is_a: CL:0000076  ! squamous epithelial cell
+is_a: CL:0002139  ! endothelial cell of vascular tree
+relationship: develops_from CL:0002546 ! embryonic blood vessel endothelial progenitor cell
+relationship: part_of UBERON:0004638 ! blood vessel endothelium
+intersection_of: CL:0000076  ! squamous epithelial cell
+intersection_of: part_of UBERON:0004638 ! blood vessel endothelium
+
+[Term]
+id: CL:0000091
+name: Kupffer cell
+namespace: cell
+def: "A tissue-resident macrophage of the reticuloendothelial system found on the luminal surface of the hepatic sinusoids involved in erythrocyte clearance. Markers include F4/80+, CD11b-low, CD68-positive, sialoadhesin-positive, CD163/SRCR-positive. Irregular, with long processes including lamellipodia extending into the sinusoid lumen, have flattened nucleus with cytoplasm containing characteristic invaginations of the plasma membrane (vermiform bodies); lie within the sinusoid lumen attached to the endothelial surface; derived from the bone marrow, form a major part of the body's mononuclear phagocyte system." [GOC:add, GOC:tfm, GO_REF:0000031, ISBN:0517223651, MESH:A11.329.372.588, PMID:15771589, PMID:17105582]
+comment: Markers: Mouse: F4/80+, CD11b-low, CD68+, sialoadhesin+, CD163/SRCR+; role or process: immune, antigen-presentation, clearance of senescent erythrocytes, iron metabolism. Kupffer cells are also reportedly C3aR-positive, CD14-low, CD54-positive, CD88-positive, and CD284-positive. They are also capable of producing IL-1, IL-6, TNF-alpha, nitric oxide, PGD2, PGE2, PGF2alpha, and TXA2.
+synonym: "hepatic macrophage" EXACT []
+synonym: "littoral cell of hepatic sinusoid" EXACT []
+synonym: "liver macrophage" EXACT []
+synonym: "macrophagocytus stellatus" EXACT []
+synonym: "stellate cell of von Kupffer" EXACT []
+synonym: "von Kupffer cell" EXACT []
+xref: BTO:0000685
+xref: FMA:14656
+is_a: CL:0000864  ! tissue-resident macrophage
+relationship: capable_of GO:0034102 ! erythrocyte clearance
+relationship: has_low_plasma_membrane_amount PR:000001012 ! integrin alpha-M
+relationship: has_plasma_membrane_part PR:000001813 ! EGF-like module-containing mucin-like hormone receptor-like 1
+relationship: has_plasma_membrane_part PR:000001925 ! scavenger receptor cysteine-rich type 1 protein M130
+relationship: has_plasma_membrane_part PR:000002064 ! macrosialin
+relationship: located_in UBERON:0001281 ! hepatic sinusoid
+intersection_of: CL:0000864  ! tissue-resident macrophage
+intersection_of: capable_of GO:0034102 ! erythrocyte clearance
+intersection_of: has_low_plasma_membrane_amount PR:000001012 ! integrin alpha-M
+intersection_of: has_plasma_membrane_part PR:000001813 ! EGF-like module-containing mucin-like hormone receptor-like 1
+intersection_of: has_plasma_membrane_part PR:000001925 ! scavenger receptor cysteine-rich type 1 protein M130
+intersection_of: has_plasma_membrane_part PR:000002064 ! macrosialin
+intersection_of: located_in UBERON:0001281 ! hepatic sinusoid
+
+[Term]
+id: CL:0000115
+name: endothelial cell
+namespace: cell
+def: "An endothelial cell comprises the outermost layer or lining of anatomical structures and can be squamous or cuboidal. In mammals, endothelial cell has vimentin filaments and is derived from the mesoderm." [GOC:tfm, MESH:D042783, PMID:21275341, http://en.wikipedia.org/wiki/Endothelial_cell, https://sourceforge.net/tracker/?func=detail&atid=440764&aid=3364936&group_id=36855]
+comment: From FMA: 9.07.2001: Endothelial cell has always been classified as a kind of epithelial cell, specifically a squamous cell but that is not true. First, endothelial cell can either be squamous or cuboidal (e.g. high-endothelial cell) and secondly, it has different embryological derivation (mesodermal) than a true epithelial cell (ectodermal and endodermal). The basis for present classification is the fact that it comprises the outermost layer or lining of anatomical structures (location-based) but a better structural basis for the differentia is the cytoskeleton of the cell. Endothelial cell has vimentin filaments while an epithelial cell has keratin filaments. [Onard].
+synonym: "endotheliocyte" EXACT []
+xref: BTO:0001176
+xref: CALOHA:TS-0278
+xref: FMA:66772
+is_a: CL:0000213  ! lining cell
+is_a: CL:0002078  ! meso-epithelial cell
+
+[Term]
+id: CL:0000669
+name: pericyte cell
+namespace: cell
+alt_id: CL:0000184
+def: "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells." [GOC:dsd, GOC:tfm, ISBN:0721662544, MESH:D020286, PMID:16807374, PMID:17986482, PMID:20024907]
+comment: Pericytes are CD10-positive, CD13-positive, CD31-negative, CD45-negative, CD106-positive, CD117-negative, CD140-positive, CD144-negative, CD146-positive, CD271-positive, CD325-positive, NG2-positive, RGS5-positive, SMA-positive, and desmin-positive. A subpopulation is CD248-positive. They are also capable of producing angiopoietin 1, CXCL12, TGF-beta, and VEGF-A.
+synonym: "ARC" EXACT [PMID:17986482]
+synonym: "adventitial cell" RELATED []
+synonym: "adventitial reticular cell" EXACT []
+synonym: "cell of Rouget" EXACT []
+synonym: "pericyte" EXACT []
+synonym: "pericyte of Rouget" EXACT []
+xref: BTO:0002441
+xref: FMA:63174
+is_a: CL:0000183  ! contractile cell
+is_a: CL:0000630  ! supportive cell
+is_a: CL:0002320  ! connective tissue cell
+
+[Term]
+id: CL:0000746
+name: cardiac muscle cell
+namespace: cell
+alt_id: FMA:83808
+def: "Cardiac muscle cells are striated muscle cells that are responsible for heart contraction. In mammals, the contractile fiber resembles those of skeletal muscle but are only one third as large in diameter, are richer in sarcoplasm, and contain centrally located instead of peripheral nuclei." [GOC:mtg_cardiacconduct_nov11, GOC:tfm, ISBN:0323052908, PMID:22426062, PMID:4711263]
+comment: This class encompasses the muscle cells responsible for heart* contraction in both vertebrates and arthropods.  The ultrastucture of a wide range of arthropod heart cells has been examined including spiders, horseshoe crabs, crustaceans (see Sherman, 1973 and refs therein) and insects (see Lehmacher et al (2012) and refs therein).  According to these refs, the cells participating in heart contraction in all cases are transversely striated.  Insects hearts additionally contain ostial cells, also transversely striated muscle cells, but which do not participate in heart contraction.
+synonym: "cardiac muscle fiber" EXACT [GO:0048739]
+synonym: "cardiac myocyte" EXACT []
+synonym: "cardiocyte" BROAD []
+synonym: "cardiomyocyte" EXACT []
+synonym: "heart muscle cell" EXACT []
+xref: BTO:0001539
+xref: CALOHA:TS-0115
+xref: FMA:14067
+is_a: CL:0000737  ! striated muscle cell
+is_a: CL:0002494  ! cardiocyte
+relationship: bearer_of PATO:0002478 ! transversely striated
+relationship: develops_from CL:0000513 ! cardiac muscle myoblast
+relationship: has_part GO:0030017 ! sarcomere
+relationship: part_of UBERON:0007100 ! primary circulatory organ
+relationship: participates_in GO:0060047 ! heart contraction
+intersection_of: CL:0000187  ! muscle cell
+intersection_of: bearer_of PATO:0002478 ! transversely striated
+intersection_of: has_part GO:0030017 ! sarcomere
+intersection_of: part_of UBERON:0007100 ! primary circulatory organ
+intersection_of: participates_in GO:0060047 ! heart contraction
+
+[Term]
+id: CL:0000881
+name: perivascular macrophage
+namespace: cell
+def: "A central nervous system macrophage found in small blood vessels in the brain. Markers include CD14+CD16+CD163+." [GOC:tfm, GO_REF:0000031, PMID:16507898]
+comment: Markers: Human/monkey, mice: CD163. Human: CD14+CD16+CD163+.
+is_a: CL:0000878  ! central nervous system macrophage
+relationship: has_plasma_membrane_part PR:000001483 ! low affinity immunoglobulin gamma Fc region receptor III
+relationship: has_plasma_membrane_part PR:000001889 ! CD14 molecule
+relationship: has_plasma_membrane_part PR:000001925 ! scavenger receptor cysteine-rich type 1 protein M130
+relationship: part_of UBERON:0001981 ! blood vessel
+intersection_of: CL:0000878  ! central nervous system macrophage
+intersection_of: has_plasma_membrane_part PR:000001483 ! low affinity immunoglobulin gamma Fc region receptor III
+intersection_of: has_plasma_membrane_part PR:000001889 ! CD14 molecule
+intersection_of: has_plasma_membrane_part PR:000001925 ! scavenger receptor cysteine-rich type 1 protein M130
+intersection_of: part_of UBERON:0001981 ! blood vessel
+
+[Term]
+id: CL:0002139
+name: endothelial cell of vascular tree
+namespace: cell
+def: "An endothelial cell of the vascular tree, which includes blood vessels and lymphatic vessels." [GOC:dsd, GOC:tfm, PMID:12768659]
+comment: These cells are reportedly CD31-positive, CD34-positive, CD144-positive, TAL1-positive.
+synonym: "cubodial endothelial cell of vascular tree" NARROW []
+synonym: "vascular endothelial cell" EXACT []
+xref: BTO:0001854
+xref: CALOHA:TS-1106
+xref: FMA:67755
+is_a: CL:0000115  ! endothelial cell
+
+[Term]
+id: CL:0002495
+name: fetal cardiomyocyte
+namespace: cell
+def: "A fetal and neonatal heart cell that undergoes proliferation and is not yet terminally differentiated into a binucleate or a multinucleate cardiac myocyte." [GOC:tfm, MP:0008788]
+synonym: "embryonic cardiomyocyte" EXACT []
+synonym: "neonatal cardiomyocyte" EXACT []
+is_a: CL:0000746  ! cardiac muscle cell
+
+[Typedef]
+id: bearer_of
+name: bearer of
+def: "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence" []
+xref: RO:0000053
+range: BFO:0000020  ! specifically dependent continuant
+
+[Typedef]
+id: capable_of
+name: capable of
+def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
+xref: RO:0002215
+is_a: capable_of_part_of  ! capable of part of
+domain: BFO:0000004  ! independent continuant
+range: BFO:0000015  ! process
+
+[Typedef]
+id: capable_of_part_of
+name: capable of part of
+def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
+xref: RO:0002216
+is_a: causal_agent_in  ! causal agent in
+is_a: functionally_related_to  ! functionally related to
+holds_over_chain: capable_of part_of  ! part of
+
+[Typedef]
+id: causal_agent_in
+name: causal agent in
+def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
+inverse_of: has_causal_agent  ! has causal agent
+xref: RO:0002500
+is_a: causal_relation_between_material_entity_and_a_process  ! causal relation between material entity and a process
+
+[Typedef]
+id: causal_relation_between_material_entity_and_a_process
+name: causal relation between material entity and a process
+def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
+xref: RO:0002595
+is_a: causally_related_to  ! causally related to
+domain: BFO:0000040  ! material entity
+range: BFO:0000015  ! process
+
+[Typedef]
+id: causally_related_to
+name: causally related to
+def: "This relation groups causal relations between material entities and causal relations between processes" []
+xref: RO:0002410
+is_a: related_via_dependence_to  ! related via dependence to
+
+[Typedef]
+id: developmentally_preceded_by
+name: developmentally preceded by
+def: "Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p" []
+inverse_of: developmentally_succeeded_by  ! developmentally succeeded by
+xref: RO:0002258
+is_a: developmentally_related_to  ! developmentally related to
+
+[Typedef]
+id: developmentally_related_to
+name: developmentally related to
+def: "A relationship that holds between entities participating in some developmental process (GO:0032502)" []
+xref: RO:0002324
+
+[Typedef]
+id: develops_from
+name: develops from
+def: "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y" []
+is_transitive: true
+inverse_of: develops_into  ! develops into
+xref: RO:0002202
+is_a: developmentally_preceded_by  ! developmentally preceded by
+domain: BFO:0000004  ! independent continuant
+range: BFO:0000004  ! independent continuant
+transitive_over: part_of  ! part of
+holds_over_chain: part_of develops_from  ! develops from
+
+[Typedef]
+id: functionally_related_to
+name: functionally related to
+xref: RO:0002328
+
+[Typedef]
+id: has_low_plasma_membrane_amount
+name: has_low_plasma_membrane_amount
+def: "A relation between a cell and molecule or complex such that every instance of the cell has a low number of instances of that molecule expressed on the cell surface. For the formal definition, see Masci et al (PMID:19243617)." [PMID:19243617]
+xref: has_low_plasma_membrane_amount
+is_a: has_plasma_membrane_part  ! has plasma membrane part
+
+[Typedef]
+id: has_part
+name: has part
+def: "a core relation that holds between a whole and its part" []
+is_transitive: true
+subset: logical_definition_view_relation 
+xref: BFO:0000051
+is_a: overlaps  ! overlaps
+
+[Typedef]
+id: has_plasma_membrane_part
+name: has plasma membrane part
+def: "Holds between a cell c and a protein complex or protein p if and only if that cell has as part a plasma_membrane[GO:0005886], and that plasma membrane has p as part." []
+xref: RO:0002104
+is_a: has_part  ! has part
+
+[Typedef]
+id: located_in
+name: located in
+def: "a relation between two independent continuants, the target and the location, in which the target is entirely within the location" []
+is_transitive: true
+xref: RO:0001025
+
+[Typedef]
+id: mereotopologically_related_to
+name: mereotopologically related to
+def: "A mereological relationship or a topological relationship" []
+xref: RO:0002323
+
+[Typedef]
+id: overlaps
+name: overlaps
+def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
+xref: RO:0002131
+is_a: mereotopologically_related_to  ! mereotopologically related to
+holds_over_chain: has_part overlaps  ! overlaps
+holds_over_chain: has_part part_of  ! part of
+holds_over_chain: part_of part_of  ! part of
+
+[Typedef]
+id: part_of
+name: part of
+def: "a core relation that holds between a part and its whole" []
+is_transitive: true
+inverse_of: has_part  ! has part
+xref: BFO:0000050
+is_a: overlaps  ! overlaps
+
+[Typedef]
+id: participates_in
+name: participates in
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+inverse_of: has_participant  ! has participant
+xref: RO:0000056
+domain: BFO:0000002  ! continuant
+range: BFO:0000003  ! occurrent
+
+[Typedef]
+id: related_via_dependence_to
+name: related via dependence to
+def: "A relationship that holds between two entities, where the relationship holds based on the presence or absence of statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
+xref: RO:0002609
+
