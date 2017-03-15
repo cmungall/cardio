@@ -1,0 +1,1384 @@
+format-version: 1.2
+subsetdef: DO_AGR_slim "DO_AGR_slim"
+subsetdef: DO_cancer_slim "DO cancer slim"
+subsetdef: DO_FlyBase_slim "DO_FlyBase_slim"
+subsetdef: DO_MGI_slim "DO_MGI_slim"
+subsetdef: DO_rare_slim "DO_rare_slim"
+subsetdef: goantislim_grouping "Grouping classes that can be excluded"
+subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
+subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
+subsetdef: GOLD "GOLD"
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_chembl "ChEMBL protein targets summary"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_goa "GOA and proteome slim"
+subsetdef: goslim_metagenomics "Metagenomics GO slim"
+subsetdef: goslim_mouse "Mouse GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_synapse "synapse GO slim"
+subsetdef: goslim_virus "Viral GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
+subsetdef: gosubset_prok "Prokaryotic GO subset"
+subsetdef: gram-negative_bacterial_infectious_disease "gram-negative bacterial infectious disease"
+subsetdef: gram-positive_bacterial_infectious_disease "gram-positive bacterial infectious disease"
+subsetdef: MEDIC-Slim "MEDIC (disease) slim"
+subsetdef: mesh_antislim "MESH antislim"
+subsetdef: mf_needs_review "Catalytic activity terms in need of attention"
+subsetdef: NCIthesaurus "NCIt"
+subsetdef: sexually_transmitted_infectious_disease "sexually transmitted infectious disease"
+subsetdef: termgenie_unvetted "Terms created by TermGenie that do not follow a template and require additional vetting by editors"
+subsetdef: tick-borne_infectious_disease "tick-borne infectious disease"
+subsetdef: TopNodes_DOcancerslim "TopNodes_DOcancerslim"
+subsetdef: virus_checked "Viral overhaul terms"
+subsetdef: zoonotic_infectious_disease "zoonotic infectious disease"
+synonymtypedef: syngo_official_label "label approved by the SynGO project"
+synonymtypedef: systematic_synonym "Systematic synonym" EXACT
+ontology: go
+
+[Term]
+id: DOID:0050451
+name: Brugada syndrome
+namespace: disease_ontology
+def: "Brugada syndrome (BrS) manifests with ST segment elevation in right precordial leads (V1 to V3), incomplete or complete right bundle branch block, and susceptibility to ventricular tachyarrhythmia and sudden death. BrS is an electrical disorder without overt myocardial abnormalities." []
+comment: OMIM mapping confirmed by DO. [SN].
+subset: Orphanet:377788
+synonym: "Bangungut" EXACT []
+synonym: "Brugada ECG Pattern" RELATED []
+synonym: "Brugada Syndrome 1" RELATED []
+synonym: "Brugada Type ECG Pattern" RELATED []
+synonym: "Dream disease" EXACT []
+synonym: "ECG Pattern, Brugada" RELATED []
+synonym: "Idiopathic ventricular fibrillation, Brugada type" EXACT []
+synonym: "Pokkuri death syndrome" EXACT []
+synonym: "Right Bundle Branch Block, St Segment Elevation, And Sudden Death Syndrome" RELATED []
+synonym: "Sudden Unexplained Death Syndrome" RELATED []
+synonym: "Sudden Unexplained Nocturnal Death Syndrome" RELATED []
+synonym: "Sudden unexplained nocturnal death syndrome" EXACT []
+synonym: "Sudden Unexplained Nocturnal Death Syndrome (SUNDS)" RELATED []
+synonym: "SUNDS" EXACT []
+xref: DOID:0050451
+xref: ICD10:I49.8
+xref: MedDRA:10059027
+xref: MESH:D053840
+xref: NCIT:C71059
+xref: OMIM:601144
+xref: OMIM:611777
+xref: OMIM:611875
+xref: OMIM:611876
+xref: OMIM:612838
+xref: OMIM:613119
+xref: OMIM:613120
+xref: OMIM:613123
+xref: OMIM:616399
+xref: Orphanet:130
+xref: SCTID:418818005
+xref: UMLS:C1142166
+xref: UMLS:C1721096
+xref: UMLS:C1955837
+is_a: DOID:10273 ! heart conduction disease
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+relationship: assoc GO:0030315 ! T-tubule
+
+[Term]
+id: DOID:0050545
+name: visceral heterotaxy
+namespace: disease_ontology
+def: "A physical disorder characterized by the abnormal distribution of the major visceral organs within the chest and abdomen." [url:http\://en.wikipedia.org/wiki/Situs_ambiguus]
+comment: Xref MGI.nOMIM mapping confirmed by DO. [SN].
+subset: DO_rare_slim
+subset: Orphanet:377794
+synonym: "Ambiguus Viscerum, Situs" RELATED []
+synonym: "Ambiguus Viscerums, Situs" RELATED []
+synonym: "Ambiguus, Situs" RELATED []
+synonym: "Asplenia Syndrome" RELATED []
+synonym: "Asplenia Syndromes" RELATED []
+synonym: "Asplenia with Cardiovascular Anomalies" RELATED []
+synonym: "Atrial Isomerism, Left" RELATED []
+synonym: "Atrial Isomerism, Right" RELATED []
+synonym: "Atrial Isomerisms, Left" RELATED []
+synonym: "Atrial Isomerisms, Right" RELATED []
+synonym: "heterotaxia" EXACT []
+synonym: "Heterotaxies, Visceral" RELATED []
+synonym: "Heterotaxy syndrome" EXACT []
+synonym: "Heterotaxy Syndromes" RELATED []
+synonym: "Heterotaxy, Visceral" RELATED []
+synonym: "Isomerism, Left Atrial" RELATED []
+synonym: "Isomerism, Right Atrial" RELATED []
+synonym: "Isomerisms, Left Atrial" RELATED []
+synonym: "Isomerisms, Right Atrial" RELATED []
+synonym: "Ivemark Syndrome" RELATED []
+synonym: "Lateralization defect" EXACT []
+synonym: "Left Atrial Isomerism" RELATED []
+synonym: "Left Atrial Isomerism with Polysplenia" RELATED []
+synonym: "Left Atrial Isomerisms" RELATED []
+synonym: "Polysplenia Syndrome" RELATED []
+synonym: "Polysplenia Syndromes" RELATED []
+synonym: "Right Atrial Isomerism" RELATED []
+synonym: "Right Atrial Isomerism with Asplenia" RELATED []
+synonym: "Right Atrial Isomerisms" RELATED []
+synonym: "Situs Ambiguus" RELATED []
+synonym: "situs ambiguus" EXACT []
+synonym: "Situs Ambiguus Viscerum" RELATED []
+synonym: "Situs Ambiguus Viscerums" RELATED []
+synonym: "Situs Ambiguus with Asplenia" RELATED []
+synonym: "Situs Ambiguus with Polysplenia" RELATED []
+synonym: "Syndrome, Asplenia" RELATED []
+synonym: "Syndrome, Heterotaxy" RELATED []
+synonym: "Syndrome, Ivemark" RELATED []
+synonym: "Syndrome, Polysplenia" RELATED []
+synonym: "Syndromes, Asplenia" RELATED []
+synonym: "Syndromes, Heterotaxy" RELATED []
+synonym: "Syndromes, Polysplenia" RELATED []
+synonym: "Visceral Heterotaxies" RELATED []
+synonym: "Visceral Heterotaxy" RELATED []
+synonym: "Visceral heterotaxy" EXACT []
+synonym: "Viscerum, Situs Ambiguus" RELATED []
+synonym: "Viscerums, Situs Ambiguus" RELATED []
+xref: ICD10:Q89.3
+xref: MedDRA:10067265
+xref: MESH:D059446
+xref: OMIM:208530
+xref: OMIM:270100
+xref: OMIM:306955
+xref: OMIM:601086
+xref: OMIM:605376
+xref: OMIM:606325
+xref: OMIM:613751
+xref: OMIM:614779
+xref: OMIM:616749
+xref: Orphanet:157769
+xref: Orphanet:450
+xref: UMLS:C3178805
+is_a: DOID:1682 ! congenital heart disease
+
+[Term]
+id: DOID:0050650
+name: familial atrial fibrillation
+namespace: disease_ontology
+def: "An atrial fibrillation that has_material_basis_in autosomal dominant inheritance of the familial atrial fibrillation (ATFB) genes." [url:http\://en.wikipedia.org/wiki/Familial_atrial_fibrillation]
+comment: Xref MGI.
+subset: DO_rare_slim
+subset: Orphanet:377788
+synonym: "ATFB" EXACT []
+xref: ICD10:I48.9
+xref: MESH:D001281
+xref: OMIM:607554
+xref: OMIM:608583
+xref: OMIM:608988
+xref: OMIM:611493
+xref: OMIM:611494
+xref: OMIM:611819
+xref: OMIM:612201
+xref: OMIM:612240
+xref: OMIM:613055
+xref: OMIM:613120
+xref: OMIM:613980
+xref: OMIM:614022
+xref: OMIM:614049
+xref: OMIM:614050
+xref: OMIM:615377
+xref: OMIM:615378
+xref: OMIM:615770
+xref: Orphanet:334
+is_a: DOID:0060224 ! atrial fibrillation
+is_a: OMIM:611819 ! Long Qt Syndrome 10
+is_a: OMIM:613120 ! Brugada syndrome 7
+relationship: assoc GO:0014704 ! intercalated disc
+relationship: assoc GO:0034703 ! cation channel complex
+relationship: assoc GO:0098797 ! plasma membrane protein complex
+
+[Term]
+id: DOID:0050700
+name: cardiomyopathy
+namespace: disease_ontology
+def: "A heart disease and a myopathy that is characterized by deterioration of the function of the heart muscle." [url:http\://en.wikipedia.org/wiki/Cardiomyopathy, url:http\://www.nhlbi.nih.gov/health/health-topics/topics/cm/]
+comment: MSH:D009202 added from NeuroDevNet [WAK].
+subset: DO_FlyBase_slim
+subset: Orphanet:377794
+synonym: "Cardiomyopathies" EXACT [MSH:D009202]
+synonym: "Cardiomyopathies, Primary" RELATED []
+synonym: "Cardiomyopathies, Secondary" RELATED []
+synonym: "Cardiomyopathy" RELATED []
+synonym: "Cardiomyopathy, Primary" RELATED []
+synonym: "Cardiomyopathy, Secondary" RELATED []
+synonym: "Disease, Myocardial" RELATED []
+synonym: "Disease, Primary Myocardial" RELATED []
+synonym: "Disease, Secondary Myocardial" RELATED []
+synonym: "Diseases, Myocardial" RELATED []
+synonym: "Diseases, Primary Myocardial" RELATED []
+synonym: "Diseases, Secondary Myocardial" RELATED []
+synonym: "Myocardial Disease" RELATED []
+synonym: "Myocardial Disease, Primary" RELATED []
+synonym: "Myocardial Disease, Secondary" RELATED []
+synonym: "Myocardial Diseases" RELATED []
+synonym: "Myocardial Diseases, Primary" RELATED []
+synonym: "Myocardial Diseases, Secondary" RELATED []
+synonym: "Myocardiopathies" RELATED []
+synonym: "Myocardiopathy" RELATED []
+synonym: "Primary Cardiomyopathies" RELATED []
+synonym: "Primary Cardiomyopathy" RELATED []
+synonym: "Primary Myocardial Disease" RELATED []
+synonym: "Primary Myocardial Diseases" RELATED []
+synonym: "Secondary Cardiomyopathies" RELATED []
+synonym: "Secondary Cardiomyopathy" RELATED []
+synonym: "Secondary Myocardial Disease" RELATED []
+synonym: "Secondary Myocardial Diseases" RELATED []
+xref: DOID:0050700
+xref: ICD10:I42
+xref: ICD10:I42.9
+xref: ICD10:I51.5
+xref: ICD9:425
+xref: ICD9:425.9
+xref: MedDRA:10007636
+xref: MESH:D009202
+xref: NCIT:C34830
+xref: NCIT:C53654
+xref: Orphanet:167848
+xref: SCTID:155351008
+xref: SCTID:155353006
+xref: SCTID:195035002
+xref: SCTID:195037005
+xref: SCTID:20072003
+xref: SCTID:266244008
+xref: SCTID:266301006
+xref: SCTID:57809008
+xref: SCTID:85898001
+xref: SCTID:89461002
+xref: SCTID:89600009
+xref: UMLS:C0033141
+xref: UMLS:C0036529
+xref: UMLS:C0878544
+is_a: DOID:114 ! heart disease
+
+[Term]
+id: DOID:0060036
+name: intrinsic cardiomyopathy
+namespace: disease_ontology
+def: "A cardiomyopathy that is characterized as weakness in the muscle of the heart that is not due to an identifiable external cause." [url:http\://www.princeton.edu/~achaney/tmve/wiki100k/docs/Cardiomyopathy.html]
+is_a: DOID:0050700 ! cardiomyopathy
+
+[Term]
+id: DOID:0060224
+name: atrial fibrillation
+namespace: disease_ontology
+def: "A heart conduction disease that is characterized by uncoordinated electrical activity in the heart's upper chambers (the atria), which causes the heartbeat to become fast and irregular and has symptoms palpitations, weakness, fatigue, lightheadedness, dizziness, confusion, shortness of breath and chest pain." [url:http\://en.wikipedia.org/wiki/Atrial_fibrillation, url:http\://www.mayoclinic.org/diseases-conditions/atrial-fibrillation/basics/definition/con-20027014, url:http\://www.nhlbi.nih.gov/health/health-topics/topics/af]
+synonym: "A-fib" EXACT []
+synonym: "Atrial Fibrillations" RELATED []
+synonym: "Auricular Fibrillation" RELATED []
+synonym: "Auricular Fibrillations" RELATED []
+synonym: "Familial Atrial Fibrillation" RELATED []
+synonym: "Fibrillation, Atrial" RELATED []
+synonym: "Fibrillation, Auricular" RELATED []
+synonym: "Fibrillations, Atrial" RELATED []
+synonym: "Fibrillations, Auricular" RELATED []
+xref: DOID:0060224
+xref: HP:0005110
+xref: ICD10:I48
+xref: ICD9:427.31
+xref: MESH:D001281
+xref: NCIT:C50466
+xref: Orphanet:334
+xref: SCTID:155364009
+xref: SCTID:266306001
+xref: SCTID:49436004
+xref: UMLS:C0004238
+is_a: DOID:10273 ! heart conduction disease
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+relationship: assoc GO:0001518 ! voltage-gated sodium channel complex
+
+[Term]
+id: DOID:10273
+name: heart conduction disease
+namespace: disease_ontology
+def: "A cardiovascular system disease that involves the heart's electrical conduction system." [url:http\://en.wikipedia.org/wiki/Conduction_system_of_the_heart]
+synonym: "heart rhythm disease" EXACT []
+xref: ICD9:426.6
+xref: SCTID:195053008
+xref: SCTID:195056000
+xref: UMLS:C0029630
+is_a: DOID:114 ! heart disease
+
+[Term]
+id: DOID:114
+name: heart disease
+namespace: disease_ontology
+def: "A cardiovascular system disease that involves the heart." [url:http\://en.wikipedia.org/wiki/Heart_disease]
+subset: DO_FlyBase_slim
+synonym: "Cardiac Disease" RELATED []
+synonym: "cardiac disease" EXACT []
+synonym: "Cardiac Diseases" RELATED []
+synonym: "Disease, Cardiac" RELATED []
+synonym: "Disease, Heart" RELATED []
+synonym: "Diseases, Cardiac" RELATED []
+synonym: "Diseases, Heart" RELATED []
+synonym: "Heart Disease" RELATED []
+xref: DOID:114
+xref: ICD10:I51.9
+xref: ICD9:429.9
+xref: MESH:D006331
+xref: NCIT:C3079
+xref: SCTID:155263000
+xref: SCTID:194707003
+xref: SCTID:195152001
+xref: SCTID:266275004
+xref: SCTID:266311004
+xref: SCTID:56265001
+xref: UMLS:C0018799
+
+[Term]
+id: DOID:11726
+name: Emery-Dreifuss muscular dystrophy
+namespace: disease_ontology
+def: "Emery-Dreifuss muscular dystrophy (EDMD) is characterized by muscular weakness and atrophy, with early joint contractures and cardiomyopathy." []
+comment: Xref MGI.nOMIM mapping confirmed by DO. [SN].
+subset: DO_rare_slim
+subset: Orphanet:377788
+synonym: "EDMD" EXACT []
+xref: ICD10:G71.0
+xref: MESH:D020389
+xref: NCIT:C84685
+xref: OMIM:181350
+xref: OMIM:300696
+xref: OMIM:310300
+xref: OMIM:612998
+xref: OMIM:612999
+xref: OMIM:614302
+xref: OMIM:616516
+xref: Orphanet:261
+xref: Orphanet:98853
+xref: Orphanet:98855
+xref: Orphanet:98863
+xref: SCTID:111508004
+xref: SCTID:129620000
+xref: SCTID:193233004
+xref: UMLS:C0410189
+is_a: Orphanet:217610 ! Neuromuscular disease with dilated cardiomyopathy
+relationship: assoc GO:0031965 ! nuclear membrane
+
+[Term]
+id: DOID:11984
+name: hypertrophic cardiomyopathy
+namespace: disease_ontology
+alt_id: DOID:11986
+def: "An intrinsic cardiomyopathy that has_material_basis_in autosomal dominant inheritance and that is characterized by abnormal  thickening (hypertrophy) of the heart without any obvious cause." [url:http\://en.wikipedia.org/wiki/Hypertrophic_cardiomyopathy, url:http\://ghr.nlm.nih.gov/condition/familial-hypertrophic-cardiomyopathy, url:http\://www.mayoclinic.org/diseases-conditions/hypertrophic-cardiomyopathy/basics/definition/con-20030747, url:http\://www.nhlbi.nih.gov/health/health-topics/topics/cm/]
+comment: Xref MGI.nOMIM mapping confirmed by DO. [SN].
+subset: Orphanet:377794
+synonym: "Cardiomyopathies, Hypertrophic" RELATED []
+synonym: "Cardiomyopathies, Hypertrophic Obstructive" RELATED []
+synonym: "Cardiomyopathy, Hypertrophic Obstructive" RELATED []
+synonym: "familial hypertrophic cardiomyopathy" EXACT []
+synonym: "Hypertrophic Cardiomyopathies" RELATED []
+synonym: "Hypertrophic Cardiomyopathy" RELATED []
+synonym: "Hypertrophic Obstructive Cardiomyopathies" RELATED []
+synonym: "Hypertrophic Obstructive Cardiomyopathy" RELATED []
+synonym: "hypertrophic obstructive cardiomyopathy" EXACT [SNOMEDCT_2005_07_31:389999002]
+synonym: "Hypertrophic subaortic stenosis" EXACT []
+synonym: "Obstructive Cardiomyopathies, Hypertrophic" RELATED []
+synonym: "Obstructive Cardiomyopathy, Hypertrophic" RELATED []
+synonym: "Obstructive hypertrophic cardiomyopathy" EXACT []
+xref: DOID:11984
+xref: ICD10:I42.1
+xref: ICD9:425.1
+xref: ICD9:425.11
+xref: KEGG:05410
+xref: MedDRA:10020871
+xref: MESH:D002312
+xref: MESH:D024741
+xref: NCIT:C34449
+xref: NCIT:C84773
+xref: OMIM:PS192600
+xref: Orphanet:155
+xref: Orphanet:217569
+xref: SCTID:15471000
+xref: SCTID:155351008
+xref: SCTID:233873004
+xref: SCTID:266301006
+xref: SCTID:389998005
+xref: SCTID:389999002
+xref: SCTID:45227007
+xref: SCTID:83978005
+xref: UMLS:C0007194
+xref: UMLS:C0949658
+is_a: DOID:0060036 ! intrinsic cardiomyopathy
+is_a: DOID:5805 ! subvalvular aortic stenosis
+
+[Term]
+id: DOID:12930
+name: dilated cardiomyopathy
+namespace: disease_ontology
+def: "An intrinsic cardiomyopathy that is characterized by an an enlarged heart and damage to the myocardium causing the heart to pump blood inefficiently." [url:http\://en.wikipedia.org/wiki/Dilated_cardiomyopathy]
+comment: Xref MGI.nOMIM mapping confirmed by DO. [LS].
+subset: DO_FlyBase_slim
+subset: DO_rare_slim
+subset: Orphanet:377794
+synonym: "1A, Dilated cardiomyopathy" RELATED []
+synonym: "1As, Dilated cardiomyopathy" RELATED []
+synonym: "Cardiomyopathies, Congestive" RELATED []
+synonym: "Cardiomyopathies, Dilated" RELATED []
+synonym: "Cardiomyopathies, Familial Idiopathic" RELATED []
+synonym: "Cardiomyopathies, Idiopathic Dilated" RELATED []
+synonym: "cardiomyopathy 1A, Dilated" RELATED []
+synonym: "cardiomyopathy 1As, Dilated" RELATED []
+synonym: "Cardiomyopathy, Congestive" RELATED []
+synonym: "Cardiomyopathy, Dilated, 1a" RELATED []
+synonym: "Cardiomyopathy, Dilated, Autosomal Recessive" RELATED []
+synonym: "Cardiomyopathy, Dilated, CMD1A" RELATED []
+synonym: "Cardiomyopathy, Dilated, LMNA" RELATED []
+synonym: "Cardiomyopathy, Dilated, With Conduction Defect 1" RELATED []
+synonym: "Cardiomyopathy, Dilated, with Conduction Deffect1" RELATED []
+synonym: "Cardiomyopathy, Familial Idiopathic" RELATED []
+synonym: "Cardiomyopathy, Idiopathic Dilated" RELATED []
+synonym: "Congestive Cardiomyopathies" RELATED []
+synonym: "Congestive Cardiomyopathy" RELATED []
+synonym: "Congestive cardiomyopathy" RELATED [SNOMEDCT_2005_07_31:195018001]
+synonym: "Dilated Cardiomyopathies" RELATED []
+synonym: "Dilated Cardiomyopathies, Idiopathic" RELATED []
+synonym: "Dilated Cardiomyopathy" RELATED []
+synonym: "Dilated cardiomyopathy 1A" RELATED []
+synonym: "Dilated cardiomyopathy 1As" RELATED []
+synonym: "Dilated Cardiomyopathy, Idiopathic" RELATED []
+synonym: "Familial dilated cardiomyopathy" RELATED [MSH:C536231]
+synonym: "Familial Idiopathic Cardiomyopathies" RELATED []
+synonym: "Familial Idiopathic Cardiomyopathy" RELATED []
+synonym: "Idiopathic Cardiomyopathies, Familial" RELATED []
+synonym: "Idiopathic Cardiomyopathy, Familial" RELATED []
+synonym: "Idiopathic Dilated Cardiomyopathies" RELATED []
+synonym: "Idiopathic Dilated Cardiomyopathy" RELATED []
+synonym: "Idiopathic dilation cardiomyopathy" RELATED [MSH:C536277]
+synonym: "primary dilated cardiomyopathy" EXACT []
+xref: DOID:12930
+xref: EFO:0000407
+xref: ICD10:I42.0
+xref: KEGG:05414
+xref: MedDRA:10056370
+xref: MESH:C536231
+xref: MESH:D002311
+xref: NCIT:C84673
+xref: OMIM:115200
+xref: OMIM:613424
+xref: OMIM:613642
+xref: OMIM:PS115200
+xref: Orphanet:217604
+xref: Orphanet:217607
+xref: SCTID:195018001
+xref: SCTID:195021004
+xref: SCTID:389995008
+xref: SCTID:399020009
+xref: SCTID:74368002
+xref: UMLS:C0007193
+is_a: DOID:0060036 ! intrinsic cardiomyopathy
+is_a: MESH:D006332 ! Cardiomegaly
+
+[Term]
+id: DOID:1682
+name: congenital heart disease
+namespace: disease_ontology
+def: "Developmental abnormalities involving structures of the heart. These defects are present at birth but may be discovered later in life." [MESH:D006330]
+comment: OMIM mapping confirmed by DO. [SN].
+subset: DO_FlyBase_slim
+synonym: "Abnormalities, Heart" RELATED []
+synonym: "Abnormality, Heart" RELATED []
+synonym: "Congenital anomaly of heart" EXACT [SNOMEDCT_2005_07_31:13213009]
+synonym: "Congenital Heart Defect" RELATED []
+synonym: "congenital heart defect" EXACT []
+synonym: "Congenital Heart Defects" EXACT [MTH:NOCODE]
+synonym: "Defect, Congenital Heart" RELATED []
+synonym: "Defects, Congenital Heart" RELATED []
+synonym: "Heart Abnormalities" RELATED []
+synonym: "Heart Abnormality" RELATED []
+synonym: "heart defect" EXACT [CSP2005:0724-8315]
+synonym: "Heart Defect, Congenital" RELATED []
+synonym: "Heart Malformation" EXACT [NCI2004_11_17:C34666]
+synonym: "Heart, Malformation Of" RELATED []
+synonym: "Heart-congenital defect" RELATED [SNOMEDCT_2005_07_31:156911006]
+xref: DOID:1682
+xref: ICD10:Q24.9
+xref: ICD9:746.9
+xref: MESH:D006330
+xref: NCIT:C34666
+xref: SCTID:13213009
+xref: SCTID:156911006
+xref: SCTID:156926008
+xref: SCTID:204405005
+xref: SCTID:204413006
+xref: SCTID:268315002
+xref: SCTID:268318000
+xref: UMLS:C0018798
+is_a: DOID:114 ! heart disease
+
+[Term]
+id: DOID:1712
+name: aortic valve stenosis
+namespace: disease_ontology
+alt_id: DOID:12034
+alt_id: DOID:1711
+def: "An aortic valve disease that has_physical_basis_in incomplete opening of the aortic valve." [url:http\://en.wikipedia.org/wiki/Aortic_valve_stenosis]
+comment: Xref MGI.nOMIM mapping confirmed by DO. [SN].
+subset: DO_rare_slim
+subset: Orphanet:377791
+synonym: "Aortic Stenosis" RELATED []
+synonym: "Aortic stenosis" EXACT [SNOMEDCT_2005_07_31:390722003]
+synonym: "Aortic Valve Stenoses" RELATED []
+synonym: "AS" EXACT []
+synonym: "Congenital aortic valve stenosis" EXACT [SNOMEDCT_2005_07_31:156922005]
+synonym: "Rheumatic aortic stenosis" EXACT [ICD9CM_2006:395.0, SNOMEDCT_2005_07_31:155282009]
+synonym: "rheumatic aortic valve stenosis" EXACT []
+synonym: "Stenoses, Aortic" RELATED []
+synonym: "Stenoses, Aortic Valve" RELATED []
+synonym: "Stenosis, Aortic" RELATED []
+synonym: "Stenosis, Aortic Valve" RELATED []
+synonym: "Valve Stenoses, Aortic" RELATED []
+synonym: "Valve Stenosis, Aortic" RELATED []
+xref: DOID:1712
+xref: ICD10:I06.0
+xref: ICD10:Q23.0
+xref: ICD9:395.0
+xref: ICD9:746.3
+xref: MedDRA:10010371
+xref: MESH:D001024
+xref: NCIT:C50462
+xref: OMIM:109730
+xref: OMIM:614823
+xref: Orphanet:3093
+xref: Orphanet:402075
+xref: SCTID:155282009
+xref: SCTID:156922005
+xref: SCTID:18546004
+xref: SCTID:390722003
+xref: SCTID:60573004
+xref: SCTID:72011007
+xref: UMLS:C0003507
+xref: UMLS:C0152417
+xref: UMLS:C0155567
+is_a: DOID:62 ! aortic valve disease
+is_a: MESH:D014694 ! Ventricular Outflow Obstruction
+
+[Term]
+id: DOID:2843
+name: long QT syndrome
+namespace: disease_ontology
+alt_id: DOID:4069
+def: "An autosomal genetic disease that is characterized by delayed repolarization of the heart following a heartbeat increases the risk of episodes of torsade de pointes (TDP, a form of irregular heartbeat that originates from the ventricles)." [url:http\://en.wikipedia.org/wiki/Long_QT_syndrome]
+comment: OMIM mapping confirmed by DO. [SN].
+subset: DO_FlyBase_slim
+synonym: "long Q-T syndrome" EXACT [SNOMEDCT_2005_07_31:395649008]
+synonym: "LQT" EXACT [CSP2005:4009-0053]
+synonym: "Romano-Ward syndrome" EXACT []
+synonym: "Romano-Ward syndrome (disorder)" EXACT [SNOMEDCT_2005_07_31:20852007]
+xref: DOID:2843
+xref: ICD10:I45.81
+xref: ICD9:426.82
+xref: MESH:D008133
+xref: MESH:D029597
+xref: NCIT:C34786
+xref: NCIT:C85049
+xref: OMIM:170390
+xref: OMIM:192500
+xref: OMIM:601005
+xref: OMIM:603830
+xref: OMIM:611818
+xref: OMIM:611819
+xref: OMIM:611820
+xref: OMIM:612955
+xref: OMIM:613485
+xref: OMIM:613688
+xref: OMIM:613693
+xref: OMIM:613695
+xref: Orphanet:101016
+xref: Orphanet:768
+xref: SCTID:20852007
+xref: SCTID:395649008
+xref: SCTID:9651007
+xref: UMLS:C0023976
+xref: UMLS:C0035828
+is_a: DOID:0060036 ! intrinsic cardiomyopathy
+is_a: DOID:1682 ! congenital heart disease
+is_a: MESH:D001145 ! Arrhythmias, Cardiac
+
+[Term]
+id: DOID:3490
+name: Noonan syndrome
+namespace: disease_ontology
+def: "Noonan Syndrome (NS) is characterised by short stature, typical facial dysmorphism and congenital heart defects." []
+comment: OMIM mapping confirmed by DO. [SN].
+subset: DO_FlyBase_slim
+subset: Orphanet:377789
+synonym: "Familial Turner Syndrome" RELATED []
+synonym: "Female Pseudo Turner Syndrome" RELATED []
+synonym: "Female Pseudo-Turner Syndrome" RELATED []
+synonym: "Male Turner Syndrome" RELATED []
+synonym: "Male Turner's Syndrome" RELATED []
+synonym: "Noonan Ehmke Syndrome" RELATED []
+synonym: "Noonan Syndrome 1" RELATED []
+synonym: "Noonan-Ehmke Syndrome" RELATED []
+synonym: "Pseudo Ullrich Turner Syndrome" RELATED []
+synonym: "Pseudo-Turner Syndrome, Female" RELATED []
+synonym: "Pseudo-Ullrich-Turner Syndrome" RELATED []
+synonym: "Syndrome, Familial Turner" RELATED []
+synonym: "Syndrome, Female Pseudo-Turner" RELATED []
+synonym: "Syndrome, Male Turner" RELATED []
+synonym: "Syndrome, Male Turner's" RELATED []
+synonym: "Syndrome, Noonan" RELATED []
+synonym: "Syndrome, Noonan-Ehmke" RELATED []
+synonym: "Syndrome, Pseudo-Ullrich-Turner" RELATED []
+synonym: "Syndrome, Turner-Like" RELATED []
+synonym: "Syndrome, Ullrich-Noonan" RELATED []
+synonym: "Turner Like Syndrome" RELATED []
+synonym: "Turner Phenotype with Normal Karyotype" RELATED []
+synonym: "Turner Syndrome, Familial" RELATED []
+synonym: "Turner Syndrome, Male" RELATED []
+synonym: "Turner's Phenotype, Karyotype Normal" RELATED []
+synonym: "Turner's phenotype, karyotype normal (disorder)" EXACT [SNOMEDCT_2005_07_31:205684007]
+synonym: "Turner's Syndrome, Male" RELATED []
+synonym: "Turner-Like Syndrome" RELATED []
+synonym: "Ullrich Noonan Syndrome" RELATED []
+synonym: "Ullrich-Noonan Syndrome" RELATED []
+xref: DOID:3490
+xref: ICD10:Q87.1
+xref: MedDRA:10029748
+xref: MESH:D009634
+xref: NCIT:C34854
+xref: NCIT:C75459
+xref: OMIM:163950
+xref: OMIM:605275
+xref: OMIM:609942
+xref: OMIM:610733
+xref: OMIM:611553
+xref: OMIM:613224
+xref: OMIM:613706
+xref: OMIM:615355
+xref: OMIM:616559
+xref: OMIM:616564
+xref: OMIM:PS163950
+xref: Orphanet:648
+xref: SCTID:205684007
+xref: SCTID:205794007
+xref: SCTID:205824006
+xref: SCTID:88327006
+xref: UMLS:C0028326
+is_a: DOID:1682 ! congenital heart disease
+is_a: Orphanet:98733 ! Noonan syndrome and Noonan-related syndrome
+
+[Term]
+id: DOID:3978
+name: extrinsic cardiomyopathy
+namespace: disease_ontology
+def: "A cardiomyopathy that is characterized by the pathology occuring outside of the myocardium." [url:http\://en.wikipedia.org/wiki/Cardiomyopathy, url:http\://www.princeton.edu/~achaney/tmve/wiki100k/docs/Cardiomyopathy.html]
+xref: ICD9:425.8
+xref: SCTID:195580005
+xref: UMLS:C0155699
+is_a: DOID:0050700 ! cardiomyopathy
+
+[Term]
+id: DOID:4079
+name: heart valve disease
+namespace: disease_ontology
+alt_id: DOID:989
+def: "A heart disease involving one or more of the four valves of the heart (the aortic and mitral valves on the left and the pulmonary and tricuspid valves on the right)." [url:http\://en.wikipedia.org/wiki/Heart_valve_disease]
+synonym: "Disease, Heart Valve" RELATED []
+synonym: "Disease, Valvular Heart" RELATED []
+synonym: "Diseases, Heart Valve" RELATED []
+synonym: "Diseases, Valvular Heart" RELATED []
+synonym: "Heart Disease, Valvular" RELATED []
+synonym: "Heart Diseases, Valvular" RELATED []
+synonym: "Heart Valve Disease" RELATED []
+synonym: "Valve Disease, Heart" RELATED []
+synonym: "Valve Diseases, Heart" RELATED []
+synonym: "Valvular Heart Disease" RELATED []
+synonym: "Valvular heart disease" EXACT [SNOMEDCT_2005_07_31:195013005]
+synonym: "Valvular Heart Diseases" RELATED []
+xref: DOID:4079
+xref: MESH:D006349
+xref: MESH:D016127
+xref: NCIT:C45525
+xref: SCTID:195013005
+xref: SCTID:368009
+xref: SCTID:398995000
+xref: UMLS:C0018824
+xref: UMLS:C0079485
+is_a: DOID:114 ! heart disease
+
+[Term]
+id: DOID:5805
+name: subvalvular aortic stenosis
+namespace: disease_ontology
+def: "A pathological constriction occurring in the region below the AORTIC VALVE. It is characterized by restricted outflow from the LEFT VENTRICLE into the AORTA." [MESH:D001020]
+synonym: "Aortic Stenoses, Subvalvular" RELATED []
+synonym: "Aortic Subvalvular Stenoses" RELATED []
+synonym: "Aortic Subvalvular Stenosis" RELATED []
+synonym: "Stenoses, Aortic Subvalvular" RELATED []
+synonym: "Stenoses, Subvalvular Aortic" RELATED []
+synonym: "Stenosis, Aortic Subvalvular" RELATED []
+synonym: "Stenosis, Subvalvular Aortic" RELATED []
+synonym: "Subvalvular Aortic Stenoses" RELATED []
+synonym: "Subvalvular Aortic Stenosis" RELATED []
+synonym: "Subvalvular Stenoses, Aortic" RELATED []
+synonym: "Subvalvular Stenosis, Aortic" RELATED []
+xref: DOID:5805
+xref: MESH:D001020
+xref: NCIT:C85172
+xref: SCTID:204368006
+xref: SCTID:250915007
+xref: UMLS:C0340375
+is_a: DOID:1712 ! aortic valve stenosis
+
+[Term]
+id: DOID:62
+name: aortic valve disease
+namespace: disease_ontology
+alt_id: DOID:56
+comment: Updating out dated UMLS CUI.
+xref: ICD9:395
+xref: ICD9:424.1
+xref: MESH:C563178
+xref: NCIT:C78650
+xref: SCTID:194988001
+xref: SCTID:8722008
+xref: UMLS:C1260873
+is_a: DOID:4079 ! heart valve disease
+
+[Term]
+id: DOID:820
+name: myocarditis
+namespace: disease_ontology
+def: "An extrinsic cardiomyopathy that is characterized as an inflammation of the heart muscle." [url:http\://en.wikipedia.org/wiki/Myocarditis]
+synonym: "Carditis" RELATED []
+synonym: "Myocardial inflammation (finding)" EXACT [SNOMEDCT_2005_07_31:251060004]
+synonym: "Myocarditides" RELATED []
+xref: DOID:820
+xref: ICD10:I51.4
+xref: ICD9:429.0
+xref: KEGG:05416
+xref: MESH:D009205
+xref: NCIT:C34831
+xref: SCTID:155380004
+xref: SCTID:195119007
+xref: SCTID:251060004
+xref: SCTID:50920009
+xref: UMLS:C0027059
+is_a: DOID:3978 ! extrinsic cardiomyopathy
+
+[Term]
+id: GO:0001518
+name: voltage-gated sodium channel complex
+namespace: cellular_component
+def: "A sodium channel in a cell membrane whose opening is governed by the membrane potential." [ISBN:0198506732]
+synonym: "voltage gated sodium channel complex" EXACT []
+synonym: "voltage-dependent sodium channel complex" EXACT []
+synonym: "voltage-sensitive sodium channel complex" EXACT []
+xref: NIF_Subcellular:sao785001660
+is_a: GO:0034706 ! sodium channel complex
+is_a: GO:0044459 ! plasma membrane part
+
+[Term]
+id: GO:0005575
+name: cellular_component
+namespace: cellular_component
+alt_id: GO:0008372
+def: "The part of a cell, extracellular environment or virus in which a gene product is located. A gene product may be located in one or more parts of a cell and its location may be as specific as a particular macromolecular complex, that is, a stable, persistent association of macromolecules that function together." [GOC:go_curators, NIF_Subcellular:sao-1337158144]
+comment: Note that, in addition to forming the root of the cellular component ontology, this term is recommended for use for the annotation of gene products whose cellular component is unknown. Note that when this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+subset: gosubset_prok
+synonym: "cell or subcellular entity" EXACT []
+synonym: "cellular component" EXACT []
+synonym: "subcellular entity" RELATED [NIF_Subcellular:nlx_subcell_100315]
+xref: NIF_Subcellular:sao-1337158144
+xref: NIF_Subcellular:sao1337158144
+
+[Term]
+id: GO:0005911
+name: cell-cell junction
+namespace: cellular_component
+def: "A cell junction that forms a connection between two or more cells in a multicellular organism; excludes direct cytoplasmic junctions such as ring canals." [GOC:dgh, GOC:hb, GOC:mah]
+synonym: "intercellular junction" EXACT [NIF_Subcellular:sao1395777368]
+xref: NIF_Subcellular:sao1922892319
+is_a: GO:0030054 ! cell junction
+
+[Term]
+id: GO:0014704
+name: intercalated disc
+namespace: cellular_component
+def: "A complex cell-cell junction at which myofibrils terminate in cardiomyocytes; mediates mechanical and electrochemical integration between individual cardiomyocytes. The intercalated disc contains regions of tight mechanical attachment (fasciae adherentes and desmosomes) and electrical coupling (gap junctions) between adjacent cells." [GOC:mtg_muscle, PMID:11732910]
+synonym: "intercalated disk" EXACT []
+xref: Wikipedia:Intercalated_disc
+is_a: GO:0044291 ! cell-cell contact zone
+
+[Term]
+id: GO:0016020
+name: membrane
+namespace: cellular_component
+def: "A lipid bilayer along with all the proteins and protein complexes embedded in it an attached to it." [GOC:dos, GOC:mah, ISBN:0815316194]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_metagenomics
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+subset: gosubset_prok
+xref: Wikipedia:Biological_membrane
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0030054
+name: cell junction
+namespace: cellular_component
+def: "A cellular component that forms a specialized region of connection between two or more cells or between a cell and the extracellular matrix. At a cell junction, anchoring proteins extend through the plasma membrane to link cytoskeletal proteins in one cell to cytoskeletal proteins in neighboring cells or to proteins in the extracellular matrix." [GOC:mah, http://www.vivo.colostate.edu/hbooks/cmb/cells/pmemb/junctions_a.html, ISBN:0198506732]
+xref: Wikipedia:Cell_junction
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0030315
+name: T-tubule
+namespace: cellular_component
+def: "Invagination of the plasma membrane of a muscle cell that extends inward from the cell surface around each myofibril. The ends of T-tubules make contact with the sarcoplasmic reticulum membrane." [GOC:mtg_muscle, ISBN:0815316194]
+synonym: "transverse tubule" EXACT []
+synonym: "triad" RELATED []
+xref: Wikipedia:T-tubule
+is_a: GO:0044459 ! plasma membrane part
+
+[Term]
+id: GO:0031090
+name: organelle membrane
+namespace: cellular_component
+def: "A membrane that is one of the two lipid bilayers of an organelle envelope or the outermost membrane of single membrane bound organelle." [GOC:dos, GOC:mah]
+subset: gosubset_prok
+synonym: "intracellular membrane" RELATED [NIF_Subcellular:sao830981606]
+xref: NIF_Subcellular:sao830981606
+is_a: GO:0016020 ! membrane
+is_a: GO:0044422 ! organelle part
+
+[Term]
+id: GO:0031965
+name: nuclear membrane
+namespace: cellular_component
+def: "Either of the lipid bilayers that surround the nucleus and form the nuclear envelope; excludes the intermembrane space." [GOC:mah, GOC:pz]
+xref: NIF_Subcellular:sao1687101204
+is_a: GO:0031090 ! organelle membrane
+is_a: GO:0044428 ! nuclear part
+
+[Term]
+id: GO:0032991
+name: macromolecular complex
+namespace: cellular_component
+def: "A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together." [GOC:dos, GOC:mah]
+subset: goslim_pir
+subset: gosubset_prok
+synonym: "macromolecule complex" EXACT []
+synonym: "protein containing complex" EXACT []
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0034702
+name: ion channel complex
+namespace: cellular_component
+def: "A protein complex that spans a membrane and forms a water-filled channel across the phospholipid bilayer allowing selective ion transport down its electrochemical gradient." [GOC:mah, ISBN:071673706X]
+is_a: GO:1902495 ! transmembrane transporter complex
+
+[Term]
+id: GO:0034703
+name: cation channel complex
+namespace: cellular_component
+def: "An ion channel complex through which cations pass." [GOC:mah]
+is_a: GO:0034702 ! ion channel complex
+
+[Term]
+id: GO:0034706
+name: sodium channel complex
+namespace: cellular_component
+def: "An ion channel complex through which sodium ions pass." [GOC:mah]
+is_a: GO:0034703 ! cation channel complex
+
+[Term]
+id: GO:0043234
+name: protein complex
+namespace: cellular_component
+def: "A stable macromolecular complex composed (only) of two or more polypeptide subunits along with any covalently attached molecules (such as lipid anchors or oligosaccharide) or non-protein prosthetic groups (such as nucleotides or metal ions). Prosthetic group in this context refers to a tightly bound cofactor. The component polypeptide subunits may be identical." [GOC:go_curators, http://www.ebi.ac.uk/intact/complex/documentation/]
+comment: A protein complex in this context is meant as a stable set of interacting proteins which can be co-purified by an acceptable method, and where the complex has been shown to exist as an isolated, functional unit in vivo. Acceptable experimental methods include stringent protein purification followed by detection of protein interaction. The following methods should be considered non-acceptable: simple immunoprecipitation, pull-down experiments from cell extracts without further purification, colocalization and 2-hybrid screening. Interactions that should not be captured as protein complexes include: 1) enzyme/substrate, receptor/ligand or any similar transient interactions, unless these are a critical part of the complex assembly or are required e.g. for the receptor to be functional; 2) proteins associated in a pull-down/co-immunoprecipitation assay with no functional link or any evidence that this is a defined biological entity rather than a loose-affinity complex; 3) any complex where the only evidence is based on genetic interaction data; 4) partial complexes, where some subunits (e.g. transmembrane ones) cannot be expressed as recombinant proteins and are excluded from experiments (in this case, independent evidence is necessary to find out the composition of the full complex, if known). Interactions that may be captured as protein complexes include: 1) enzyme/substrate or receptor/ligand if the complex can only assemble and become functional in the presence of both classes of subunits; 2) complexes where one of the members has not been shown to be physically linked to the other(s), but is a homologue of, and has the same functionality as, a protein that has been experimentally demonstrated to form a complex with the other member(s); 3) complexes whose existence is accepted based on localization and pharmacological studies, but for which experimental evidence is not yet available for the complex as a whole.
+subset: goslim_chembl
+subset: goslim_generic
+subset: goslim_pir
+subset: gosubset_prok
+synonym: "protein-protein complex" EXACT []
+xref: Wikipedia:Protein_complex
+is_a: GO:0032991 ! macromolecular complex
+
+[Term]
+id: GO:0044291
+name: cell-cell contact zone
+namespace: cellular_component
+def: "Extended zone of intimate apposition between two cells containing one or more types of intercellular junctions, e.g., the intercalated disk of muscle." [NIF_Subcellular:sao1299635018]
+synonym: "cell cell contact zone" EXACT []
+xref: NIF_Subcellular:sao1299635018
+is_a: GO:0005911 ! cell-cell junction
+
+[Term]
+id: GO:0044422
+name: organelle part
+namespace: cellular_component
+def: "Any constituent part of an organelle, an organized structure of distinctive morphology and function. Includes constituent parts of the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, but excludes the plasma membrane." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: goantislim_grouping
+subset: gocheck_do_not_annotate
+subset: gosubset_prok
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0044424
+name: intracellular part
+namespace: cellular_component
+def: "Any constituent part of the living contents of a cell; the matter contained within (but not including) the plasma membrane, usually taken to exclude large vacuoles and masses of secretory or ingested material. In eukaryotes it includes the nucleus and cytoplasm." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: goantislim_grouping
+subset: gocheck_do_not_annotate
+subset: gosubset_prok
+is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0044425
+name: membrane part
+namespace: cellular_component
+def: "Any constituent part of a membrane, a double layer of lipid molecules that encloses all cells, and, in eukaryotes, many organelles; may be a single or double lipid bilayer; also includes associated proteins." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: goantislim_grouping
+subset: gocheck_do_not_annotate
+subset: gosubset_prok
+is_a: GO:0005575 ! cellular_component
+intersection_of: GO:0005575 ! cellular_component
+intersection_of: part_of GO:0016020 ! membrane
+relationship: part_of GO:0016020 ! membrane
+
+[Term]
+id: GO:0044428
+name: nuclear part
+namespace: cellular_component
+def: "Any constituent part of the nucleus, a membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: goantislim_grouping
+subset: gocheck_do_not_annotate
+synonym: "nuclear subcomponent" EXACT [NIF_Subcellular:sao1499850686]
+synonym: "nucleus component" EXACT []
+xref: NIF_Subcellular:sao1499850686
+is_a: GO:0044446 ! intracellular organelle part
+
+[Term]
+id: GO:0044429
+name: mitochondrial part
+namespace: cellular_component
+def: "Any constituent part of a mitochondrion, a semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: goantislim_grouping
+subset: gocheck_do_not_annotate
+synonym: "mitochondrial subcomponent" EXACT [NIF_Subcellular:sao666410040]
+synonym: "mitochondrion component" EXACT []
+xref: NIF_Subcellular:sao666410040
+is_a: GO:0044444 ! cytoplasmic part
+is_a: GO:0044446 ! intracellular organelle part
+
+[Term]
+id: GO:0044444
+name: cytoplasmic part
+namespace: cellular_component
+def: "Any constituent part of the cytoplasm, all of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: goantislim_grouping
+subset: gocheck_do_not_annotate
+subset: gosubset_prok
+synonym: "cytoplasm component" EXACT []
+is_a: GO:0044424 ! intracellular part
+
+[Term]
+id: GO:0044446
+name: intracellular organelle part
+namespace: cellular_component
+def: "A constituent part of an intracellular organelle, an organized structure of distinctive morphology and function, occurring within the cell. Includes constituent parts of the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton but excludes the plasma membrane." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: gocheck_do_not_annotate
+subset: gosubset_prok
+is_a: GO:0044422 ! organelle part
+is_a: GO:0044424 ! intracellular part
+
+[Term]
+id: GO:0044455
+name: mitochondrial membrane part
+namespace: cellular_component
+def: "Any constituent part of a mitochondrial membrane, either of the lipid bilayers that surround the mitochondrion and form the mitochondrial envelope." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: goantislim_grouping
+subset: gocheck_do_not_annotate
+is_a: GO:0044425 ! membrane part
+is_a: GO:0044429 ! mitochondrial part
+
+[Term]
+id: GO:0044459
+name: plasma membrane part
+namespace: cellular_component
+def: "Any constituent part of the plasma membrane, the membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: goantislim_grouping
+subset: gocheck_do_not_annotate
+subset: gosubset_prok
+is_a: GO:0044425 ! membrane part
+is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0044464
+name: cell part
+namespace: cellular_component
+def: "Any constituent part of a cell, the basic structural and functional unit of all organisms." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: goantislim_grouping
+subset: gocheck_do_not_annotate
+subset: goslim_pir
+subset: gosubset_prok
+synonym: "cellular subcomponent" EXACT [NIF_Subcellular:sao628508602]
+synonym: "protoplast" RELATED [GOC:mah]
+xref: NIF_Subcellular:sao628508602
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0098796
+name: membrane protein complex
+namespace: cellular_component
+def: "Any protein complex that is part of a membrane." [GOC:dos]
+subset: goslim_metagenomics
+is_a: GO:0043234 ! protein complex
+is_a: GO:0044425 ! membrane part
+intersection_of: GO:0043234 ! protein complex
+intersection_of: part_of GO:0016020 ! membrane
+relationship: part_of GO:0016020 ! membrane
+
+[Term]
+id: GO:0098797
+name: plasma membrane protein complex
+namespace: cellular_component
+def: "Any protein complex that is part of the plasma membrane." [GOC:dos]
+is_a: GO:0044459 ! plasma membrane part
+is_a: GO:0098796 ! membrane protein complex
+
+[Term]
+id: GO:1902495
+name: transmembrane transporter complex
+namespace: cellular_component
+def: "A transmembrane protein complex which enables the transfer of a substance from one side of a membrane to the other." [GOC:bhm, GOC:TermGenie, PMID:18024586]
+is_a: GO:0044425 ! membrane part
+is_a: GO:1990351 ! transporter complex
+
+[Term]
+id: GO:1990351
+name: transporter complex
+namespace: cellular_component
+def: "A protein complex facilitating transport of molecules (proteins, small molecules, nucleic acids) into, out of or within a cell, or between cells." [GOC:bhm, IntAct:EBI-959455, PMID:15449578]
+comment: An example of this is GTR1 in human (UniProt symbol P11166) in PMID:15449578 (inferred from direct assay).
+is_a: GO:0032991 ! macromolecular complex
+
+[Term]
+id: MESH:D001145
+name: Arrhythmias, Cardiac
+namespace: disease_ontology
+def: "Any disturbances of the normal rhythmic beating of the heart or MYOCARDIAL CONTRACTION. Cardiac arrhythmias can be classified by the abnormalities in HEART RATE, disorders of electrical impulse generation, or impulse conduction." [MESH:D001145]
+synonym: "Arrhythmia" RELATED []
+synonym: "Arrhythmia, Cardiac" RELATED []
+synonym: "Arrythmia" RELATED []
+synonym: "Cardiac Arrhythmia" RELATED []
+synonym: "Cardiac Arrhythmias" RELATED []
+synonym: "Cardiac Dysrhythmia" RELATED []
+synonym: "Dysrhythmia, Cardiac" RELATED []
+xref: OMIM:115000
+is_a: DOID:114 ! heart disease
+
+[Term]
+id: MESH:D006332
+name: Cardiomegaly
+namespace: disease_ontology
+def: "Enlargement of the HEART, usually indicated by a cardiothoracic ratio above 0.50. Heart enlargement may involve the right, the left, or both HEART VENTRICLES or HEART ATRIA. Cardiomegaly is a nonspecific symptom seen in patients with chronic systolic heart failure (HEART FAILURE) or several forms of CARDIOMYOPATHIES." [MESH:D006332]
+synonym: "Cardiac Hypertrophy" RELATED []
+synonym: "Enlarged Heart" RELATED []
+synonym: "Enlargement, Heart" RELATED []
+synonym: "Heart Enlargement" RELATED []
+synonym: "Heart Hypertrophy" RELATED []
+synonym: "Heart, Enlarged" RELATED []
+is_a: DOID:114 ! heart disease
+
+[Term]
+id: MESH:D014694
+name: Ventricular Outflow Obstruction
+namespace: disease_ontology
+def: "Occlusion of the outflow tract in either the LEFT VENTRICLE or the RIGHT VENTRICLE of the heart. This may result from CONGENITAL HEART DEFECTS, predisposing heart diseases, complications of surgery, or HEART NEOPLASMS." [MESH:D014694]
+synonym: "Left Ventricular Outflow Obstruction" RELATED []
+synonym: "Obstruction, Ventricular Outflow" RELATED []
+synonym: "Obstructions, Ventricular Outflow" RELATED []
+synonym: "Outflow Obstruction, Left Ventricular" RELATED []
+synonym: "Outflow Obstruction, Right Ventricular" RELATED []
+synonym: "Outflow Obstruction, Ventricular" RELATED []
+synonym: "Outflow Obstructions, Ventricular" RELATED []
+synonym: "Right Ventricular Outflow Obstruction" RELATED []
+synonym: "Ventricular Outflow Obstruction, Left" RELATED []
+synonym: "Ventricular Outflow Obstruction, Right" RELATED []
+synonym: "Ventricular Outflow Obstructions" RELATED []
+is_a: DOID:114 ! heart disease
+
+[Term]
+id: OMIM:163950
+name: Noonan syndrome 1
+namespace: disease_ontology
+def: "A Noonan syndrome disease type 1 that has material basis in the PTPN11 gene on chromosome 12q24." [url:http\://www.ncbi.nlm.nih.gov/pubmed/?term=18203203]
+synonym: "Female Pseudo-Turner Syndrome" RELATED []
+synonym: "Male Turner Syndrome" RELATED []
+synonym: "Noonan Syndrome" RELATED []
+synonym: "NOONAN SYNDROME 1; NS1" RELATED []
+synonym: "Noonan Syndrome type 1" EXACT [MONDORULE:1]
+synonym: "Noonan syndrome type 1" EXACT [MONDORULE:1]
+synonym: "NS1" RELATED []
+synonym: "Pterygium Colli Syndrome" RELATED []
+synonym: "Turner Phenotype With Normal Karyotype" RELATED []
+xref: DOID:0060578
+xref: OMIM:163950
+xref: Orphanet:648
+xref: UMLS:C0028326
+xref: UMLS:C0041409
+xref: UMLS:C0265261
+xref: UMLS:C1527404
+is_a: DOID:3490 ! Noonan syndrome
+
+[Term]
+id: OMIM:192500
+name: Romano-Ward syndrome
+namespace: disease_ontology
+def: "Romano-Ward syndrome (RWS) is an autosomal dominant variant of the long QT syndrome (LQTS, see this term) characterized by syncopal episodes and electrocardiographic abnormalities (QT prolongation, T-wave abnormalities and torsade de pointes (TdP) ventricular tachycardia)." []
+subset: Orphanet:377796
+synonym: "Long QT Syndrome 1" RELATED []
+synonym: "Long Qt Syndrome 1, Acquired, Susceptibility to" RELATED []
+synonym: "Long Qt Syndrome 1/2, Digenic" RELATED []
+synonym: "LONG QT SYNDROME 1; LQT1" RELATED []
+synonym: "Long QT Syndrome Type 1" RELATED []
+synonym: "Long Qt Syndrome type 1" EXACT [MONDORULE:1]
+synonym: "LQT1" RELATED []
+synonym: "Romano Ward Syndrome" RELATED []
+synonym: "Romano-Ward long QT syndrome" EXACT []
+synonym: "Romano-Ward Syndrome" RELATED []
+synonym: "Syndrome, Romano-Ward" RELATED []
+synonym: "Syndrome, Ward-Romano" RELATED []
+synonym: "Ventricular Fibrillation With Prolonged Qt Interval" RELATED []
+synonym: "Ventricular Fibrillation with Prolonged QT Interval" RELATED []
+synonym: "Ward Romano Syndrome" RELATED []
+synonym: "Ward-Romano Syndrome" RELATED []
+xref: DOID:2843
+xref: ICD10:I45.8
+xref: MedDRA:10039211
+xref: MESH:D029597
+xref: OMIM:192500
+xref: OMIM:600919
+xref: OMIM:603830
+xref: OMIM:611818
+xref: OMIM:611819
+xref: OMIM:611820
+xref: OMIM:612955
+xref: OMIM:613485
+xref: OMIM:613688
+xref: OMIM:613693
+xref: OMIM:613695
+xref: OMIM:616247
+xref: OMIM:616249
+xref: Orphanet:101016
+xref: Orphanet:768
+xref: UMLS:C0035828
+xref: UMLS:C1843738
+xref: UMLS:C3277700
+is_a: Orphanet:768 ! Familial long QT syndrome
+
+[Term]
+id: OMIM:600884
+name: dilated cardiomyopathy 1B
+namespace: disease_ontology
+def: "A dilated cardiomyopathy that has_material_basis_in variation in the chromosome region 9q13." [https://www.ncbi.nlm.nih.gov/pubmed/7573045]
+subset: Orphanet:377794
+synonym: "Cardiomyopathy, Dilated, 1b" RELATED []
+synonym: "CARDIOMYOPATHY, DILATED, 1B; CMD1B" RELATED []
+synonym: "Cardiomyopathy, Familial Dilated" RELATED []
+synonym: "Cardiomyopathy, Familial Dilated, 1" RELATED []
+synonym: "CMD1B" EXACT []
+synonym: "dilated cardiomyopathy type 1B" EXACT [MONDORULE:4]
+synonym: "Dilated cardiomyopathy, familial" RELATED []
+synonym: "Hypokinetic dilated cardiomyopathy, familial" RELATED []
+xref: DOID:0110443
+xref: ICD10:I42.0
+xref: MESH:C536231
+xref: OMIM:600884
+xref: Orphanet:154
+xref: Orphanet:217607
+xref: Orphanet:98893
+xref: UMLS:C0340427
+is_a: DOID:12930 ! dilated cardiomyopathy
+
+[Term]
+id: OMIM:611819
+name: Long Qt Syndrome 10
+namespace: disease_ontology
+synonym: "Atrial Fibrillation, Familial, 17" RELATED []
+synonym: "LONG QT SYNDROME 10; LQT10" RELATED []
+synonym: "Long Qt Syndrome type 10" EXACT [MONDORULE:2]
+synonym: "LQT10" RELATED []
+xref: MESH:C567514
+xref: OMIM:611819
+xref: Orphanet:101016
+xref: Orphanet:334
+xref: Orphanet:768
+xref: UMLS:C2678484
+is_a: OMIM:192500 ! Romano-Ward syndrome
+
+[Term]
+id: OMIM:613120
+name: Brugada syndrome 7
+namespace: disease_ontology
+def: "A Brugada syndrome that has material basis in heterozygous mutation in the SCN3B gene on chromosome 11q24." [url:http\://www.ncbi.nlm.nih.gov/pubmed/?term=20031595]
+synonym: "Atrial Fibrillation, Familial, 16" RELATED []
+synonym: "BRGDA7" EXACT []
+synonym: "BRUGADA SYNDROME 7; BRGDA7" RELATED []
+synonym: "Brugada Syndrome type 7" EXACT [MONDORULE:1]
+synonym: "Brugada syndrome type 7" EXACT [MONDORULE:1]
+xref: DOID:0110224
+xref: ICD10:I49.8
+xref: MESH:C567734
+xref: OMIM:613120
+xref: Orphanet:130
+xref: Orphanet:334
+xref: UMLS:C2751088
+is_a: DOID:0050451 ! Brugada syndrome
+
+[Term]
+id: Orphanet:217595
+name: Syndrome associated with hypertrophic cardiomyopathy
+namespace: disease_ontology
+subset: Orphanet:377794
+is_a: Orphanet:99739 ! Rare familial disorder with hypertrophic cardiomyopathy
+
+[Term]
+id: Orphanet:217610
+name: Neuromuscular disease with dilated cardiomyopathy
+namespace: disease_ontology
+subset: Orphanet:377794
+is_a: OMIM:600884 ! dilated cardiomyopathy 1B
+
+[Term]
+id: Orphanet:768
+name: Familial long QT syndrome
+namespace: disease_ontology
+subset: Orphanet:377788
+synonym: "Congenital long QT syndrome" EXACT []
+xref: ICD10:I45.8
+xref: MedDRA:10057926
+xref: OMIM:192500
+xref: OMIM:220400
+xref: OMIM:600919
+xref: OMIM:601005
+xref: OMIM:603830
+xref: OMIM:611818
+xref: OMIM:611819
+xref: OMIM:611820
+xref: OMIM:612347
+xref: OMIM:612955
+xref: OMIM:613485
+xref: OMIM:613688
+xref: OMIM:613693
+xref: OMIM:613695
+xref: OMIM:616247
+xref: OMIM:616249
+xref: UMLS:C1141890
+is_a: DOID:2843 ! long QT syndrome
+
+[Term]
+id: Orphanet:98733
+name: Noonan syndrome and Noonan-related syndrome
+namespace: disease_ontology
+subset: Orphanet:377794
+is_a: Orphanet:217595 ! Syndrome associated with hypertrophic cardiomyopathy
+
+[Term]
+id: Orphanet:99739
+name: Rare familial disorder with hypertrophic cardiomyopathy
+namespace: disease_ontology
+def: "An autosomal dominant inherited form of HYPERTROPHIC CARDIOMYOPATHY. It results from any of more than 50 mutations involving genes encoding contractile proteins such as VENTRICULAR MYOSINS; cardiac TROPONIN T; ALPHA-TROPOMYOSIN." [MESH:D024741]
+subset: Orphanet:377794
+synonym: "Asymmetric Septal Hypertrophy, Familial" RELATED []
+synonym: "Cardiomyopathies, Familial Hypertrophic" RELATED []
+synonym: "Cardiomyopathy, Familial Hypertrophic" RELATED []
+synonym: "Familial Hypertrophic Cardiomyopathies" RELATED []
+synonym: "Familial Hypertrophic Cardiomyopathy" RELATED []
+synonym: "Familial Ventricular Hypertrophies" RELATED []
+synonym: "Familial Ventricular Hypertrophy" RELATED []
+synonym: "Hereditary Ventricular Hypertrophies" RELATED []
+synonym: "Hereditary Ventricular Hypertrophy" RELATED []
+synonym: "Hypertrophic Cardiomyopathies, Familial" RELATED []
+synonym: "Hypertrophic Cardiomyopathy, Familial" RELATED []
+synonym: "Hypertrophic Subaortic Stenosis, Idiopathic" RELATED []
+synonym: "Hypertrophies, Hereditary Ventricular" RELATED []
+synonym: "Hypertrophy, Familial Ventricular" RELATED []
+synonym: "Hypertrophy, Hereditary Ventricular" RELATED []
+synonym: "Obstructive Asymmetric Septal Hypertrophy" RELATED []
+synonym: "Rare familial disorder with hypertrophic obstructive cardiomyopathy" EXACT []
+synonym: "Rare familial disorder with hypertrophic subaortic stenosis" EXACT []
+synonym: "Ventricular Hypertrophies, Familial" RELATED []
+synonym: "Ventricular Hypertrophies, Hereditary" RELATED []
+synonym: "Ventricular Hypertrophy, Familial" RELATED []
+synonym: "Ventricular Hypertrophy, Hereditary" RELATED []
+xref: DOID:11984
+xref: MESH:D024741
+xref: UMLS:C0949658
+is_a: DOID:11984 ! hypertrophic cardiomyopathy
+relationship: assoc GO:0044455 ! mitochondrial membrane part
+
+[Typedef]
+id: assoc
+name: assoc
+
+[Typedef]
+id: negatively_regulates
+name: negatively regulates
+namespace: external
+xref: RO:0002212
+is_a: regulates ! regulates
+transitive_over: part_of ! part of
+
+[Typedef]
+id: occurs_in
+name: occurs in
+namespace: external
+xref: BFO:0000066
+holds_over_chain: part_of occurs_in
+transitive_over: part_of ! part of
+
+[Typedef]
+id: part_of
+name: part of
+namespace: external
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: positively_regulates
+name: positively regulates
+namespace: external
+xref: RO:0002213
+holds_over_chain: negatively_regulates negatively_regulates
+is_a: regulates ! regulates
+transitive_over: part_of ! part of
+
+[Typedef]
+id: regulates
+name: regulates
+namespace: external
+xref: RO:0002211
+is_transitive: true
+transitive_over: part_of ! part of
+

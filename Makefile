@@ -84,3 +84,20 @@ mpld-%.obo:
 
 hpld-%.obo:
 	blip ontol-query -r $* -r HP -r hp_xp -query "subclassRT(X,'$(HP_CV)'),differentium(X,_,ID),id_idspace(ID,S),upcase_atom('$*',S)" -to obo > $@.tmp && mv $@.tmp $@
+
+# EXP
+
+mondocv-phenolog-go-mf-D.obo:
+	obo-grep.pl --neg -r 'namespace: (biological_process|cellular_component)' mondocv-phenolog-go.obo > $@
+
+mondocv-phenolog-go-bp-D.obo:
+	obo-grep.pl --neg -r 'namespace: (molecular_function|cellular_component)' mondocv-phenolog-go.obo > $@
+
+mondocv-phenolog-go-cc-D.obo:
+	obo-grep.pl --neg -r 'namespace: (molecular_function|biological_process)' mondocv-phenolog-go.obo > $@
+
+mondocv-phenolog-go-%-slim.obo: mondocv-phenolog-go-%-D.obo
+	owltools $< --remove-dangling -o -f obo $@
+
+mondocv-phenolog-go-%-slim.png: mondocv-phenolog-go-%-slim.obo
+	blip ontol-subset -u ontol_config_do -i $< -n % -to png > $@
